@@ -1,0 +1,111 @@
+name: Convert Phosphor Icons to SF Symbols
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Check weekly on Monday at 00:00 UTC
+    - cron: '0 0 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  convert:
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Clone Phosphor Icons core
+        run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
+
+      - name: Get Phosphor version
+        id: phosphor-version
+        run: |
+          cd phosphor-core
+          VERSION=$(git log -1 --format='%H')
+          SHORT=$(git log -1 --format='%h')
+          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
+          echo "commit=$VERSION" >> "$GITHUB_OUTPUT"
+          echo "short=$SHORT" >> "$GITHUB_OUTPUT"
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Check if already converted
+        id: check-existing
+        run: |
+          LAST_CONVERTED=$(cat .phosphor-version 2>/dev/null || echo "none")
+          if [ "$LAST_CONVERTED" = "${{ steps.phosphor-version.outputs.commit }}" ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            echo "Already up to date with Phosphor core ${{ steps.phosphor-version.outputs.short }}"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install SwiftDraw
+        if: steps.check-existing.outputs.skip == 'false'
+        run: brew install swiftdraw
+
+      - name: Run conversion
+        if: steps.check-existing.outputs.skip == 'false'
+        run: |
+          chmod +x Scripts/convert.sh
+          ./Scripts/convert.sh phosphor-core Symbols
+
+      - name: Update version tracker
+        if: steps.check-existing.outputs.skip == 'false'
+        run: echo "${{ steps.phosphor-version.outputs.commit }}" > .phosphor-version
+
+      - name: Commit and push
+        if: steps.check-existing.outputs.skip == 'false'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Symbols/ Sources/ .phosphor-version
+          git commit -m "Update symbols from Phosphor Icons (${{ steps.phosphor-version.outputs.tag }})"
+          git push
+
+      - name: Create release
+        if: steps.check-existing.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          PHOSPHOR_TAG="${{ steps.phosphor-version.outputs.tag }}"
+          DATE=$(date +%Y%m%d)
+          RELEASE_TAG="v${DATE}-${PHOSPHOR_TAG}"
+
+          # Create zip archives
+          cd Symbols
+          zip -r ../phosphor-sf-symbols-outline.zip outline/
+          zip -r ../phosphor-sf-symbols-fill.zip fill/
+          zip -r ../phosphor-sf-symbols-all.zip outline/ fill/
+          cd ..
+
+          gh release create "$RELEASE_TAG" \
+            --title "Phosphor SF Symbols ($PHOSPHOR_TAG)" \
+            --notes "$(cat <<'NOTES'
+Auto-converted from [phosphor-icons/core](https://github.com/phosphor-icons/core).
+
+## Install via SPM
+
+```
+https://github.com/piecelet/phosphor-sf-symbols.git
+```
+
+## Contents
+- **outline/** — Variable weight symbols (thin → regular → bold)
+- **fill/** — Filled variant symbols
+
+## Usage
+```swift
+import PhosphorSymbols
+
+Image.phosphor(Phosphor.heart)
+Image.phosphor(Phosphor.heartFill)
+```
+
+Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
+NOTES
+)" \
+            phosphor-sf-symbols-outline.zip \
+            phosphor-sf-symbols-fill.zip \
+            phosphor-sf-symbols-all.zip

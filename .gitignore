@@ -1,0 +1,5 @@
+phosphor-core/
+*.zip
+.DS_Store
+.build/
+.swiftpm/
