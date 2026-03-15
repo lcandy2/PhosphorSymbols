@@ -18,7 +18,51 @@ permissions:
   contents: write
 
 jobs:
-  ci:
+  convert:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: macos-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - name: Clone Phosphor Icons core
+        run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
+
+      - name: Install SwiftDraw
+        run: brew install swiftdraw
+
+      - name: Run conversion
+        run: node Scripts/convert.mjs --phosphor-core phosphor-core
+
+      - name: Upload converted files
+        uses: actions/upload-artifact@v4
+        with:
+          name: converted
+          path: |
+            Symbols/
+            Sources/PhosphorSymbols/PhosphorSymbol+All.swift
+            Sources/PhosphorSymbols/Resources/
+          retention-days: 1
+
+      - name: Save phosphor version
+        run: |
+          node -p "require('./phosphor-core/package.json').version" > /tmp/phosphor-version.txt
+
+      - name: Upload phosphor version
+        uses: actions/upload-artifact@v4
+        with:
+          name: phosphor-version
+          path: /tmp/phosphor-version.txt
+          retention-days: 1
+
+  test-and-release:
+    needs: [convert]
+    if: always()
     runs-on: macos-latest
     steps:
       - name: Checkout repository
@@ -26,26 +70,18 @@ jobs:
         with:
           fetch-tags: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Download converted files
+        if: needs.convert.result == 'success'
+        uses: actions/download-artifact@v4
         with:
-          node-version: latest
+          name: converted
 
-      # --- Convert (schedule / manual only) --------------------------------
-
-      - name: Clone Phosphor Icons core
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
-
-      - name: Install SwiftDraw
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: brew install swiftdraw
-
-      - name: Run conversion
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
-        run: node Scripts/convert.mjs --phosphor-core phosphor-core
-
-      # --- Test (always) ---------------------------------------------------
+      - name: Download phosphor version
+        if: needs.convert.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: phosphor-version
+          path: /tmp
 
       - name: Build
         run: swift build
@@ -53,10 +89,10 @@ jobs:
       - name: Test
         run: swift test
 
-      # --- Release (schedule / manual, only if changed) --------------------
+      # --- Release (only after successful conversion with changes) ---------
 
       - name: Check for changes
-        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        if: needs.convert.result == 'success'
         id: changes
         run: |
           git add Symbols/ Sources/
@@ -71,16 +107,13 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         id: version
         run: |
-          # Read upstream phosphor version and encode into semver minor
-          # e.g. "2.0.8" → minor = 2*10000 + 0*100 + 8 = 20008
-          PHOSPHOR_VERSION=$(node -p "require('./phosphor-core/package.json').version")
+          PHOSPHOR_VERSION=$(cat /tmp/phosphor-version.txt)
           echo "phosphor=$PHOSPHOR_VERSION" >> "$GITHUB_OUTPUT"
 
           IFS='.' read -r P_MAJOR P_MINOR P_PATCH <<< "$PHOSPHOR_VERSION"
           ENCODED_MINOR=$(( P_MAJOR * 10000 + P_MINOR * 100 + P_PATCH ))
           echo "encoded_minor=$ENCODED_MINOR" >> "$GITHUB_OUTPUT"
 
-          # Parse latest existing tag: {major}.{encoded_minor}.{patch}
           LATEST_TAG=$(git tag --list '[0-9]*' --sort=-v:refname | head -n1)
 
           if [ -n "$LATEST_TAG" ]; then
@@ -93,7 +126,6 @@ jobs:
             CURRENT_PATCH=0
           fi
 
-          # Determine major version
           INPUT_MAJOR="${{ github.event.inputs.major_version }}"
           if [ -n "$INPUT_MAJOR" ]; then
             if [ "$INPUT_MAJOR" -lt "$CURRENT_MAJOR" ] 2>/dev/null; then
@@ -107,10 +139,6 @@ jobs:
             MAJOR="$CURRENT_MAJOR"
           fi
 
-          # Determine tag:
-          # - major bumped → reset patch to 0
-          # - upstream changed (different encoded_minor) → reset patch to 0
-          # - same upstream, same major → increment patch
           if [ "$MAJOR" -gt "$CURRENT_MAJOR" ]; then
             TAG="${MAJOR}.${ENCODED_MINOR}.0"
           elif [ "$ENCODED_MINOR" -ne "$CURRENT_MINOR" ]; then
@@ -128,6 +156,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add Symbols/ Sources/
           git commit -m "Update symbols — ${{ steps.version.outputs.tag }}"
           git push
 
