@@ -3,3 +3,4 @@ phosphor-core/
 .DS_Store
 .build/
 .swiftpm/
+node_modules/

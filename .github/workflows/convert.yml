@@ -47,9 +47,7 @@ jobs:
 
       - name: Run conversion
         if: steps.check-existing.outputs.skip == 'false'
-        run: |
-          chmod +x Scripts/convert.sh
-          ./Scripts/convert.sh phosphor-core Symbols
+        run: node Scripts/convert.mjs --phosphor-core phosphor-core
 
       - name: Update version tracker
         if: steps.check-existing.outputs.skip == 'false'
