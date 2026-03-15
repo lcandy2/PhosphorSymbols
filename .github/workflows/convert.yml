@@ -51,23 +51,30 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         id: version
         run: |
+          # Read upstream phosphor version and encode into semver minor
+          # e.g. "2.0.8" → minor = 2*10000 + 0*100 + 8 = 20008
           PHOSPHOR_VERSION=$(node -p "require('./phosphor-core/package.json').version")
           echo "phosphor=$PHOSPHOR_VERSION" >> "$GITHUB_OUTPUT"
 
-          LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+          IFS='.' read -r P_MAJOR P_MINOR P_PATCH <<< "$PHOSPHOR_VERSION"
+          ENCODED_MINOR=$(( P_MAJOR * 10000 + P_MINOR * 100 + P_PATCH ))
+          echo "encoded_minor=$ENCODED_MINOR" >> "$GITHUB_OUTPUT"
+
+          # Parse latest existing tag: v{major}.{encoded_minor}.{patch}
+          LATEST_TAG=$(git tag --list '[0-9]*' --sort=-v:refname | head -n1)
 
           if [ -n "$LATEST_TAG" ]; then
-            CURRENT_MAJOR=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f1)
-            CURRENT_PHOSPHOR=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f2-4)
-            CURRENT_PATCH=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f5)
+            CURRENT_MAJOR=$(echo "$LATEST_TAG" | cut -d. -f1)
+            CURRENT_MINOR=$(echo "$LATEST_TAG" | cut -d. -f2)
+            CURRENT_PATCH=$(echo "$LATEST_TAG" | cut -d. -f3)
           else
             CURRENT_MAJOR=0
-            CURRENT_PHOSPHOR=""
-            CURRENT_PATCH=""
+            CURRENT_MINOR=0
+            CURRENT_PATCH=0
           fi
 
+          # Determine major version
           INPUT_MAJOR="${{ github.event.inputs.major_version }}"
-
           if [ -n "$INPUT_MAJOR" ]; then
             if [ "$INPUT_MAJOR" -lt "$CURRENT_MAJOR" ] 2>/dev/null; then
               echo "::error::major_version ($INPUT_MAJOR) must be >= current ($CURRENT_MAJOR)"
@@ -80,17 +87,21 @@ jobs:
             MAJOR="$CURRENT_MAJOR"
           fi
 
-          if [ -n "$INPUT_MAJOR" ] && [ "$INPUT_MAJOR" -gt "$CURRENT_MAJOR" ]; then
-            TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
-          elif [ "$PHOSPHOR_VERSION" != "$CURRENT_PHOSPHOR" ]; then
-            TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
+          # Determine tag:
+          # - major bumped → reset patch to 0
+          # - upstream changed (different encoded_minor) → reset patch to 0
+          # - same upstream, same major → increment patch
+          if [ "$MAJOR" -gt "$CURRENT_MAJOR" ]; then
+            TAG="${MAJOR}.${ENCODED_MINOR}.0"
+          elif [ "$ENCODED_MINOR" -ne "$CURRENT_MINOR" ]; then
+            TAG="${MAJOR}.${ENCODED_MINOR}.0"
           else
-            NEXT_PATCH=$(( ${CURRENT_PATCH:-0} + 1 ))
-            TAG="v${MAJOR}.${PHOSPHOR_VERSION}.${NEXT_PATCH}"
+            NEXT_PATCH=$(( CURRENT_PATCH + 1 ))
+            TAG="${MAJOR}.${ENCODED_MINOR}.${NEXT_PATCH}"
           fi
 
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
-          echo "Release tag: $TAG"
+          echo "Release tag: $TAG (Phosphor v$PHOSPHOR_VERSION)"
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'

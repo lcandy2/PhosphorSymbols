@@ -12,6 +12,7 @@ extension Image {
     }
 }
 
+@available(iOS 17.0, macOS 14.0, watchOS 10.0, tvOS 17.0, visionOS 1.0, *)
 extension Label where Title == Text, Icon == Image {
     /// Creates a label with a Phosphor SF Symbol.
     ///
@@ -19,7 +20,7 @@ extension Label where Title == Text, Icon == Image {
     /// Label("Favorites", phosphor: .heart)
     /// ```
     public init(_ title: some StringProtocol, phosphor symbol: PhosphorSymbol) {
-        self.init(title, image: .init(symbol.rawValue, bundle: .module))
+        self.init(title, image: .init(name: symbol.rawValue, bundle: .module))
     }
 }
 

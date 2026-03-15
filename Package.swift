@@ -22,6 +22,10 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
+        ),
+        .testTarget(
+            name: "PhosphorSymbolsTests",
+            dependencies: ["PhosphorSymbols"]
         )
     ]
 )
