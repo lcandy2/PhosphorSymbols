@@ -23,15 +23,16 @@ Download from [Releases](../../releases) and drag the `.svg` files into your Xco
 ```swift
 import PhosphorSymbols
 
-// Type-safe accessors
-Image.phosphor(Phosphor.heart)
-Image.phosphor(Phosphor.heartFill)
+// SwiftUI
+Image(phosphor: .heart)
+Image(phosphor: .heart_fill)
+Label("Favorites", phosphor: .heart)
 
-// String-based
-Image.phosphor("heart")
+// UIKit
+let image = UIImage(phosphor: .heart)
 
-// Labels
-Label.phosphor("Favorites", symbol: "heart")
+// AppKit
+let image = NSImage(phosphor: .heart)
 ```
 
 All symbols behave like native SF Symbols — they support dynamic type, weight matching, symbol rendering modes, and tinting.
@@ -42,6 +43,16 @@ All symbols behave like native SF Symbols — they support dynamic type, weight 
 |-----------|-------------|-----------------|
 | `Symbols/outline/` | Outline style | Yes (thin ↔ bold) |
 | `Symbols/fill/` | Filled style | No |
+
+## Naming Convention
+
+Hyphens and dots in Phosphor icon names are replaced with underscores:
+
+| Phosphor Icon | Swift Property |
+|---------------|----------------|
+| `arrow-up` | `.arrow_up` |
+| `heart` | `.heart` |
+| `heart.fill` | `.heart_fill` |
 
 ## Local Conversion
 

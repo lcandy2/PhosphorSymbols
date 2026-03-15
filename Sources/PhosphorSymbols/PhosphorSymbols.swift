@@ -1,26 +1,56 @@
 import SwiftUI
 
 extension Image {
-    /// Create an image from a Phosphor SF Symbol bundled in this package.
+    /// Creates an image from a Phosphor SF Symbol.
     ///
-    /// Usage:
     /// ```swift
-    /// Image.phosphor("heart")
-    /// Image.phosphor("heart.fill")
+    /// Image(phosphor: .heart)
+    /// Image(phosphor: .heart_fill)
     /// ```
-    public static func phosphor(_ name: String) -> Image {
-        Image(name, bundle: .module)
+    public init(phosphor symbol: PhosphorSymbol) {
+        self.init(symbol.rawValue, bundle: .module)
     }
 }
 
 extension Label where Title == Text, Icon == Image {
-    /// Create a label with a Phosphor SF Symbol.
+    /// Creates a label with a Phosphor SF Symbol.
     ///
-    /// Usage:
     /// ```swift
-    /// Label.phosphor("Favorites", symbol: "heart")
+    /// Label("Favorites", phosphor: .heart)
     /// ```
-    public static func phosphor(_ title: String, symbol name: String) -> Label {
-        Label(title, image: .init(name, bundle: .module))
+    public init(_ title: some StringProtocol, phosphor symbol: PhosphorSymbol) {
+        self.init(title, image: .init(symbol.rawValue, bundle: .module))
     }
 }
+
+#if canImport(UIKit)
+import UIKit
+
+extension UIImage {
+    /// Creates an image from a Phosphor SF Symbol.
+    ///
+    /// ```swift
+    /// let image = UIImage(phosphor: .heart)
+    /// ```
+    public convenience init?(phosphor symbol: PhosphorSymbol) {
+        self.init(named: symbol.rawValue, in: .module, compatibleWith: nil)
+    }
+}
+#endif
+
+#if canImport(AppKit) && !targetEnvironment(macCatalyst)
+import AppKit
+
+extension NSImage {
+    /// Creates an image from a Phosphor SF Symbol.
+    ///
+    /// ```swift
+    /// let image = NSImage(phosphor: .heart)
+    /// ```
+    public convenience init?(phosphor symbol: PhosphorSymbol) {
+        let name = NSImage.Name(symbol.rawValue)
+        guard Bundle.module.image(forResource: name) != nil else { return nil }
+        self.init(named: name)
+    }
+}
+#endif

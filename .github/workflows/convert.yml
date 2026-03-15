@@ -99,8 +99,11 @@ https://github.com/piecelet/phosphor-sf-symbols.git
 ```swift
 import PhosphorSymbols
 
-Image.phosphor(Phosphor.heart)
-Image.phosphor(Phosphor.heartFill)
+Image(phosphor: .heart)
+Image(phosphor: .heart_fill)
+
+// UIKit
+let image = UIImage(phosphor: .heart)
 ```
 
 Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
