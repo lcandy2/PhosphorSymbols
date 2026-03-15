@@ -1,4 +1,4 @@
-name: Convert Phosphor Icons to SF Symbols
+name: CI
 
 on:
   push:
@@ -18,16 +18,7 @@ permissions:
   contents: write
 
 jobs:
-  test:
-    runs-on: macos-latest
-    steps:
-      - uses: actions/checkout@v4
-      - run: swift build
-      - run: swift test
-
-  convert:
-    needs: test
-    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+  ci:
     runs-on: macos-latest
     steps:
       - name: Checkout repository
@@ -40,16 +31,32 @@ jobs:
         with:
           node-version: latest
 
+      # --- Convert (schedule / manual only) --------------------------------
+
       - name: Clone Phosphor Icons core
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
 
       - name: Install SwiftDraw
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: brew install swiftdraw
 
       - name: Run conversion
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         run: node Scripts/convert.mjs --phosphor-core phosphor-core
 
+      # --- Test (always) ---------------------------------------------------
+
+      - name: Build
+        run: swift build
+
+      - name: Test
+        run: swift test
+
+      # --- Release (schedule / manual, only if changed) --------------------
+
       - name: Check for changes
+        if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
         id: changes
         run: |
           git add Symbols/ Sources/
@@ -115,12 +122,6 @@ jobs:
 
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           echo "Release tag: $TAG (Phosphor v$PHOSPHOR_VERSION)"
-
-      - name: Build and test after conversion
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          swift build
-          swift test
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
