@@ -11,7 +11,7 @@
 // Usage:
 //   node Scripts/convert.mjs [--phosphor-core <path>] [--output <path>] [--symbols <path>]
 
-import { execFileSync } from "node:child_process";
+import { execFileSync, execSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync, readdirSync, copyFileSync } from "node:fs";
 import { basename, join, resolve, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -204,9 +204,10 @@ function main() {
     process.exit(1);
   }
 
-  // Check swiftdraw
+  // Resolve swiftdraw path (execFileSync doesn't go through shell, so PATH may not include Homebrew)
+  let swiftdrawPath;
   try {
-    execFileSync("swiftdraw", ["--help"], { stdio: "pipe" });
+    swiftdrawPath = execSync("which swiftdraw", { encoding: "utf-8" }).trim();
   } catch {
     console.error("Error: swiftdraw not found. Install with: brew install swiftdraw");
     process.exit(1);
