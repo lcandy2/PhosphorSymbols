@@ -91,16 +91,20 @@ jobs:
 
       # --- Release (only after successful conversion with changes) ---------
 
-      - name: Check for changes
+      - name: Check for changes against latest release
         if: needs.convert.result == 'success'
         id: changes
         run: |
-          git add Symbols/ Sources/
-          if git diff --cached --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-            echo "No changes detected, skipping release."
-          else
+          LATEST_TAG=$(git tag --list '[0-9]*' --sort=-v:refname | head -n1)
+          if [ -z "$LATEST_TAG" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "No existing release found, will create first release."
+          elif ! git diff --quiet "$LATEST_TAG" -- Symbols/ Sources/; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Changes detected since $LATEST_TAG."
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes since $LATEST_TAG, skipping release."
           fi
 
       - name: Determine version
