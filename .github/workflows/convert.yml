@@ -78,35 +78,37 @@ jobs:
           zip -r ../PhosphorSymbols-all.zip outline/ fill/
           cd ..
 
+          # Write release notes to file to avoid YAML quoting issues
+          cat > /tmp/release-notes.md << 'EOF'
+          Auto-converted from [phosphor-icons/core](https://github.com/phosphor-icons/core).
+
+          ## Install via SPM
+
+          ```
+          https://github.com/piecelet/PhosphorSymbols.git
+          ```
+
+          ## Contents
+          - **outline/** — Variable weight symbols (thin → regular → bold)
+          - **fill/** — Filled variant symbols
+
+          ## Usage
+          ```swift
+          import PhosphorSymbols
+
+          Image(phosphor: .heart)
+          Image(phosphor: .heart_fill)
+
+          // UIKit
+          let image = UIImage(phosphor: .heart)
+          ```
+
+          Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
+          EOF
+
           gh release create "$RELEASE_TAG" \
             --title "Phosphor SF Symbols ($PHOSPHOR_TAG)" \
-            --notes "$(cat <<'NOTES'
-Auto-converted from [phosphor-icons/core](https://github.com/phosphor-icons/core).
-
-## Install via SPM
-
-```
-https://github.com/piecelet/PhosphorSymbols.git
-```
-
-## Contents
-- **outline/** — Variable weight symbols (thin → regular → bold)
-- **fill/** — Filled variant symbols
-
-## Usage
-```swift
-import PhosphorSymbols
-
-Image(phosphor: .heart)
-Image(phosphor: .heart_fill)
-
-// UIKit
-let image = UIImage(phosphor: .heart)
-```
-
-Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
-NOTES
-)" \
+            --notes-file /tmp/release-notes.md \
             PhosphorSymbols-outline.zip \
             PhosphorSymbols-fill.zip \
             PhosphorSymbols-all.zip
