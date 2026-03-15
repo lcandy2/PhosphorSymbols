@@ -2,8 +2,12 @@ name: Convert Phosphor Icons to SF Symbols
 
 on:
   workflow_dispatch:
+    inputs:
+      major_version:
+        description: "Bump major version (increment only, e.g. 1 → 2). Leave empty to keep current."
+        required: false
+        type: string
   schedule:
-    # Check weekly on Monday at 00:00 UTC
     - cron: '0 0 * * 1'
 
 permissions:
@@ -15,28 +19,56 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-tags: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: latest
 
       - name: Clone Phosphor Icons core
         run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
 
-      - name: Get Phosphor version
-        id: phosphor-version
+      - name: Determine versions
+        id: versions
         run: |
-          cd phosphor-core
-          VERSION=$(git log -1 --format='%H')
-          SHORT=$(git log -1 --format='%h')
-          TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "unknown")
-          echo "commit=$VERSION" >> "$GITHUB_OUTPUT"
-          echo "short=$SHORT" >> "$GITHUB_OUTPUT"
-          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          # Read Phosphor core version from package.json
+          PHOSPHOR_VERSION=$(node -p "require('./phosphor-core/package.json').version")
+          echo "phosphor=$PHOSPHOR_VERSION" >> "$GITHUB_OUTPUT"
 
-      - name: Check if already converted
+          # Determine major version
+          LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+          if [ -n "$LATEST_TAG" ]; then
+            CURRENT_MAJOR=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f1)
+          else
+            CURRENT_MAJOR=0
+          fi
+
+          INPUT_MAJOR="${{ github.event.inputs.major_version }}"
+          if [ -n "$INPUT_MAJOR" ]; then
+            if [ "$INPUT_MAJOR" -lt "$CURRENT_MAJOR" ] 2>/dev/null; then
+              echo "Error: major_version ($INPUT_MAJOR) must be >= current ($CURRENT_MAJOR)"
+              exit 1
+            fi
+            MAJOR="$INPUT_MAJOR"
+          elif [ "$CURRENT_MAJOR" -eq 0 ]; then
+            MAJOR=1
+          else
+            MAJOR="$CURRENT_MAJOR"
+          fi
+
+          RELEASE_TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
+          echo "major=$MAJOR" >> "$GITHUB_OUTPUT"
+          echo "tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
+          echo "Release tag: $RELEASE_TAG"
+
+      - name: Check if release already exists
         id: check-existing
         run: |
-          LAST_CONVERTED=$(cat .phosphor-version 2>/dev/null || echo "none")
-          if [ "$LAST_CONVERTED" = "${{ steps.phosphor-version.outputs.commit }}" ]; then
+          if git tag --list | grep -q "^${{ steps.versions.outputs.tag }}$"; then
             echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Already up to date with Phosphor core ${{ steps.phosphor-version.outputs.short }}"
+            echo "Release ${{ steps.versions.outputs.tag }} already exists, skipping."
           else
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
@@ -49,17 +81,15 @@ jobs:
         if: steps.check-existing.outputs.skip == 'false'
         run: node Scripts/convert.mjs --phosphor-core phosphor-core
 
-      - name: Update version tracker
-        if: steps.check-existing.outputs.skip == 'false'
-        run: echo "${{ steps.phosphor-version.outputs.commit }}" > .phosphor-version
-
       - name: Commit and push
         if: steps.check-existing.outputs.skip == 'false'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add Symbols/ Sources/ .phosphor-version
-          git commit -m "Update symbols from Phosphor Icons (${{ steps.phosphor-version.outputs.tag }})"
+          echo "${{ steps.versions.outputs.phosphor }}" > .phosphor-version
+          git add .phosphor-version
+          git commit -m "Update symbols from Phosphor Icons v${{ steps.versions.outputs.phosphor }}"
           git push
 
       - name: Create release
@@ -67,18 +97,16 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          PHOSPHOR_TAG="${{ steps.phosphor-version.outputs.tag }}"
-          DATE=$(date +%Y%m%d)
-          RELEASE_TAG="v${DATE}-${PHOSPHOR_TAG}"
+          RELEASE_TAG="${{ steps.versions.outputs.tag }}"
+          PHOSPHOR_VERSION="${{ steps.versions.outputs.phosphor }}"
 
-          # Create zip archives
           cd Symbols
           zip -r ../PhosphorSymbols-outline.zip outline/
           zip -r ../PhosphorSymbols-fill.zip fill/
-          zip -r ../PhosphorSymbols-all.zip outline/ fill/
+          zip -r ../PhosphorSymbols-duotone.zip duotone/
+          zip -r ../PhosphorSymbols-all.zip outline/ fill/ duotone/
           cd ..
 
-          # Write release notes to file to avoid YAML quoting issues
           cat > /tmp/release-notes.md << 'EOF'
           Auto-converted from [phosphor-icons/core](https://github.com/phosphor-icons/core).
 
@@ -89,8 +117,9 @@ jobs:
           ```
 
           ## Contents
-          - **outline/** — Variable weight symbols (thin → regular → bold)
+          - **outline/** — Variable weight symbols (thin ↔ bold)
           - **fill/** — Filled variant symbols
+          - **duotone/** — Two-tone variant symbols
 
           ## Usage
           ```swift
@@ -98,17 +127,17 @@ jobs:
 
           Image(phosphor: .heart)
           Image(phosphor: .heart_fill)
+          Image(phosphor: .heart_duotone)
 
           // UIKit
           let image = UIImage(phosphor: .heart)
           ```
-
-          Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
           EOF
 
           gh release create "$RELEASE_TAG" \
-            --title "Phosphor SF Symbols ($PHOSPHOR_TAG)" \
+            --title "PhosphorSymbols $RELEASE_TAG (Phosphor v$PHOSPHOR_VERSION)" \
             --notes-file /tmp/release-notes.md \
             PhosphorSymbols-outline.zip \
             PhosphorSymbols-fill.zip \
+            PhosphorSymbols-duotone.zip \
             PhosphorSymbols-all.zip

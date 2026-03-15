@@ -26,6 +26,7 @@ import PhosphorSymbols
 // SwiftUI
 Image(phosphor: .heart)
 Image(phosphor: .heart_fill)
+Image(phosphor: .heart_duotone)
 Label("Favorites", phosphor: .heart)
 
 // UIKit
@@ -43,6 +44,7 @@ All symbols behave like native SF Symbols — they support dynamic type, weight 
 |-----------|-------------|-----------------|
 | `Symbols/outline/` | Outline style | Yes (thin ↔ bold) |
 | `Symbols/fill/` | Filled style | No |
+| `Symbols/duotone/` | Two-tone style | No |
 
 ## Naming Convention
 
@@ -53,6 +55,7 @@ Hyphens and dots in Phosphor icon names are replaced with underscores:
 | `arrow-up` | `.arrow_up` |
 | `heart` | `.heart` |
 | `heart.fill` | `.heart_fill` |
+| `heart.duotone` | `.heart_duotone` |
 
 ## Local Conversion
 

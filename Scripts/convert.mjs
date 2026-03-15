@@ -13,36 +13,33 @@
 
 import { execFileSync, execSync } from "node:child_process";
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync, readdirSync, copyFileSync } from "node:fs";
-import { basename, join, resolve, dirname } from "node:path";
-import { fileURLToPath } from "node:url";
+import { basename, join, resolve } from "node:path";
+import { parseArgs } from "node:util";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const ROOT = resolve(__dirname, "..");
+const ROOT = resolve(import.meta.dirname, "..");
 
 // ---------------------------------------------------------------------------
 // CLI args
 // ---------------------------------------------------------------------------
 
-function parseArgs() {
-  const args = process.argv.slice(2);
-  const opts = {
-    phosphorCore: "phosphor-core",
-    output: join(ROOT, "Sources", "PhosphorSymbols"),
-    symbols: "Symbols",
-  };
-  for (let i = 0; i < args.length; i++) {
-    if (args[i] === "--phosphor-core" && args[i + 1]) opts.phosphorCore = args[++i];
-    else if (args[i] === "--output" && args[i + 1]) opts.output = args[++i];
-    else if (args[i] === "--symbols" && args[i + 1]) opts.symbols = args[++i];
-  }
-  return opts;
-}
+const { values: opts } = parseArgs({
+  options: {
+    "phosphor-core": { type: "string", default: "phosphor-core" },
+    output: { type: "string", default: join(ROOT, "Sources", "PhosphorSymbols") },
+    symbols: { type: "string", default: "Symbols" },
+  },
+  strict: false,
+});
+
+const phosphorCore = opts["phosphor-core"];
+const outputDir = opts.output;
+const symbolsDir = opts.symbols;
 
 // ---------------------------------------------------------------------------
 // Metadata parser — extract categories & tags from icons.ts
 // ---------------------------------------------------------------------------
 
-function parseMetadata(phosphorCore) {
+function parseMetadata() {
   const iconsPath = join(phosphorCore, "src", "icons.ts");
   if (!existsSync(iconsPath)) {
     console.warn("Warning: icons.ts not found, skipping metadata");
@@ -62,25 +59,20 @@ function parseMetadata(phosphorCore) {
 
   // Extract each icon entry
   const metadata = new Map();
-  // Match icon objects: { name: "xxx", ... }
-  const iconBlocks = content.matchAll(
+  for (const block of content.matchAll(
     /\{\s*name:\s*"([^"]+)"[\s\S]*?(?=\n\s*\{|\n\s*\];)/g
-  );
-
-  for (const block of iconBlocks) {
+  )) {
     const name = block[1];
     const text = block[0];
 
-    // Categories
     const categories = [];
     const catMatch = text.match(/categories:\s*\[([^\]]*)\]/);
     if (catMatch) {
       for (const ref of catMatch[1].matchAll(/IconCategory\.(\w+)/g)) {
-        categories.push(categoryMap[ref[1]] || ref[1].toLowerCase());
+        categories.push(categoryMap[ref[1]] ?? ref[1].toLowerCase());
       }
     }
 
-    // Tags (skip internal markers like *new*, *updated*)
     const tags = [];
     const tagMatch = text.match(/tags:\s*\[([^\]]*)\]/);
     if (tagMatch) {
@@ -100,12 +92,14 @@ function parseMetadata(phosphorCore) {
 // SVG conversion via swiftdraw
 // ---------------------------------------------------------------------------
 
+let swiftdrawBin = "swiftdraw";
+
 function convertSVG(inputSvg, outputSvg, { ultralight, black } = {}) {
-  const args = [inputSvg, "--format", "sfsymbol", "--insets", "auto", "--output", outputSvg];
+  const args = [inputSvg, "--format", "sfsymbol", "--insets", "auto", "--size", "medium", "--output", outputSvg];
   if (ultralight) args.push("--ultralight", ultralight);
   if (black) args.push("--black", black);
   try {
-    execFileSync("swiftdraw", args, { stdio: "pipe" });
+    execFileSync(swiftdrawBin, args, { stdio: "pipe" });
     return true;
   } catch {
     return false;
@@ -159,10 +153,8 @@ function escapeIfKeyword(name) {
 function generateSwiftProperty(identifier, swiftName, meta) {
   const lines = [];
 
-  // Doc comment: identifier
   lines.push(`\t/// \`${identifier}\``);
 
-  // Categories
   if (meta?.categories?.length) {
     lines.push(`\t///`);
     lines.push(`\t/// - categories:`);
@@ -171,7 +163,6 @@ function generateSwiftProperty(identifier, swiftName, meta) {
     }
   }
 
-  // Tags / search keywords
   if (meta?.tags?.length) {
     lines.push(`\t///`);
     lines.push(`\t/// - search keywords:`);
@@ -180,7 +171,6 @@ function generateSwiftProperty(identifier, swiftName, meta) {
     }
   }
 
-  // Property declaration
   lines.push(
     `\tstatic public let ${escapeIfKeyword(swiftName)} = PhosphorSymbol(identifier: "${identifier}")`
   );
@@ -192,109 +182,128 @@ function generateSwiftProperty(identifier, swiftName, meta) {
 // Main
 // ---------------------------------------------------------------------------
 
-function main() {
-  const opts = parseArgs();
-  const assetsDir = join(opts.phosphorCore, "assets");
-  const xcassetsDir = join(opts.output, "Resources", "PhosphorSymbols.xcassets");
-  const swiftOutPath = join(opts.output, "PhosphorSymbol+All.swift");
+const assetsDir = join(phosphorCore, "assets");
+const xcassetsDir = join(outputDir, "Resources", "PhosphorSymbols.xcassets");
+const swiftOutPath = join(outputDir, "PhosphorSymbol+All.swift");
 
-  if (!existsSync(assetsDir)) {
-    console.error(`Error: Phosphor assets not found at ${assetsDir}`);
-    console.error(`Run: git clone https://github.com/phosphor-icons/core.git ${opts.phosphorCore}`);
-    process.exit(1);
+if (!existsSync(assetsDir)) {
+  console.error(`Error: Phosphor assets not found at ${assetsDir}`);
+  console.error(`Run: git clone https://github.com/phosphor-icons/core.git ${phosphorCore}`);
+  process.exit(1);
+}
+
+// Resolve swiftdraw full path (execFileSync doesn't go through shell)
+try {
+  swiftdrawBin = execSync("which swiftdraw", { encoding: "utf-8" }).trim();
+} catch {
+  console.error("Error: swiftdraw not found. Install with: brew install swiftdraw");
+  process.exit(1);
+}
+
+// Step 1: Parse metadata
+console.log("Parsing metadata...");
+const metadata = parseMetadata();
+
+// Step 2: Prepare output directories
+rmSync(symbolsDir, { recursive: true, force: true });
+rmSync(xcassetsDir, { recursive: true, force: true });
+for (const sub of ["outline", "fill", "duotone"]) {
+  mkdirSync(join(symbolsDir, sub), { recursive: true });
+}
+mkdirSync(xcassetsDir, { recursive: true });
+
+writeFileSync(
+  join(xcassetsDir, "Contents.json"),
+  JSON.stringify({ info: { author: "xcode", version: 1 } }, null, 2)
+);
+
+let total = 0;
+let failed = 0;
+const outlineNames = [];
+const fillNames = [];
+const duotoneNames = [];
+
+// Step 3: Convert outline variants (regular + thin/bold variable weight)
+console.log("Converting outline variants...");
+const regularDir = join(assetsDir, "regular");
+for (const file of readdirSync(regularDir).filter((f) => f.endsWith(".svg"))) {
+  const name = basename(file, ".svg");
+  const outFile = join(symbolsDir, "outline", `${name}.svg`);
+
+  const convertOpts = {};
+  const thinSvg = join(assetsDir, "thin", file);
+  const boldSvg = join(assetsDir, "bold", file);
+  if (existsSync(thinSvg)) convertOpts.ultralight = thinSvg;
+  if (existsSync(boldSvg)) convertOpts.black = boldSvg;
+
+  if (convertSVG(join(regularDir, file), outFile, convertOpts)) {
+    createSymbolset(xcassetsDir, name, outFile);
+    outlineNames.push(name);
+    total++;
+  } else {
+    console.log(`  Failed: ${name}`);
+    failed++;
   }
+}
 
-  // Resolve swiftdraw path (execFileSync doesn't go through shell, so PATH may not include Homebrew)
-  let swiftdrawPath;
-  try {
-    swiftdrawPath = execSync("which swiftdraw", { encoding: "utf-8" }).trim();
-  } catch {
-    console.error("Error: swiftdraw not found. Install with: brew install swiftdraw");
-    process.exit(1);
+// Step 4: Convert fill variants
+console.log("Converting fill variants...");
+const fillDir = join(assetsDir, "fill");
+for (const file of readdirSync(fillDir).filter((f) => f.endsWith(".svg"))) {
+  const rawName = basename(file, ".svg");
+  const cleanName = rawName.replace(/-fill$/, ".fill");
+  const outFile = join(symbolsDir, "fill", `${cleanName}.svg`);
+
+  if (convertSVG(join(fillDir, file), outFile)) {
+    createSymbolset(xcassetsDir, cleanName, outFile);
+    fillNames.push(cleanName);
+    total++;
+  } else {
+    console.log(`  Failed: ${cleanName}`);
+    failed++;
   }
+}
 
-  // Step 1: Parse metadata
-  console.log("Parsing metadata...");
-  const metadata = parseMetadata(opts.phosphorCore);
-
-  // Step 2: Prepare output directories
-  rmSync(opts.symbols, { recursive: true, force: true });
-  rmSync(xcassetsDir, { recursive: true, force: true });
-  mkdirSync(join(opts.symbols, "outline"), { recursive: true });
-  mkdirSync(join(opts.symbols, "fill"), { recursive: true });
-  mkdirSync(xcassetsDir, { recursive: true });
-
-  writeFileSync(
-    join(xcassetsDir, "Contents.json"),
-    JSON.stringify({ info: { author: "xcode", version: 1 } }, null, 2)
-  );
-
-  let total = 0;
-  let failed = 0;
-  const outlineNames = [];
-  const fillNames = [];
-
-  // Step 3: Convert outline variants
-  console.log("Converting outline variants...");
-  const regularDir = join(assetsDir, "regular");
-  for (const file of readdirSync(regularDir).filter((f) => f.endsWith(".svg"))) {
-    const name = basename(file, ".svg");
-    const outFile = join(opts.symbols, "outline", `${name}.svg`);
-
-    const thinSvg = join(assetsDir, "thin", file);
-    const boldSvg = join(assetsDir, "bold", file);
-
-    const convertOpts = {};
-    if (existsSync(thinSvg)) convertOpts.ultralight = thinSvg;
-    if (existsSync(boldSvg)) convertOpts.black = boldSvg;
-
-    if (convertSVG(join(regularDir, file), outFile, convertOpts)) {
-      createSymbolset(xcassetsDir, name, outFile);
-      outlineNames.push(name);
-      total++;
-    } else {
-      console.log(`  Failed: ${name}`);
-      failed++;
-    }
-  }
-
-  // Step 4: Convert fill variants
-  console.log("Converting fill variants...");
-  const fillDir = join(assetsDir, "fill");
-  for (const file of readdirSync(fillDir).filter((f) => f.endsWith(".svg"))) {
+// Step 5: Convert duotone variants
+console.log("Converting duotone variants...");
+const duotoneDir = join(assetsDir, "duotone");
+if (existsSync(duotoneDir)) {
+  for (const file of readdirSync(duotoneDir).filter((f) => f.endsWith(".svg"))) {
     const rawName = basename(file, ".svg");
-    const cleanName = rawName.replace(/-fill$/, ".fill");
-    const outFile = join(opts.symbols, "fill", `${cleanName}.svg`);
+    const cleanName = rawName.replace(/-duotone$/, ".duotone");
+    const outFile = join(symbolsDir, "duotone", `${cleanName}.svg`);
 
-    if (convertSVG(join(fillDir, file), outFile)) {
+    if (convertSVG(join(duotoneDir, file), outFile)) {
       createSymbolset(xcassetsDir, cleanName, outFile);
-      fillNames.push(cleanName);
+      duotoneNames.push(cleanName);
       total++;
     } else {
       console.log(`  Failed: ${cleanName}`);
       failed++;
     }
   }
+}
 
-  // Step 5: Generate Swift source
-  console.log("Generating Swift source...");
+// Step 6: Generate Swift source
+console.log("Generating Swift source...");
 
-  const properties = [];
+const properties = [];
 
-  for (const name of outlineNames) {
-    const swiftName = toSwiftName(name);
-    const meta = metadata.get(name);
-    properties.push(generateSwiftProperty(name, swiftName, meta));
-  }
+for (const name of outlineNames) {
+  properties.push(generateSwiftProperty(name, toSwiftName(name), metadata.get(name)));
+}
 
-  for (const name of fillNames) {
-    const baseName = name.replace(/\.fill$/, "");
-    const swiftName = toSwiftName(name);
-    const meta = metadata.get(baseName);
-    properties.push(generateSwiftProperty(name, swiftName, meta));
-  }
+for (const name of fillNames) {
+  const baseName = name.replace(/\.fill$/, "");
+  properties.push(generateSwiftProperty(name, toSwiftName(name), metadata.get(baseName)));
+}
 
-  const swift = `//
+for (const name of duotoneNames) {
+  const baseName = name.replace(/\.duotone$/, "");
+  properties.push(generateSwiftProperty(name, toSwiftName(name), metadata.get(baseName)));
+}
+
+const swift = `//
 //  PhosphorSymbol+All.swift
 //
 //  Automatically generated by PhosphorSymbols.
@@ -308,13 +317,11 @@ ${properties.join("\n\n")}
 }
 `;
 
-  writeFileSync(swiftOutPath, swift);
+writeFileSync(swiftOutPath, swift);
 
-  console.log();
-  console.log(`Done! Converted ${total} symbols (${failed} failed)`);
-  console.log(`  Raw SVGs:      ${opts.symbols}/`);
-  console.log(`  Asset catalog: ${xcassetsDir}`);
-  console.log(`  Swift source:  ${swiftOutPath}`);
-}
-
-main();
+console.log();
+console.log(`Done! Converted ${total} symbols (${failed} failed)`);
+console.log(`  Outline:  ${outlineNames.length}`);
+console.log(`  Fill:     ${fillNames.length}`);
+console.log(`  Duotone:  ${duotoneNames.length}`);
+console.log(`  Output:   ${symbolsDir}/`);
