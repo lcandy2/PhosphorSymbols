@@ -43013,4 +43013,21507 @@ extension PhosphorSymbol {
 
 	/// `youtube-logo.fill`
 	static public let youtube_logo_fill = PhosphorSymbol(identifier: "youtube-logo.fill")
+
+	/// `acorn.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `savings`
+	///   - `nut`
+	///   - `vegetable`
+	///   - `veggies`
+	///   - `food`
+	///   - `groceries`
+	///   - `market`
+	static public let acorn_duotone = PhosphorSymbol(identifier: "acorn.duotone")
+
+	/// `address-book.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `contacts`
+	///   - `directory`
+	///   - `roledex`
+	static public let address_book_duotone = PhosphorSymbol(identifier: "address-book.duotone")
+
+	/// `address-book-tabs.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `contacts`
+	///   - `directory`
+	///   - `roledex`
+	static public let address_book_tabs_duotone = PhosphorSymbol(identifier: "address-book-tabs.duotone")
+
+	/// `air-traffic-control.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `airport`
+	///   - `travel`
+	///   - `transportation`
+	///   - `buildings`
+	static public let air_traffic_control_duotone = PhosphorSymbol(identifier: "air-traffic-control.duotone")
+
+	/// `airplane.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let airplane_duotone = PhosphorSymbol(identifier: "airplane.duotone")
+
+	/// `airplane-in-flight.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	///   - `arrival`
+	static public let airplane_in_flight_duotone = PhosphorSymbol(identifier: "airplane-in-flight.duotone")
+
+	/// `airplane-landing.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	///   - `arrival`
+	static public let airplane_landing_duotone = PhosphorSymbol(identifier: "airplane-landing.duotone")
+
+	/// `airplane-takeoff.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	///   - `departure`
+	static public let airplane_takeoff_duotone = PhosphorSymbol(identifier: "airplane-takeoff.duotone")
+
+	/// `airplane-taxiing.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	///   - `arrival`
+	static public let airplane_taxiing_duotone = PhosphorSymbol(identifier: "airplane-taxiing.duotone")
+
+	/// `airplane-tilt.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `airports`
+	///   - `flights`
+	///   - `flying`
+	///   - `planes`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	///   - `departure`
+	static public let airplane_tilt_duotone = PhosphorSymbol(identifier: "airplane-tilt.duotone")
+
+	/// `airplay.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `apple`
+	///   - `screencasting`
+	///   - `television`
+	///   - `tv`
+	static public let airplay_duotone = PhosphorSymbol(identifier: "airplay.duotone")
+
+	/// `alarm.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `watch`
+	static public let alarm_duotone = PhosphorSymbol(identifier: "alarm.duotone")
+
+	/// `alien.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `ufo`
+	///   - `space`
+	///   - `flying saucer`
+	///   - `extra terrestrial`
+	///   - `sci-fi`
+	static public let alien_duotone = PhosphorSymbol(identifier: "alien.duotone")
+
+	/// `align-bottom.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush bottom`
+	static public let align_bottom_duotone = PhosphorSymbol(identifier: "align-bottom.duotone")
+
+	/// `align-bottom-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush bottom`
+	static public let align_bottom_simple_duotone = PhosphorSymbol(identifier: "align-bottom-simple.duotone")
+
+	/// `align-center-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `centered`
+	///   - `middle`
+	static public let align_center_horizontal_duotone = PhosphorSymbol(identifier: "align-center-horizontal.duotone")
+
+	/// `align-center-horizontal-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `centered`
+	///   - `middle`
+	static public let align_center_horizontal_simple_duotone = PhosphorSymbol(identifier: "align-center-horizontal-simple.duotone")
+
+	/// `align-center-vertical.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `centered`
+	///   - `middle`
+	static public let align_center_vertical_duotone = PhosphorSymbol(identifier: "align-center-vertical.duotone")
+
+	/// `align-center-vertical-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `centered`
+	///   - `middle`
+	static public let align_center_vertical_simple_duotone = PhosphorSymbol(identifier: "align-center-vertical-simple.duotone")
+
+	/// `align-left.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush left`
+	static public let align_left_duotone = PhosphorSymbol(identifier: "align-left.duotone")
+
+	/// `align-left-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush left`
+	static public let align_left_simple_duotone = PhosphorSymbol(identifier: "align-left-simple.duotone")
+
+	/// `align-right.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush right`
+	static public let align_right_duotone = PhosphorSymbol(identifier: "align-right.duotone")
+
+	/// `align-right-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush right`
+	static public let align_right_simple_duotone = PhosphorSymbol(identifier: "align-right-simple.duotone")
+
+	/// `align-top.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush top`
+	static public let align_top_duotone = PhosphorSymbol(identifier: "align-top.duotone")
+
+	/// `align-top-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `arrangement`
+	///   - `layout`
+	///   - `flush top`
+	static public let align_top_simple_duotone = PhosphorSymbol(identifier: "align-top-simple.duotone")
+
+	/// `amazon-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `shopping`
+	///   - `logos`
+	static public let amazon_logo_duotone = PhosphorSymbol(identifier: "amazon-logo.duotone")
+
+	/// `ambulance.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `first-aid`
+	///   - `emt`
+	///   - `medical`
+	///   - `medicine`
+	///   - `injury`
+	///   - `safety`
+	///   - `emergency`
+	///   - `doctor`
+	///   - `vehicles`
+	static public let ambulance_duotone = PhosphorSymbol(identifier: "ambulance.duotone")
+
+	/// `anchor.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `nautical`
+	///   - `boats`
+	///   - `ships`
+	///   - `hope`
+	///   - `safety`
+	///   - `insurance`
+	static public let anchor_duotone = PhosphorSymbol(identifier: "anchor.duotone")
+
+	/// `anchor-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `nautical`
+	///   - `boats`
+	///   - `ships`
+	///   - `hope`
+	///   - `safety`
+	///   - `insurance`
+	static public let anchor_simple_duotone = PhosphorSymbol(identifier: "anchor-simple.duotone")
+
+	/// `android-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `google`
+	///   - `mobile`
+	///   - `phone`
+	///   - `cellular`
+	///   - `cellphone`
+	static public let android_logo_duotone = PhosphorSymbol(identifier: "android-logo.duotone")
+
+	/// `angle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `geometry`
+	///   - `trigonometry`
+	///   - `degrees`
+	///   - `radians`
+	///   - `measurement`
+	///   - `protractor`
+	///   - `compass`
+	///   - `arc`
+	static public let angle_duotone = PhosphorSymbol(identifier: "angle.duotone")
+
+	/// `angular-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `framework`
+	///   - `javascript`
+	///   - `google`
+	///   - `web`
+	static public let angular_logo_duotone = PhosphorSymbol(identifier: "angular-logo.duotone")
+
+	/// `aperture.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `cameras`
+	///   - `pictures`
+	///   - `lens`
+	static public let aperture_duotone = PhosphorSymbol(identifier: "aperture.duotone")
+
+	/// `app-store-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `macintosh`
+	///   - `imac`
+	///   - `iphone`
+	///   - `ipad`
+	///   - `macos`
+	///   - `ios`
+	static public let app_store_logo_duotone = PhosphorSymbol(identifier: "app-store-logo.duotone")
+
+	/// `app-window.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `windows`
+	///   - `software`
+	///   - `programs`
+	///   - `applications`
+	static public let app_window_duotone = PhosphorSymbol(identifier: "app-window.duotone")
+
+	/// `apple-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `macintosh`
+	///   - `imac`
+	///   - `iphone`
+	///   - `ipad`
+	///   - `macos`
+	///   - `ios`
+	static public let apple_logo_duotone = PhosphorSymbol(identifier: "apple-logo.duotone")
+
+	/// `apple-podcasts-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `macintosh`
+	///   - `imac`
+	///   - `iphone`
+	///   - `ipad`
+	///   - `macos`
+	///   - `ios`
+	static public let apple_podcasts_logo_duotone = PhosphorSymbol(identifier: "apple-podcasts-logo.duotone")
+
+	/// `approximate-equals.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `≈`
+	///   - `is approximately equal to`
+	///   - `congruent`
+	///   - `equality`
+	///   - `equivalent`
+	///   - `equivalence`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let approximate_equals_duotone = PhosphorSymbol(identifier: "approximate-equals.duotone")
+
+	/// `archive.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `downloaded`
+	///   - `downloading`
+	static public let archive_duotone = PhosphorSymbol(identifier: "archive.duotone")
+
+	/// `armchair.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `seat`
+	///   - `furniture`
+	static public let armchair_duotone = PhosphorSymbol(identifier: "armchair.duotone")
+
+	/// `arrow-arc-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_arc_left_duotone = PhosphorSymbol(identifier: "arrow-arc-left.duotone")
+
+	/// `arrow-arc-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_arc_right_duotone = PhosphorSymbol(identifier: "arrow-arc-right.duotone")
+
+	/// `arrow-bend-double-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `reply-all`
+	static public let arrow_bend_double_up_left_duotone = PhosphorSymbol(identifier: "arrow-bend-double-up-left.duotone")
+
+	/// `arrow-bend-double-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_double_up_right_duotone = PhosphorSymbol(identifier: "arrow-bend-double-up-right.duotone")
+
+	/// `arrow-bend-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_down_left_duotone = PhosphorSymbol(identifier: "arrow-bend-down-left.duotone")
+
+	/// `arrow-bend-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_down_right_duotone = PhosphorSymbol(identifier: "arrow-bend-down-right.duotone")
+
+	/// `arrow-bend-left-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_left_down_duotone = PhosphorSymbol(identifier: "arrow-bend-left-down.duotone")
+
+	/// `arrow-bend-left-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_left_up_duotone = PhosphorSymbol(identifier: "arrow-bend-left-up.duotone")
+
+	/// `arrow-bend-right-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_right_down_duotone = PhosphorSymbol(identifier: "arrow-bend-right-down.duotone")
+
+	/// `arrow-bend-right-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_bend_right_up_duotone = PhosphorSymbol(identifier: "arrow-bend-right-up.duotone")
+
+	/// `arrow-bend-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `reply`
+	///   - `re`
+	static public let arrow_bend_up_left_duotone = PhosphorSymbol(identifier: "arrow-bend-up-left.duotone")
+
+	/// `arrow-bend-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `forward`
+	///   - `fwd`
+	static public let arrow_bend_up_right_duotone = PhosphorSymbol(identifier: "arrow-bend-up-right.duotone")
+
+	/// `arrow-circle-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_down_duotone = PhosphorSymbol(identifier: "arrow-circle-down.duotone")
+
+	/// `arrow-circle-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_down_left_duotone = PhosphorSymbol(identifier: "arrow-circle-down-left.duotone")
+
+	/// `arrow-circle-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_down_right_duotone = PhosphorSymbol(identifier: "arrow-circle-down-right.duotone")
+
+	/// `arrow-circle-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_left_duotone = PhosphorSymbol(identifier: "arrow-circle-left.duotone")
+
+	/// `arrow-circle-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_right_duotone = PhosphorSymbol(identifier: "arrow-circle-right.duotone")
+
+	/// `arrow-circle-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_up_duotone = PhosphorSymbol(identifier: "arrow-circle-up.duotone")
+
+	/// `arrow-circle-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_up_left_duotone = PhosphorSymbol(identifier: "arrow-circle-up-left.duotone")
+
+	/// `arrow-circle-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_circle_up_right_duotone = PhosphorSymbol(identifier: "arrow-circle-up-right.duotone")
+
+	/// `arrow-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `refreshing`
+	///   - `rotate`
+	///   - `spin`
+	///   - `flip`
+	static public let arrow_clockwise_duotone = PhosphorSymbol(identifier: "arrow-clockwise.duotone")
+
+	/// `arrow-counter-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `refreshing`
+	///   - `rotate`
+	///   - `spin`
+	///   - `flip`
+	static public let arrow_counter_clockwise_duotone = PhosphorSymbol(identifier: "arrow-counter-clockwise.duotone")
+
+	/// `arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_down_duotone = PhosphorSymbol(identifier: "arrow-down.duotone")
+
+	/// `arrow-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_down_left_duotone = PhosphorSymbol(identifier: "arrow-down-left.duotone")
+
+	/// `arrow-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_down_right_duotone = PhosphorSymbol(identifier: "arrow-down-right.duotone")
+
+	/// `arrow-elbow-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_down_left_duotone = PhosphorSymbol(identifier: "arrow-elbow-down-left.duotone")
+
+	/// `arrow-elbow-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_down_right_duotone = PhosphorSymbol(identifier: "arrow-elbow-down-right.duotone")
+
+	/// `arrow-elbow-left-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_left_down_duotone = PhosphorSymbol(identifier: "arrow-elbow-left-down.duotone")
+
+	/// `arrow-elbow-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_left_duotone = PhosphorSymbol(identifier: "arrow-elbow-left.duotone")
+
+	/// `arrow-elbow-left-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_left_up_duotone = PhosphorSymbol(identifier: "arrow-elbow-left-up.duotone")
+
+	/// `arrow-elbow-right-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_right_down_duotone = PhosphorSymbol(identifier: "arrow-elbow-right-down.duotone")
+
+	/// `arrow-elbow-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_right_duotone = PhosphorSymbol(identifier: "arrow-elbow-right.duotone")
+
+	/// `arrow-elbow-right-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_right_up_duotone = PhosphorSymbol(identifier: "arrow-elbow-right-up.duotone")
+
+	/// `arrow-elbow-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_up_left_duotone = PhosphorSymbol(identifier: "arrow-elbow-up-left.duotone")
+
+	/// `arrow-elbow-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_elbow_up_right_duotone = PhosphorSymbol(identifier: "arrow-elbow-up-right.duotone")
+
+	/// `arrow-fat-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_down_duotone = PhosphorSymbol(identifier: "arrow-fat-down.duotone")
+
+	/// `arrow-fat-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_left_duotone = PhosphorSymbol(identifier: "arrow-fat-left.duotone")
+
+	/// `arrow-fat-line-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_line_down_duotone = PhosphorSymbol(identifier: "arrow-fat-line-down.duotone")
+
+	/// `arrow-fat-line-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_line_left_duotone = PhosphorSymbol(identifier: "arrow-fat-line-left.duotone")
+
+	/// `arrow-fat-line-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_line_right_duotone = PhosphorSymbol(identifier: "arrow-fat-line-right.duotone")
+
+	/// `arrow-fat-line-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `caps lock`
+	///   - `outlined`
+	static public let arrow_fat_line_up_duotone = PhosphorSymbol(identifier: "arrow-fat-line-up.duotone")
+
+	/// `arrow-fat-lines-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_lines_down_duotone = PhosphorSymbol(identifier: "arrow-fat-lines-down.duotone")
+
+	/// `arrow-fat-lines-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_lines_left_duotone = PhosphorSymbol(identifier: "arrow-fat-lines-left.duotone")
+
+	/// `arrow-fat-lines-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_lines_right_duotone = PhosphorSymbol(identifier: "arrow-fat-lines-right.duotone")
+
+	/// `arrow-fat-lines-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_lines_up_duotone = PhosphorSymbol(identifier: "arrow-fat-lines-up.duotone")
+
+	/// `arrow-fat-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `outlined`
+	static public let arrow_fat_right_duotone = PhosphorSymbol(identifier: "arrow-fat-right.duotone")
+
+	/// `arrow-fat-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `shift`
+	///   - `outlined`
+	static public let arrow_fat_up_duotone = PhosphorSymbol(identifier: "arrow-fat-up.duotone")
+
+	/// `arrow-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_left_duotone = PhosphorSymbol(identifier: "arrow-left.duotone")
+
+	/// `arrow-line-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `bottom`
+	static public let arrow_line_down_duotone = PhosphorSymbol(identifier: "arrow-line-down.duotone")
+
+	/// `arrow-line-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_down_left_duotone = PhosphorSymbol(identifier: "arrow-line-down-left.duotone")
+
+	/// `arrow-line-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_down_right_duotone = PhosphorSymbol(identifier: "arrow-line-down-right.duotone")
+
+	/// `arrow-line-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_left_duotone = PhosphorSymbol(identifier: "arrow-line-left.duotone")
+
+	/// `arrow-line-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_right_duotone = PhosphorSymbol(identifier: "arrow-line-right.duotone")
+
+	/// `arrow-line-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `top`
+	static public let arrow_line_up_duotone = PhosphorSymbol(identifier: "arrow-line-up.duotone")
+
+	/// `arrow-line-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_up_left_duotone = PhosphorSymbol(identifier: "arrow-line-up-left.duotone")
+
+	/// `arrow-line-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_line_up_right_duotone = PhosphorSymbol(identifier: "arrow-line-up-right.duotone")
+
+	/// `arrow-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_right_duotone = PhosphorSymbol(identifier: "arrow-right.duotone")
+
+	/// `arrow-square-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_down_duotone = PhosphorSymbol(identifier: "arrow-square-down.duotone")
+
+	/// `arrow-square-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_down_left_duotone = PhosphorSymbol(identifier: "arrow-square-down-left.duotone")
+
+	/// `arrow-square-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_down_right_duotone = PhosphorSymbol(identifier: "arrow-square-down-right.duotone")
+
+	/// `arrow-square-in.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `import`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_in_duotone = PhosphorSymbol(identifier: "arrow-square-in.duotone")
+
+	/// `arrow-square-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_left_duotone = PhosphorSymbol(identifier: "arrow-square-left.duotone")
+
+	/// `arrow-square-out.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `export`
+	///   - `external`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_out_duotone = PhosphorSymbol(identifier: "arrow-square-out.duotone")
+
+	/// `arrow-square-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_right_duotone = PhosphorSymbol(identifier: "arrow-square-right.duotone")
+
+	/// `arrow-square-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_up_duotone = PhosphorSymbol(identifier: "arrow-square-up.duotone")
+
+	/// `arrow-square-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_up_left_duotone = PhosphorSymbol(identifier: "arrow-square-up-left.duotone")
+
+	/// `arrow-square-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_square_up_right_duotone = PhosphorSymbol(identifier: "arrow-square-up-right.duotone")
+
+	/// `arrow-u-down-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `return`
+	///   - `u-turns`
+	static public let arrow_u_down_left_duotone = PhosphorSymbol(identifier: "arrow-u-down-left.duotone")
+
+	/// `arrow-u-down-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `u-turns`
+	static public let arrow_u_down_right_duotone = PhosphorSymbol(identifier: "arrow-u-down-right.duotone")
+
+	/// `arrow-u-left-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `return`
+	///   - `u-turns`
+	static public let arrow_u_left_down_duotone = PhosphorSymbol(identifier: "arrow-u-left-down.duotone")
+
+	/// `arrow-u-left-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `u-turns`
+	static public let arrow_u_left_up_duotone = PhosphorSymbol(identifier: "arrow-u-left-up.duotone")
+
+	/// `arrow-u-right-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `return`
+	///   - `u-turns`
+	static public let arrow_u_right_down_duotone = PhosphorSymbol(identifier: "arrow-u-right-down.duotone")
+
+	/// `arrow-u-right-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `u-turns`
+	static public let arrow_u_right_up_duotone = PhosphorSymbol(identifier: "arrow-u-right-up.duotone")
+
+	/// `arrow-u-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `return`
+	///   - `u-turns`
+	static public let arrow_u_up_left_duotone = PhosphorSymbol(identifier: "arrow-u-up-left.duotone")
+
+	/// `arrow-u-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `u-turns`
+	static public let arrow_u_up_right_duotone = PhosphorSymbol(identifier: "arrow-u-up-right.duotone")
+
+	/// `arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_up_duotone = PhosphorSymbol(identifier: "arrow-up.duotone")
+
+	/// `arrow-up-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_up_left_duotone = PhosphorSymbol(identifier: "arrow-up-left.duotone")
+
+	/// `arrow-up-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrow_up_right_duotone = PhosphorSymbol(identifier: "arrow-up-right.duotone")
+
+	/// `arrows-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `redo`
+	///   - `refreshing`
+	///   - `sync`
+	///   - `synchronize`
+	///   - `rotate`
+	///   - `spin`
+	///   - `flip`
+	static public let arrows_clockwise_duotone = PhosphorSymbol(identifier: "arrows-clockwise.duotone")
+
+	/// `arrows-counter-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `undo`
+	///   - `refreshing`
+	///   - `rotate`
+	///   - `spin`
+	///   - `flip`
+	static public let arrows_counter_clockwise_duotone = PhosphorSymbol(identifier: "arrows-counter-clockwise.duotone")
+
+	/// `arrows-down-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrows_down_up_duotone = PhosphorSymbol(identifier: "arrows-down-up.duotone")
+
+	/// `arrows-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `cursor`
+	///   - `resize`
+	///   - `expand`
+	///   - `left`
+	///   - `right`
+	static public let arrows_horizontal_duotone = PhosphorSymbol(identifier: "arrows-horizontal.duotone")
+
+	/// `arrows-in-cardinal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `collapse`
+	///   - `minimize`
+	///   - `resize`
+	///   - `shrink`
+	static public let arrows_in_cardinal_duotone = PhosphorSymbol(identifier: "arrows-in-cardinal.duotone")
+
+	/// `arrows-in.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `collapse`
+	///   - `minimize`
+	///   - `resize`
+	///   - `shrink`
+	static public let arrows_in_duotone = PhosphorSymbol(identifier: "arrows-in.duotone")
+
+	/// `arrows-in-line-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `close`
+	///   - `center`
+	///   - `align`
+	static public let arrows_in_line_horizontal_duotone = PhosphorSymbol(identifier: "arrows-in-line-horizontal.duotone")
+
+	/// `arrows-in-line-vertical.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `close`
+	///   - `center`
+	///   - `align`
+	static public let arrows_in_line_vertical_duotone = PhosphorSymbol(identifier: "arrows-in-line-vertical.duotone")
+
+	/// `arrows-in-simple.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `collapse`
+	///   - `minimize`
+	///   - `resize`
+	static public let arrows_in_simple_duotone = PhosphorSymbol(identifier: "arrows-in-simple.duotone")
+
+	/// `arrows-left-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let arrows_left_right_duotone = PhosphorSymbol(identifier: "arrows-left-right.duotone")
+
+	/// `arrows-merge.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `arrowheads`
+	///   - `join`
+	///   - `combine`
+	static public let arrows_merge_duotone = PhosphorSymbol(identifier: "arrows-merge.duotone")
+
+	/// `arrows-out-cardinal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `expand`
+	///   - `fullscreen`
+	///   - `resize`
+	///   - `pan`
+	///   - `move`
+	///   - `grow`
+	static public let arrows_out_cardinal_duotone = PhosphorSymbol(identifier: "arrows-out-cardinal.duotone")
+
+	/// `arrows-out.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `expand`
+	///   - `fullscreen`
+	///   - `resize`
+	///   - `grow`
+	static public let arrows_out_duotone = PhosphorSymbol(identifier: "arrows-out.duotone")
+
+	/// `arrows-out-line-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `open`
+	///   - `split`
+	static public let arrows_out_line_horizontal_duotone = PhosphorSymbol(identifier: "arrows-out-line-horizontal.duotone")
+
+	/// `arrows-out-line-vertical.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `open`
+	///   - `split`
+	static public let arrows_out_line_vertical_duotone = PhosphorSymbol(identifier: "arrows-out-line-vertical.duotone")
+
+	/// `arrows-out-simple.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `expand`
+	///   - `fullscreen`
+	///   - `resize`
+	static public let arrows_out_simple_duotone = PhosphorSymbol(identifier: "arrows-out-simple.duotone")
+
+	/// `arrows-split.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `arrowheads`
+	///   - `fork`
+	static public let arrows_split_duotone = PhosphorSymbol(identifier: "arrows-split.duotone")
+
+	/// `arrows-vertical.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `directional`
+	///   - `pointer`
+	///   - `cursor`
+	///   - `resize`
+	///   - `expand`
+	///   - `up`
+	///   - `down`
+	static public let arrows_vertical_duotone = PhosphorSymbol(identifier: "arrows-vertical.duotone")
+
+	/// `article.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `journals`
+	///   - `periodicals`
+	///   - `text`
+	///   - `newspaper`
+	static public let article_duotone = PhosphorSymbol(identifier: "article.duotone")
+
+	/// `article-medium.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `journals`
+	///   - `periodicals`
+	///   - `text`
+	///   - `newspaper`
+	static public let article_medium_duotone = PhosphorSymbol(identifier: "article-medium.duotone")
+
+	/// `article-ny-times.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `journals`
+	///   - `periodicals`
+	///   - `text`
+	///   - `news`
+	///   - `newspaper`
+	///   - `nyt`
+	///   - `new york times`
+	static public let article_ny_times_duotone = PhosphorSymbol(identifier: "article-ny-times.duotone")
+
+	/// `asclepius.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `caduceus`
+	///   - `staff`
+	///   - `mythology`
+	///   - `rx`
+	///   - `medicine`
+	///   - `drugs`
+	///   - `pharmacy`
+	///   - `pharmacist`
+	///   - `pharmaceuticals`
+	///   - `doctor`
+	///   - `hospital`
+	///   - `snake`
+	///   - `mercury`
+	///   - `hermes`
+	static public let asclepius_duotone = PhosphorSymbol(identifier: "asclepius.duotone")
+
+	/// `asterisk.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `star`
+	///   - `wildcard`
+	///   - `bullet point`
+	///   - `6`
+	///   - `emergency`
+	static public let asterisk_duotone = PhosphorSymbol(identifier: "asterisk.duotone")
+
+	/// `asterisk-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `star`
+	///   - `wildcard`
+	///   - `bullet point`
+	///   - `5`
+	///   - `emergency`
+	static public let asterisk_simple_duotone = PhosphorSymbol(identifier: "asterisk-simple.duotone")
+
+	/// `at.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `@`
+	///   - `address`
+	///   - `email`
+	///   - `at symbol`
+	///   - `commercial at`
+	///   - `arobase`
+	static public let at_duotone = PhosphorSymbol(identifier: "at.duotone")
+
+	/// `atom.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `atomic`
+	///   - `nucleus`
+	///   - `nuclear`
+	///   - `reactor`
+	///   - `science`
+	///   - `physics`
+	///   - `electron`
+	///   - `automation`
+	///   - `react`
+	static public let atom_duotone = PhosphorSymbol(identifier: "atom.duotone")
+
+	/// `avocado.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `vegetable`
+	///   - `veggie`
+	///   - `fruit`
+	///   - `groceries`
+	///   - `market`
+	static public let avocado_duotone = PhosphorSymbol(identifier: "avocado.duotone")
+
+	/// `axe.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `carpentry`
+	///   - `forestry`
+	///   - `construction`
+	static public let axe_duotone = PhosphorSymbol(identifier: "axe.duotone")
+
+	/// `baby-carriage.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pram`
+	///   - `stroller`
+	///   - `infant`
+	///   - `child`
+	///   - `children`
+	///   - `toddler`
+	static public let baby_carriage_duotone = PhosphorSymbol(identifier: "baby-carriage.duotone")
+
+	/// `baby.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `infant`
+	///   - `child`
+	///   - `children`
+	///   - `toddler`
+	static public let baby_duotone = PhosphorSymbol(identifier: "baby.duotone")
+
+	/// `backpack.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `knapsack`
+	///   - `camping`
+	///   - `school`
+	///   - `bag`
+	static public let backpack_duotone = PhosphorSymbol(identifier: "backpack.duotone")
+
+	/// `backspace.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `keyboard`
+	///   - `remove`
+	///   - `delete`
+	static public let backspace_duotone = PhosphorSymbol(identifier: "backspace.duotone")
+
+	/// `bag.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let bag_duotone = PhosphorSymbol(identifier: "bag.duotone")
+
+	/// `bag-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let bag_simple_duotone = PhosphorSymbol(identifier: "bag-simple.duotone")
+
+	/// `balloon.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `helium`
+	///   - `birthday`
+	///   - `party`
+	static public let balloon_duotone = PhosphorSymbol(identifier: "balloon.duotone")
+
+	/// `bandaids.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `bandages`
+	///   - `medical`
+	///   - `medicine`
+	///   - `first aid`
+	///   - `injury`
+	static public let bandaids_duotone = PhosphorSymbol(identifier: "bandaids.duotone")
+
+	/// `bank.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `banking`
+	///   - `checking`
+	///   - `money`
+	///   - `savings`
+	///   - `deposit`
+	///   - `withdraw`
+	///   - `places`
+	///   - `locations`
+	static public let bank_duotone = PhosphorSymbol(identifier: "bank.duotone")
+
+	/// `barbell.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `gym`
+	///   - `weights`
+	///   - `dumbbells`
+	///   - `strength training`
+	///   - `workout`
+	///   - `exercises`
+	///   - `fitness`
+	static public let barbell_duotone = PhosphorSymbol(identifier: "barbell.duotone")
+
+	/// `barcode.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `upc`
+	///   - `qr`
+	///   - `products`
+	///   - `shopping`
+	///   - `scanner`
+	static public let barcode_duotone = PhosphorSymbol(identifier: "barcode.duotone")
+
+	/// `barn.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `livestock`
+	///   - `buildings`
+	///   - `farming`
+	///   - `agriculture`
+	static public let barn_duotone = PhosphorSymbol(identifier: "barn.duotone")
+
+	/// `barricade.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `construction`
+	///   - `safety`
+	///   - `gate`
+	static public let barricade_duotone = PhosphorSymbol(identifier: "barricade.duotone")
+
+	/// `baseball-cap.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `sports`
+	///   - `hat`
+	static public let baseball_cap_duotone = PhosphorSymbol(identifier: "baseball-cap.duotone")
+
+	/// `baseball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `mlb`
+	static public let baseball_duotone = PhosphorSymbol(identifier: "baseball.duotone")
+
+	/// `baseball-helmet.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `mlb`
+	static public let baseball_helmet_duotone = PhosphorSymbol(identifier: "baseball-helmet.duotone")
+
+	/// `basket.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `market`
+	///   - `cart`
+	///   - `buying`
+	///   - `shopping`
+	///   - `groceries`
+	///   - `checkout`
+	///   - `places`
+	///   - `locations`
+	static public let basket_duotone = PhosphorSymbol(identifier: "basket.duotone")
+
+	/// `basketball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `nba`
+	static public let basketball_duotone = PhosphorSymbol(identifier: "basketball.duotone")
+
+	/// `bathtub.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bath`
+	///   - `shower`
+	///   - `bathroom`
+	///   - `faucet`
+	static public let bathtub_duotone = PhosphorSymbol(identifier: "bathtub.duotone")
+
+	/// `battery-charging.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_charging_duotone = PhosphorSymbol(identifier: "battery-charging.duotone")
+
+	/// `battery-charging-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_charging_vertical_duotone = PhosphorSymbol(identifier: "battery-charging-vertical.duotone")
+
+	/// `battery-empty.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `dead`
+	static public let battery_empty_duotone = PhosphorSymbol(identifier: "battery-empty.duotone")
+
+	/// `battery-full.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `filled`
+	static public let battery_full_duotone = PhosphorSymbol(identifier: "battery-full.duotone")
+
+	/// `battery-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_high_duotone = PhosphorSymbol(identifier: "battery-high.duotone")
+
+	/// `battery-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_low_duotone = PhosphorSymbol(identifier: "battery-low.duotone")
+
+	/// `battery-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_medium_duotone = PhosphorSymbol(identifier: "battery-medium.duotone")
+
+	/// `battery-plus.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_plus_duotone = PhosphorSymbol(identifier: "battery-plus.duotone")
+
+	/// `battery-plus-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_plus_vertical_duotone = PhosphorSymbol(identifier: "battery-plus-vertical.duotone")
+
+	/// `battery-vertical-empty.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `dead`
+	static public let battery_vertical_empty_duotone = PhosphorSymbol(identifier: "battery-vertical-empty.duotone")
+
+	/// `battery-vertical-full.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_vertical_full_duotone = PhosphorSymbol(identifier: "battery-vertical-full.duotone")
+
+	/// `battery-vertical-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_vertical_high_duotone = PhosphorSymbol(identifier: "battery-vertical-high.duotone")
+
+	/// `battery-vertical-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_vertical_low_duotone = PhosphorSymbol(identifier: "battery-vertical-low.duotone")
+
+	/// `battery-vertical-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	static public let battery_vertical_medium_duotone = PhosphorSymbol(identifier: "battery-vertical-medium.duotone")
+
+	/// `battery-warning.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `empty`
+	///   - `critical`
+	static public let battery_warning_duotone = PhosphorSymbol(identifier: "battery-warning.duotone")
+
+	/// `battery-warning-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `empty`
+	///   - `critical`
+	static public let battery_warning_vertical_duotone = PhosphorSymbol(identifier: "battery-warning-vertical.duotone")
+
+	/// `beach-ball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `ocean`
+	///   - `party`
+	static public let beach_ball_duotone = PhosphorSymbol(identifier: "beach-ball.duotone")
+
+	/// `beanie.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `sports`
+	///   - `hat`
+	///   - `winter`
+	static public let beanie_duotone = PhosphorSymbol(identifier: "beanie.duotone")
+
+	/// `bed.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `hotels`
+	///   - `accommodations`
+	///   - `sleeping`
+	///   - `places`
+	///   - `locations`
+	///   - `medical`
+	///   - `hospital`
+	static public let bed_duotone = PhosphorSymbol(identifier: "bed.duotone")
+
+	/// `beer-bottle.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drinks`
+	///   - `beverages`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let beer_bottle_duotone = PhosphorSymbol(identifier: "beer-bottle.duotone")
+
+	/// `beer-stein.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drinks`
+	///   - `beverages`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let beer_stein_duotone = PhosphorSymbol(identifier: "beer-stein.duotone")
+
+	/// `behance-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `illustration`
+	///   - `ui`
+	///   - `interface`
+	static public let behance_logo_duotone = PhosphorSymbol(identifier: "behance-logo.duotone")
+
+	/// `bell.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `calls`
+	static public let bell_duotone = PhosphorSymbol(identifier: "bell.duotone")
+
+	/// `bell-ringing.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `calls`
+	static public let bell_ringing_duotone = PhosphorSymbol(identifier: "bell-ringing.duotone")
+
+	/// `bell-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `calls`
+	static public let bell_simple_duotone = PhosphorSymbol(identifier: "bell-simple.duotone")
+
+	/// `bell-simple-ringing.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `calls`
+	static public let bell_simple_ringing_duotone = PhosphorSymbol(identifier: "bell-simple-ringing.duotone")
+
+	/// `bell-simple-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `silent`
+	///   - `silenced`
+	///   - `disabled`
+	static public let bell_simple_slash_duotone = PhosphorSymbol(identifier: "bell-simple-slash.duotone")
+
+	/// `bell-simple-z.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `snooze`
+	static public let bell_simple_z_duotone = PhosphorSymbol(identifier: "bell-simple-z.duotone")
+
+	/// `bell-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `silent`
+	///   - `silenced`
+	///   - `ringer`
+	///   - `calls`
+	///   - `disabled`
+	static public let bell_slash_duotone = PhosphorSymbol(identifier: "bell-slash.duotone")
+
+	/// `bell-z.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `notifications`
+	///   - `times`
+	///   - `timer`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `ringer`
+	///   - `snooze`
+	static public let bell_z_duotone = PhosphorSymbol(identifier: "bell-z.duotone")
+
+	/// `belt.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	static public let belt_duotone = PhosphorSymbol(identifier: "belt.duotone")
+
+	/// `bezier-curve.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `drawing`
+	///   - `path`
+	///   - `pen`
+	///   - `vector`
+	static public let bezier_curve_duotone = PhosphorSymbol(identifier: "bezier-curve.duotone")
+
+	/// `bicycle.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bikers`
+	///   - `bicycling`
+	///   - `cyclists`
+	///   - `transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `exercises`
+	///   - `fitness`
+	static public let bicycle_duotone = PhosphorSymbol(identifier: "bicycle.duotone")
+
+	/// `binary.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `digital`
+	///   - `0`
+	///   - `1`
+	///   - `programming`
+	///   - `coding`
+	///   - `executable`
+	static public let binary_duotone = PhosphorSymbol(identifier: "binary.duotone")
+
+	/// `binoculars.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `telescope`
+	///   - `glasses`
+	///   - `search`
+	///   - `find`
+	///   - `explore`
+	static public let binoculars_duotone = PhosphorSymbol(identifier: "binoculars.duotone")
+
+	/// `biohazard.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `contamination`
+	///   - `quarantine`
+	///   - `toxic`
+	///   - `poison`
+	///   - `danger`
+	///   - `caution`
+	static public let biohazard_duotone = PhosphorSymbol(identifier: "biohazard.duotone")
+
+	/// `bird.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `pets`
+	static public let bird_duotone = PhosphorSymbol(identifier: "bird.duotone")
+
+	/// `blueprint.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `architecture`
+	///   - `layout`
+	///   - `floorplan`
+	///   - `building`
+	///   - `construction`
+	static public let blueprint_duotone = PhosphorSymbol(identifier: "blueprint.duotone")
+
+	/// `bluetooth-connected.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `connection`
+	///   - `connected`
+	///   - `connectivity`
+	static public let bluetooth_connected_duotone = PhosphorSymbol(identifier: "bluetooth-connected.duotone")
+
+	/// `bluetooth.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `connection`
+	///   - `connected`
+	///   - `connectivity`
+	static public let bluetooth_duotone = PhosphorSymbol(identifier: "bluetooth.duotone")
+
+	/// `bluetooth-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `disconnected`
+	///   - `disabled`
+	static public let bluetooth_slash_duotone = PhosphorSymbol(identifier: "bluetooth-slash.duotone")
+
+	/// `bluetooth-x.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `disconnected`
+	///   - `errors`
+	static public let bluetooth_x_duotone = PhosphorSymbol(identifier: "bluetooth-x.duotone")
+
+	/// `boat.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ferry`
+	///   - `ship`
+	///   - `cruise`
+	///   - `vehicles`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `sailing`
+	///   - `places`
+	///   - `locations`
+	static public let boat_duotone = PhosphorSymbol(identifier: "boat.duotone")
+
+	/// `bomb.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `gaming`
+	///   - `grenade`
+	///   - `explosive`
+	///   - `war`
+	///   - `weapon`
+	///   - `fuse`
+	static public let bomb_duotone = PhosphorSymbol(identifier: "bomb.duotone")
+
+	/// `bone.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `dogbone`
+	static public let bone_duotone = PhosphorSymbol(identifier: "bone.duotone")
+
+	/// `book-bookmark.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `library`
+	///   - `favorites`
+	///   - `favorited`
+	static public let book_bookmark_duotone = PhosphorSymbol(identifier: "book-bookmark.duotone")
+
+	/// `book.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `library`
+	static public let book_duotone = PhosphorSymbol(identifier: "book.duotone")
+
+	/// `book-open.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `library`
+	static public let book_open_duotone = PhosphorSymbol(identifier: "book-open.duotone")
+
+	/// `book-open-text.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `library`
+	static public let book_open_text_duotone = PhosphorSymbol(identifier: "book-open-text.duotone")
+
+	/// `book-open-user.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `easy read`
+	///   - `library`
+	///   - `places`
+	///   - `locations`
+	static public let book_open_user_duotone = PhosphorSymbol(identifier: "book-open-user.duotone")
+
+	/// `bookmark.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `placeholder`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `library`
+	static public let bookmark_duotone = PhosphorSymbol(identifier: "bookmark.duotone")
+
+	/// `bookmark-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `placeholder`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `library`
+	static public let bookmark_simple_duotone = PhosphorSymbol(identifier: "bookmark-simple.duotone")
+
+	/// `bookmarks.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `placeholder`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `library`
+	static public let bookmarks_duotone = PhosphorSymbol(identifier: "bookmarks.duotone")
+
+	/// `bookmarks-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `novel`
+	///   - `story`
+	///   - `placeholder`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `library`
+	static public let bookmarks_simple_duotone = PhosphorSymbol(identifier: "bookmarks-simple.duotone")
+
+	/// `books.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `map`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `reader`
+	///   - `bookshelf`
+	///   - `library`
+	///   - `places`
+	///   - `locations`
+	static public let books_duotone = PhosphorSymbol(identifier: "books.duotone")
+
+	/// `boot.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `hiking`
+	///   - `shoes`
+	///   - `sports`
+	///   - `exercise`
+	static public let boot_duotone = PhosphorSymbol(identifier: "boot.duotone")
+
+	/// `boules.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `balls`
+	///   - `sports`
+	///   - `pétanque`
+	///   - `raffa`
+	///   - `bocce`
+	///   - `boule lyonnaise`
+	///   - `lawn bowls`
+	static public let boules_duotone = PhosphorSymbol(identifier: "boules.duotone")
+
+	/// `bounding-box.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `polygon`
+	///   - `shapes`
+	///   - `outline`
+	///   - `corners`
+	///   - `rectangle`
+	static public let bounding_box_duotone = PhosphorSymbol(identifier: "bounding-box.duotone")
+
+	/// `bowl-food.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ramen`
+	///   - `food`
+	///   - `meal`
+	///   - `eating`
+	///   - `restaurants`
+	///   - `dining`
+	///   - `locations`
+	static public let bowl_food_duotone = PhosphorSymbol(identifier: "bowl-food.duotone")
+
+	/// `bowl-steam.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `meal`
+	///   - `eating`
+	///   - `restaurants`
+	///   - `dining`
+	///   - `locations`
+	static public let bowl_steam_duotone = PhosphorSymbol(identifier: "bowl-steam.duotone")
+
+	/// `bowling-ball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `alley`
+	static public let bowling_ball_duotone = PhosphorSymbol(identifier: "bowling-ball.duotone")
+
+	/// `box-arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `downloaded`
+	///   - `downloading`
+	static public let box_arrow_down_duotone = PhosphorSymbol(identifier: "box-arrow-down.duotone")
+
+	/// `box-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `unarchive`
+	///   - `archival`
+	///   - `upload`
+	static public let box_arrow_up_duotone = PhosphorSymbol(identifier: "box-arrow-up.duotone")
+
+	/// `boxing-glove.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `combat`
+	///   - `martial arts`
+	///   - `fight`
+	///   - `gym`
+	static public let boxing_glove_duotone = PhosphorSymbol(identifier: "boxing-glove.duotone")
+
+	/// `brackets-angle.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `code`
+	///   - `angle brackets`
+	///   - `angle braces`
+	static public let brackets_angle_duotone = PhosphorSymbol(identifier: "brackets-angle.duotone")
+
+	/// `brackets-curly.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `code`
+	///   - `curly brackets`
+	///   - `curly braces`
+	static public let brackets_curly_duotone = PhosphorSymbol(identifier: "brackets-curly.duotone")
+
+	/// `brackets-round.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `code`
+	///   - `parentheses`
+	///   - `round brackets`
+	///   - `round braces`
+	static public let brackets_round_duotone = PhosphorSymbol(identifier: "brackets-round.duotone")
+
+	/// `brackets-square.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `code`
+	///   - `square brackets`
+	///   - `square braces`
+	///   - `array`
+	static public let brackets_square_duotone = PhosphorSymbol(identifier: "brackets-square.duotone")
+
+	/// `brain.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `mind`
+	///   - `mental`
+	static public let brain_duotone = PhosphorSymbol(identifier: "brain.duotone")
+
+	/// `brandy.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drinks`
+	///   - `beverages`
+	///   - `whiskey`
+	///   - `cocktail`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let brandy_duotone = PhosphorSymbol(identifier: "brandy.duotone")
+
+	/// `bread.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `meal`
+	///   - `bakery`
+	///   - `sandwich`
+	///   - `gluten`
+	///   - `loaf`
+	///   - `toast`
+	///   - `slice`
+	static public let bread_duotone = PhosphorSymbol(identifier: "bread.duotone")
+
+	/// `bridge.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `travel`
+	///   - `transportation`
+	///   - `infrastucture`
+	static public let bridge_duotone = PhosphorSymbol(identifier: "bridge.duotone")
+
+	/// `briefcase.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let briefcase_duotone = PhosphorSymbol(identifier: "briefcase.duotone")
+
+	/// `briefcase-metal.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let briefcase_metal_duotone = PhosphorSymbol(identifier: "briefcase-metal.duotone")
+
+	/// `broadcast.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `radio`
+	///   - `hotspot`
+	///   - `wifi`
+	///   - `emit`
+	static public let broadcast_duotone = PhosphorSymbol(identifier: "broadcast.duotone")
+
+	/// `broom.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sweeping`
+	///   - `cleaning`
+	static public let broom_duotone = PhosphorSymbol(identifier: "broom.duotone")
+
+	/// `browser.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `web browsers`
+	///   - `windows`
+	///   - `internet`
+	///   - `website`
+	///   - `webpage`
+	///   - `chrome`
+	///   - `edge`
+	///   - `firefox`
+	static public let browser_duotone = PhosphorSymbol(identifier: "browser.duotone")
+
+	/// `browsers.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `web browsers`
+	///   - `windows`
+	///   - `internet`
+	///   - `website`
+	///   - `webpage`
+	///   - `chrome`
+	///   - `edge`
+	///   - `firefox`
+	static public let browsers_duotone = PhosphorSymbol(identifier: "browsers.duotone")
+
+	/// `bug-beetle.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `debug`
+	///   - `errors`
+	///   - `insect`
+	///   - `ladybug`
+	static public let bug_beetle_duotone = PhosphorSymbol(identifier: "bug-beetle.duotone")
+
+	/// `bug-droid.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `debug`
+	///   - `errors`
+	///   - `insect`
+	///   - `android`
+	///   - `google`
+	static public let bug_droid_duotone = PhosphorSymbol(identifier: "bug-droid.duotone")
+
+	/// `bug.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `debug`
+	///   - `errors`
+	///   - `insect`
+	///   - `ladybug`
+	static public let bug_duotone = PhosphorSymbol(identifier: "bug.duotone")
+
+	/// `building-apartment.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `places`
+	///   - `locations`
+	///   - `buildings`
+	static public let building_apartment_duotone = PhosphorSymbol(identifier: "building-apartment.duotone")
+
+	/// `building.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `places`
+	///   - `locations`
+	///   - `company`
+	///   - `business`
+	///   - `buildings`
+	static public let building_duotone = PhosphorSymbol(identifier: "building.duotone")
+
+	/// `building-office.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `places`
+	///   - `locations`
+	///   - `company`
+	///   - `business`
+	///   - `buildings`
+	static public let building_office_duotone = PhosphorSymbol(identifier: "building-office.duotone")
+
+	/// `buildings.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `places`
+	///   - `locations`
+	///   - `company`
+	///   - `business`
+	static public let buildings_duotone = PhosphorSymbol(identifier: "buildings.duotone")
+
+	/// `bulldozer.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `construction`
+	///   - `earth mover`
+	///   - `dig`
+	///   - `digger`
+	static public let bulldozer_duotone = PhosphorSymbol(identifier: "bulldozer.duotone")
+
+	/// `bus.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let bus_duotone = PhosphorSymbol(identifier: "bus.duotone")
+
+	/// `butterfly.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `insects`
+	///   - `moth`
+	static public let butterfly_duotone = PhosphorSymbol(identifier: "butterfly.duotone")
+
+	/// `cable-car.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `gondola`
+	///   - `skiing`
+	///   - `mountains`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let cable_car_duotone = PhosphorSymbol(identifier: "cable-car.duotone")
+
+	/// `cactus.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `cacti`
+	///   - `desert`
+	///   - `western`
+	static public let cactus_duotone = PhosphorSymbol(identifier: "cactus.duotone")
+
+	/// `cake.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `dessert`
+	///   - `birthday`
+	///   - `celebration`
+	///   - `event`
+	static public let cake_duotone = PhosphorSymbol(identifier: "cake.duotone")
+
+	/// `calculator.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `addition`
+	///   - `sum`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `multiply`
+	///   - `multiplication`
+	///   - `product`
+	///   - `divide`
+	///   - `division`
+	///   - `divisor`
+	///   - `dividend`
+	///   - `quotient`
+	///   - `equals`
+	///   - `equality`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `+`
+	///   - `-`
+	///   - `±`
+	///   - `×`
+	///   - `÷`
+	///   - `=`
+	static public let calculator_duotone = PhosphorSymbol(identifier: "calculator.duotone")
+
+	/// `calendar-blank.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `none`
+	static public let calendar_blank_duotone = PhosphorSymbol(identifier: "calendar-blank.duotone")
+
+	/// `calendar-check.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `todo`
+	///   - `checklist`
+	static public let calendar_check_duotone = PhosphorSymbol(identifier: "calendar-check.duotone")
+
+	/// `calendar-dot.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `today`
+	static public let calendar_dot_duotone = PhosphorSymbol(identifier: "calendar-dot.duotone")
+
+	/// `calendar-dots.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	static public let calendar_dots_duotone = PhosphorSymbol(identifier: "calendar-dots.duotone")
+
+	/// `calendar.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `12`
+	static public let calendar_duotone = PhosphorSymbol(identifier: "calendar.duotone")
+
+	/// `calendar-heart.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `favorite`
+	///   - `star`
+	static public let calendar_heart_duotone = PhosphorSymbol(identifier: "calendar-heart.duotone")
+
+	/// `calendar-minus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `remove`
+	///   - `delete`
+	static public let calendar_minus_duotone = PhosphorSymbol(identifier: "calendar-minus.duotone")
+
+	/// `calendar-plus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `add`
+	static public let calendar_plus_duotone = PhosphorSymbol(identifier: "calendar-plus.duotone")
+
+	/// `calendar-slash.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `remove`
+	///   - `delete`
+	///   - `cancel. unavailable`
+	static public let calendar_slash_duotone = PhosphorSymbol(identifier: "calendar-slash.duotone")
+
+	/// `calendar-star.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `favorite`
+	///   - `star`
+	static public let calendar_star_duotone = PhosphorSymbol(identifier: "calendar-star.duotone")
+
+	/// `calendar-x.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dates`
+	///   - `times`
+	///   - `events`
+	///   - `schedule`
+	///   - `closed`
+	///   - `cancelled`
+	static public let calendar_x_duotone = PhosphorSymbol(identifier: "calendar-x.duotone")
+
+	/// `call-bell.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `service bell`
+	///   - `reception`
+	///   - `attendant`
+	///   - `concierge bell`
+	static public let call_bell_duotone = PhosphorSymbol(identifier: "call-bell.duotone")
+
+	/// `camera.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `pictures`
+	///   - `lens`
+	static public let camera_duotone = PhosphorSymbol(identifier: "camera.duotone")
+
+	/// `camera-plus.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `pictures`
+	///   - `album`
+	///   - `add`
+	static public let camera_plus_duotone = PhosphorSymbol(identifier: "camera-plus.duotone")
+
+	/// `camera-rotate.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `pictures`
+	///   - `orientation`
+	///   - `portrait`
+	///   - `landscape`
+	///   - `selfie`
+	///   - `flip`
+	static public let camera_rotate_duotone = PhosphorSymbol(identifier: "camera-rotate.duotone")
+
+	/// `camera-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `pictures`
+	///   - `lens`
+	///   - `disabled`
+	static public let camera_slash_duotone = PhosphorSymbol(identifier: "camera-slash.duotone")
+
+	/// `campfire.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `camping`
+	///   - `flame`
+	///   - `bonfire`
+	///   - `outdoors`
+	static public let campfire_duotone = PhosphorSymbol(identifier: "campfire.duotone")
+
+	/// `car-battery.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `voltage`
+	///   - `electricity`
+	static public let car_battery_duotone = PhosphorSymbol(identifier: "car-battery.duotone")
+
+	/// `car.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let car_duotone = PhosphorSymbol(identifier: "car.duotone")
+
+	/// `car-profile.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let car_profile_duotone = PhosphorSymbol(identifier: "car-profile.duotone")
+
+	/// `car-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let car_simple_duotone = PhosphorSymbol(identifier: "car-simple.duotone")
+
+	/// `cardholder.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `wallet`
+	///   - `money`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let cardholder_duotone = PhosphorSymbol(identifier: "cardholder.duotone")
+
+	/// `cards.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `card`
+	///   - `slides`
+	///   - `slideshow`
+	///   - `windows`
+	///   - `website`
+	///   - `webpage`
+	///   - `layers`
+	static public let cards_duotone = PhosphorSymbol(identifier: "cards.duotone")
+
+	/// `cards-three.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `card`
+	///   - `slides`
+	///   - `slideshow`
+	///   - `windows`
+	///   - `website`
+	///   - `webpage`
+	///   - `layers`
+	///   - `stack`
+	static public let cards_three_duotone = PhosphorSymbol(identifier: "cards-three.duotone")
+
+	/// `caret-circle-double-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_double_down_duotone = PhosphorSymbol(identifier: "caret-circle-double-down.duotone")
+
+	/// `caret-circle-double-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_double_left_duotone = PhosphorSymbol(identifier: "caret-circle-double-left.duotone")
+
+	/// `caret-circle-double-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_double_right_duotone = PhosphorSymbol(identifier: "caret-circle-double-right.duotone")
+
+	/// `caret-circle-double-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_double_up_duotone = PhosphorSymbol(identifier: "caret-circle-double-up.duotone")
+
+	/// `caret-circle-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_down_duotone = PhosphorSymbol(identifier: "caret-circle-down.duotone")
+
+	/// `caret-circle-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_left_duotone = PhosphorSymbol(identifier: "caret-circle-left.duotone")
+
+	/// `caret-circle-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_right_duotone = PhosphorSymbol(identifier: "caret-circle-right.duotone")
+
+	/// `caret-circle-up-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_up_down_duotone = PhosphorSymbol(identifier: "caret-circle-up-down.duotone")
+
+	/// `caret-circle-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_circle_up_duotone = PhosphorSymbol(identifier: "caret-circle-up.duotone")
+
+	/// `caret-double-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_double_down_duotone = PhosphorSymbol(identifier: "caret-double-down.duotone")
+
+	/// `caret-double-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_double_left_duotone = PhosphorSymbol(identifier: "caret-double-left.duotone")
+
+	/// `caret-double-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_double_right_duotone = PhosphorSymbol(identifier: "caret-double-right.duotone")
+
+	/// `caret-double-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_double_up_duotone = PhosphorSymbol(identifier: "caret-double-up.duotone")
+
+	/// `caret-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_down_duotone = PhosphorSymbol(identifier: "caret-down.duotone")
+
+	/// `caret-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_left_duotone = PhosphorSymbol(identifier: "caret-left.duotone")
+
+	/// `caret-line-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_line_down_duotone = PhosphorSymbol(identifier: "caret-line-down.duotone")
+
+	/// `caret-line-left.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_line_left_duotone = PhosphorSymbol(identifier: "caret-line-left.duotone")
+
+	/// `caret-line-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_line_right_duotone = PhosphorSymbol(identifier: "caret-line-right.duotone")
+
+	/// `caret-line-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_line_up_duotone = PhosphorSymbol(identifier: "caret-line-up.duotone")
+
+	/// `caret-right.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_right_duotone = PhosphorSymbol(identifier: "caret-right.duotone")
+
+	/// `caret-up-down.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_up_down_duotone = PhosphorSymbol(identifier: "caret-up-down.duotone")
+
+	/// `caret-up.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///
+	/// - search keywords:
+	///   - `chevron`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	///   - `triangle`
+	static public let caret_up_duotone = PhosphorSymbol(identifier: "caret-up.duotone")
+
+	/// `carrot.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `vegetable`
+	///   - `veggie`
+	///   - `groceries`
+	///   - `market`
+	static public let carrot_duotone = PhosphorSymbol(identifier: "carrot.duotone")
+
+	/// `cash-register.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `retail`
+	///   - `point-of-sale`
+	///   - `pos`
+	///   - `transaction`
+	///   - `sales`
+	///   - `till`
+	static public let cash_register_duotone = PhosphorSymbol(identifier: "cash-register.duotone")
+
+	/// `cassette-tape.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `recording`
+	///   - `audio`
+	///   - `album`
+	///   - `music`
+	static public let cassette_tape_duotone = PhosphorSymbol(identifier: "cassette-tape.duotone")
+
+	/// `castle-turret.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `chess`
+	///   - `rook`
+	static public let castle_turret_duotone = PhosphorSymbol(identifier: "castle-turret.duotone")
+
+	/// `cat.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `pets`
+	///   - `animals`
+	///   - `kitty`
+	///   - `kitten`
+	static public let cat_duotone = PhosphorSymbol(identifier: "cat.duotone")
+
+	/// `cell-signal-full.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_full_duotone = PhosphorSymbol(identifier: "cell-signal-full.duotone")
+
+	/// `cell-signal-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_high_duotone = PhosphorSymbol(identifier: "cell-signal-high.duotone")
+
+	/// `cell-signal-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_low_duotone = PhosphorSymbol(identifier: "cell-signal-low.duotone")
+
+	/// `cell-signal-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_medium_duotone = PhosphorSymbol(identifier: "cell-signal-medium.duotone")
+
+	/// `cell-signal-none.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_none_duotone = PhosphorSymbol(identifier: "cell-signal-none.duotone")
+
+	/// `cell-signal-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `disconnected`
+	///   - `disabled`
+	///   - `reception`
+	///   - `service`
+	static public let cell_signal_slash_duotone = PhosphorSymbol(identifier: "cell-signal-slash.duotone")
+
+	/// `cell-signal-x.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `reception`
+	///   - `disconnected`
+	///   - `errors`
+	///   - `service`
+	static public let cell_signal_x_duotone = PhosphorSymbol(identifier: "cell-signal-x.duotone")
+
+	/// `cell-tower.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `cellular`
+	///   - `broadcast`
+	///   - `phone`
+	///   - `mobile`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	static public let cell_tower_duotone = PhosphorSymbol(identifier: "cell-tower.duotone")
+
+	/// `certificate.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `awards`
+	///   - `certification`
+	///   - `degree`
+	///   - `diploma`
+	static public let certificate_duotone = PhosphorSymbol(identifier: "certificate.duotone")
+
+	/// `chair.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `seat`
+	///   - `furniture`
+	static public let chair_duotone = PhosphorSymbol(identifier: "chair.duotone")
+
+	/// `chalkboard.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `blackboard`
+	///   - `whiteboard`
+	///   - `classroom`
+	///   - `teacher`
+	///   - `education`
+	///   - `school`
+	///   - `college`
+	///   - `university`
+	static public let chalkboard_duotone = PhosphorSymbol(identifier: "chalkboard.duotone")
+
+	/// `chalkboard-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `blackboard`
+	///   - `whiteboard`
+	///   - `classroom`
+	///   - `teacher`
+	///   - `education`
+	///   - `school`
+	///   - `college`
+	///   - `university`
+	static public let chalkboard_simple_duotone = PhosphorSymbol(identifier: "chalkboard-simple.duotone")
+
+	/// `chalkboard-teacher.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `blackboard`
+	///   - `whiteboard`
+	///   - `classroom`
+	///   - `education`
+	///   - `school`
+	///   - `college`
+	///   - `university`
+	static public let chalkboard_teacher_duotone = PhosphorSymbol(identifier: "chalkboard-teacher.duotone")
+
+	/// `champagne.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `glass`
+	///   - `drinks`
+	///   - `beverages`
+	///   - `wine`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let champagne_duotone = PhosphorSymbol(identifier: "champagne.duotone")
+
+	/// `charging-station.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ev`
+	///   - `charge`
+	///   - `fuel`
+	///   - `pump`
+	static public let charging_station_duotone = PhosphorSymbol(identifier: "charging-station.duotone")
+
+	/// `chart-bar.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `histogram`
+	///   - `analyze`
+	///   - `analysis`
+	static public let chart_bar_duotone = PhosphorSymbol(identifier: "chart-bar.duotone")
+
+	/// `chart-bar-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `histogram`
+	///   - `analyze`
+	///   - `analysis`
+	static public let chart_bar_horizontal_duotone = PhosphorSymbol(identifier: "chart-bar-horizontal.duotone")
+
+	/// `chart-donut.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `circle`
+	static public let chart_donut_duotone = PhosphorSymbol(identifier: "chart-donut.duotone")
+
+	/// `chart-line-down.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `stocks`
+	static public let chart_line_down_duotone = PhosphorSymbol(identifier: "chart-line-down.duotone")
+
+	/// `chart-line.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `stocks`
+	static public let chart_line_duotone = PhosphorSymbol(identifier: "chart-line.duotone")
+
+	/// `chart-line-up.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `stocks`
+	static public let chart_line_up_duotone = PhosphorSymbol(identifier: "chart-line-up.duotone")
+
+	/// `chart-pie.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `circle`
+	///   - `analyze`
+	///   - `analysis`
+	static public let chart_pie_duotone = PhosphorSymbol(identifier: "chart-pie.duotone")
+
+	/// `chart-pie-slice.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `circle`
+	///   - `analyze`
+	///   - `analysis`
+	static public let chart_pie_slice_duotone = PhosphorSymbol(identifier: "chart-pie-slice.duotone")
+
+	/// `chart-polar.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `circle`
+	static public let chart_polar_duotone = PhosphorSymbol(identifier: "chart-polar.duotone")
+
+	/// `chart-scatter.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	static public let chart_scatter_duotone = PhosphorSymbol(identifier: "chart-scatter.duotone")
+
+	/// `chat-centered-dots.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_centered_dots_duotone = PhosphorSymbol(identifier: "chat-centered-dots.duotone")
+
+	/// `chat-centered.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_centered_duotone = PhosphorSymbol(identifier: "chat-centered.duotone")
+
+	/// `chat-centered-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_centered_slash_duotone = PhosphorSymbol(identifier: "chat-centered-slash.duotone")
+
+	/// `chat-centered-text.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_centered_text_duotone = PhosphorSymbol(identifier: "chat-centered-text.duotone")
+
+	/// `chat-circle-dots.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `round`
+	///   - `bubble`
+	static public let chat_circle_dots_duotone = PhosphorSymbol(identifier: "chat-circle-dots.duotone")
+
+	/// `chat-circle.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `round`
+	///   - `bubble`
+	static public let chat_circle_duotone = PhosphorSymbol(identifier: "chat-circle.duotone")
+
+	/// `chat-circle-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `round`
+	///   - `bubble`
+	static public let chat_circle_slash_duotone = PhosphorSymbol(identifier: "chat-circle-slash.duotone")
+
+	/// `chat-circle-text.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `round`
+	///   - `bubble`
+	static public let chat_circle_text_duotone = PhosphorSymbol(identifier: "chat-circle-text.duotone")
+
+	/// `chat-dots.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_dots_duotone = PhosphorSymbol(identifier: "chat-dots.duotone")
+
+	/// `chat.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_duotone = PhosphorSymbol(identifier: "chat.duotone")
+
+	/// `chat-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_slash_duotone = PhosphorSymbol(identifier: "chat-slash.duotone")
+
+	/// `chat-teardrop-dots.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `bubble`
+	static public let chat_teardrop_dots_duotone = PhosphorSymbol(identifier: "chat-teardrop-dots.duotone")
+
+	/// `chat-teardrop.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `bubble`
+	static public let chat_teardrop_duotone = PhosphorSymbol(identifier: "chat-teardrop.duotone")
+
+	/// `chat-teardrop-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `bubble`
+	static public let chat_teardrop_slash_duotone = PhosphorSymbol(identifier: "chat-teardrop-slash.duotone")
+
+	/// `chat-teardrop-text.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `bubble`
+	static public let chat_teardrop_text_duotone = PhosphorSymbol(identifier: "chat-teardrop-text.duotone")
+
+	/// `chat-text.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chat_text_duotone = PhosphorSymbol(identifier: "chat-text.duotone")
+
+	/// `chats-circle.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `round`
+	///   - `bubble`
+	static public let chats_circle_duotone = PhosphorSymbol(identifier: "chats-circle.duotone")
+
+	/// `chats.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `square`
+	///   - `bubble`
+	static public let chats_duotone = PhosphorSymbol(identifier: "chats.duotone")
+
+	/// `chats-teardrop.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `sms`
+	///   - `texting`
+	///   - `comment`
+	///   - `bubble`
+	static public let chats_teardrop_duotone = PhosphorSymbol(identifier: "chats-teardrop.duotone")
+
+	/// `check-circle.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `to-do`
+	///   - `task`
+	///   - `list`
+	///   - `checkbox`
+	///   - `round`
+	///   - `ok`
+	///   - `done`
+	static public let check_circle_duotone = PhosphorSymbol(identifier: "check-circle.duotone")
+
+	/// `check.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `to-do`
+	///   - `task`
+	///   - `list`
+	///   - `checkbox`
+	///   - `ok`
+	///   - `done`
+	static public let check_duotone = PhosphorSymbol(identifier: "check.duotone")
+
+	/// `check-fat.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `to-do`
+	///   - `task`
+	///   - `list`
+	///   - `checkbox`
+	///   - `ok`
+	///   - `done`
+	static public let check_fat_duotone = PhosphorSymbol(identifier: "check-fat.duotone")
+
+	/// `check-square.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `to-do`
+	///   - `task`
+	///   - `list`
+	///   - `checkbox`
+	///   - `rectangle`
+	///   - `ok`
+	///   - `done`
+	static public let check_square_duotone = PhosphorSymbol(identifier: "check-square.duotone")
+
+	/// `check-square-offset.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `to-do`
+	///   - `task`
+	///   - `list`
+	///   - `checkbox`
+	///   - `rectangle`
+	///   - `ok`
+	///   - `done`
+	static public let check_square_offset_duotone = PhosphorSymbol(identifier: "check-square-offset.duotone")
+
+	/// `checkerboard.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `crossword`
+	static public let checkerboard_duotone = PhosphorSymbol(identifier: "checkerboard.duotone")
+
+	/// `checks.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `todo`
+	///   - `task`
+	///   - `to-do`
+	///   - `list`
+	///   - `checkbox`
+	///   - `ok`
+	///   - `done`
+	static public let checks_duotone = PhosphorSymbol(identifier: "checks.duotone")
+
+	/// `cheers.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `glass`
+	///   - `drinks`
+	///   - `beverages`
+	///   - `champagne`
+	///   - `toast`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let cheers_duotone = PhosphorSymbol(identifier: "cheers.duotone")
+
+	/// `cheese.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `dairy`
+	///   - `wedge`
+	///   - `food`
+	///   - `dining`
+	static public let cheese_duotone = PhosphorSymbol(identifier: "cheese.duotone")
+
+	/// `chef-hat.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cooking`
+	///   - `cuisine`
+	///   - `kitchen`
+	///   - `clothes`
+	///   - `clothing`
+	static public let chef_hat_duotone = PhosphorSymbol(identifier: "chef-hat.duotone")
+
+	/// `cherries.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `fruit`
+	///   - `cherry`
+	///   - `groceries`
+	///   - `market`
+	static public let cherries_duotone = PhosphorSymbol(identifier: "cherries.duotone")
+
+	/// `church.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `christ`
+	///   - `christianity`
+	///   - `cathedral`
+	///   - `religion`
+	///   - `worship`
+	static public let church_duotone = PhosphorSymbol(identifier: "church.duotone")
+
+	/// `cigarette.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `smoking`
+	///   - `tobacco`
+	static public let cigarette_duotone = PhosphorSymbol(identifier: "cigarette.duotone")
+
+	/// `cigarette-slash.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `non-smoking`
+	///   - `tobacco`
+	static public let cigarette_slash_duotone = PhosphorSymbol(identifier: "cigarette-slash.duotone")
+
+	/// `circle-dashed.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `missing`
+	///   - `round`
+	///   - `shapes`
+	///   - `polygons`
+	static public let circle_dashed_duotone = PhosphorSymbol(identifier: "circle-dashed.duotone")
+
+	/// `circle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `polygons`
+	static public let circle_duotone = PhosphorSymbol(identifier: "circle.duotone")
+
+	/// `circle-half.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `contrast`
+	///   - `brightness`
+	static public let circle_half_duotone = PhosphorSymbol(identifier: "circle-half.duotone")
+
+	/// `circle-half-tilt.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `contrast`
+	///   - `brightness`
+	static public let circle_half_tilt_duotone = PhosphorSymbol(identifier: "circle-half-tilt.duotone")
+
+	/// `circle-notch.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `loading`
+	///   - `loader`
+	///   - `spinner`
+	///   - `waiting`
+	///   - `progress`
+	static public let circle_notch_duotone = PhosphorSymbol(identifier: "circle-notch.duotone")
+
+	/// `circles-four.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `4`
+	static public let circles_four_duotone = PhosphorSymbol(identifier: "circles-four.duotone")
+
+	/// `circles-three.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `asana`
+	static public let circles_three_duotone = PhosphorSymbol(identifier: "circles-three.duotone")
+
+	/// `circles-three-plus.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `+`
+	static public let circles_three_plus_duotone = PhosphorSymbol(identifier: "circles-three-plus.duotone")
+
+	/// `circuitry.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `processor`
+	///   - `microchip`
+	///   - `computer`
+	///   - `circuit`
+	///   - `electronics`
+	///   - `motherboard`
+	static public let circuitry_duotone = PhosphorSymbol(identifier: "circuitry.duotone")
+
+	/// `city.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `skyline`
+	///   - `skyscrapers`
+	///   - `places`
+	///   - `locations`
+	///   - `buildings`
+	static public let city_duotone = PhosphorSymbol(identifier: "city.duotone")
+
+	/// `clipboard.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `copy`
+	///   - `copied`
+	///   - `checklist`
+	static public let clipboard_duotone = PhosphorSymbol(identifier: "clipboard.duotone")
+
+	/// `clipboard-text.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `copy`
+	///   - `copied`
+	///   - `checklist`
+	static public let clipboard_text_duotone = PhosphorSymbol(identifier: "clipboard-text.duotone")
+
+	/// `clock-afternoon.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `watch`
+	static public let clock_afternoon_duotone = PhosphorSymbol(identifier: "clock-afternoon.duotone")
+
+	/// `clock-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `restore`
+	///   - `fast forward`
+	///   - `update`
+	static public let clock_clockwise_duotone = PhosphorSymbol(identifier: "clock-clockwise.duotone")
+
+	/// `clock-countdown.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `watch`
+	static public let clock_countdown_duotone = PhosphorSymbol(identifier: "clock-countdown.duotone")
+
+	/// `clock-counter-clockwise.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `backup`
+	///   - `rewind`
+	///   - `history`
+	static public let clock_counter_clockwise_duotone = PhosphorSymbol(identifier: "clock-counter-clockwise.duotone")
+
+	/// `clock.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `watch`
+	static public let clock_duotone = PhosphorSymbol(identifier: "clock.duotone")
+
+	/// `clock-user.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `shift`
+	///   - `schedule`
+	///   - `events`
+	///   - `watch`
+	static public let clock_user_duotone = PhosphorSymbol(identifier: "clock-user.duotone")
+
+	/// `closed-captioning.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `subtitles`
+	///   - `television`
+	///   - `tv`
+	///   - `transcribed`
+	///   - `transcription`
+	///   - `accessibility`
+	///   - `a11y`
+	static public let closed_captioning_duotone = PhosphorSymbol(identifier: "closed-captioning.duotone")
+
+	/// `cloud-arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `download`
+	static public let cloud_arrow_down_duotone = PhosphorSymbol(identifier: "cloud-arrow-down.duotone")
+
+	/// `cloud-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `upload`
+	static public let cloud_arrow_up_duotone = PhosphorSymbol(identifier: "cloud-arrow-up.duotone")
+
+	/// `cloud-check.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `sync`
+	///   - `synchronized`
+	static public let cloud_check_duotone = PhosphorSymbol(identifier: "cloud-check.duotone")
+
+	/// `cloud.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `overcast`
+	static public let cloud_duotone = PhosphorSymbol(identifier: "cloud.duotone")
+
+	/// `cloud-fog.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `overcast`
+	///   - `foggy`
+	///   - `mist`
+	///   - `haze`
+	static public let cloud_fog_duotone = PhosphorSymbol(identifier: "cloud-fog.duotone")
+
+	/// `cloud-lightning.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `overcast`
+	///   - `stormy`
+	///   - `thunderstorm`
+	static public let cloud_lightning_duotone = PhosphorSymbol(identifier: "cloud-lightning.duotone")
+
+	/// `cloud-moon.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `partly cloudy`
+	///   - `night`
+	///   - `evening`
+	static public let cloud_moon_duotone = PhosphorSymbol(identifier: "cloud-moon.duotone")
+
+	/// `cloud-rain.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `rainy`
+	///   - `raining`
+	///   - `stormy`
+	///   - `rainstorm`
+	static public let cloud_rain_duotone = PhosphorSymbol(identifier: "cloud-rain.duotone")
+
+	/// `cloud-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `sync`
+	///   - `disabled`
+	static public let cloud_slash_duotone = PhosphorSymbol(identifier: "cloud-slash.duotone")
+
+	/// `cloud-snow.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `snowy`
+	///   - `snowing`
+	///   - `stormy`
+	///   - `snowstorm`
+	static public let cloud_snow_duotone = PhosphorSymbol(identifier: "cloud-snow.duotone")
+
+	/// `cloud-sun.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cloudy`
+	///   - `partly cloudy`
+	///   - `partly sunny`
+	static public let cloud_sun_duotone = PhosphorSymbol(identifier: "cloud-sun.duotone")
+
+	/// `cloud-warning.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `errors`
+	static public let cloud_warning_duotone = PhosphorSymbol(identifier: "cloud-warning.duotone")
+
+	/// `cloud-x.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serverless`
+	///   - `backup`
+	///   - `storage`
+	///   - `errors`
+	static public let cloud_x_duotone = PhosphorSymbol(identifier: "cloud-x.duotone")
+
+	/// `clover.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `four leaf clover`
+	///   - `plants`
+	///   - `luck`
+	///   - `lucky`
+	///   - `irish`
+	static public let clover_duotone = PhosphorSymbol(identifier: "clover.duotone")
+
+	/// `club.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `clubs`
+	///   - `suits`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	static public let club_duotone = PhosphorSymbol(identifier: "club.duotone")
+
+	/// `coat-hanger.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothing`
+	///   - `clothes`
+	///   - `closet`
+	static public let coat_hanger_duotone = PhosphorSymbol(identifier: "coat-hanger.duotone")
+
+	/// `coda-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `project management`
+	///   - `productivity`
+	///   - `documentation`
+	///   - `wiki`
+	///   - `logos`
+	static public let coda_logo_duotone = PhosphorSymbol(identifier: "coda-logo.duotone")
+
+	/// `code-block.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `angle brackets`
+	///   - `angle braces`
+	///   - `snippets`
+	static public let code_block_duotone = PhosphorSymbol(identifier: "code-block.duotone")
+
+	/// `code.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `angle brackets`
+	///   - `angle braces`
+	///   - `snippets`
+	static public let code_duotone = PhosphorSymbol(identifier: "code.duotone")
+
+	/// `code-simple.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `angle brackets`
+	///   - `angle braces`
+	///   - `snippets`
+	static public let code_simple_duotone = PhosphorSymbol(identifier: "code-simple.duotone")
+
+	/// `codepen-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `ide`
+	///   - `logos`
+	static public let codepen_logo_duotone = PhosphorSymbol(identifier: "codepen-logo.duotone")
+
+	/// `codesandbox-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `ide`
+	///   - `logos`
+	static public let codesandbox_logo_duotone = PhosphorSymbol(identifier: "codesandbox-logo.duotone")
+
+	/// `coffee-bean.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `tea`
+	///   - `java`
+	///   - `beverages`
+	///   - `drinks`
+	///   - `cafe`
+	///   - `cup`
+	///   - `mug`
+	///   - `espresso`
+	///   - `cappuccino`
+	///   - `latte`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let coffee_bean_duotone = PhosphorSymbol(identifier: "coffee-bean.duotone")
+
+	/// `coffee.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `tea`
+	///   - `java`
+	///   - `beverages`
+	///   - `drinks`
+	///   - `cafe`
+	///   - `cup`
+	///   - `mug`
+	///   - `espresso`
+	///   - `cappuccino`
+	///   - `latte`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let coffee_duotone = PhosphorSymbol(identifier: "coffee.duotone")
+
+	/// `coin.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `coins`
+	///   - `cents`
+	///   - `change`
+	///   - `money`
+	///   - `currency`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	///   - `price`
+	///   - `sell`
+	static public let coin_duotone = PhosphorSymbol(identifier: "coin.duotone")
+
+	/// `coin-vertical.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `cents`
+	///   - `change`
+	///   - `money`
+	///   - `currency`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	///   - `price`
+	///   - `sell`
+	static public let coin_vertical_duotone = PhosphorSymbol(identifier: "coin-vertical.duotone")
+
+	/// `coins.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `cents`
+	///   - `change`
+	///   - `money`
+	///   - `currency`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	///   - `price`
+	///   - `sell`
+	static public let coins_duotone = PhosphorSymbol(identifier: "coins.duotone")
+
+	/// `columns.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	static public let columns_duotone = PhosphorSymbol(identifier: "columns.duotone")
+
+	/// `columns-plus-left.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	///   - `prepend`
+	///   - `insert`
+	static public let columns_plus_left_duotone = PhosphorSymbol(identifier: "columns-plus-left.duotone")
+
+	/// `columns-plus-right.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	///   - `append`
+	///   - `insert`
+	static public let columns_plus_right_duotone = PhosphorSymbol(identifier: "columns-plus-right.duotone")
+
+	/// `command.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `apple`
+	///   - `keyboard`
+	///   - `shortcut`
+	///   - `modifier`
+	///   - `looped square`
+	///   - `bowen knot`
+	///   - `saint john's arms`
+	static public let command_duotone = PhosphorSymbol(identifier: "command.duotone")
+
+	/// `compass.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `navigation`
+	///   - `directions`
+	///   - `maps`
+	///   - `safari`
+	///   - `apple`
+	static public let compass_duotone = PhosphorSymbol(identifier: "compass.duotone")
+
+	/// `compass-rose.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `navigation`
+	///   - `directions`
+	///   - `maps`
+	///   - `cardinal`
+	///   - `cartography`
+	static public let compass_rose_duotone = PhosphorSymbol(identifier: "compass-rose.duotone")
+
+	/// `compass-tool.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drawing`
+	///   - `geometry`
+	///   - `trigonometry`
+	///   - `degrees`
+	///   - `radians`
+	///   - `measurement`
+	///   - `protractor`
+	///   - `compass`
+	///   - `arc`
+	static public let compass_tool_duotone = PhosphorSymbol(identifier: "compass-tool.duotone")
+
+	/// `computer-tower.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `desktop`
+	///   - `pc`
+	///   - `imac`
+	static public let computer_tower_duotone = PhosphorSymbol(identifier: "computer-tower.duotone")
+
+	/// `confetti.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `tada`
+	///   - `party`
+	///   - `emoji`
+	static public let confetti_duotone = PhosphorSymbol(identifier: "confetti.duotone")
+
+	/// `contactless-payment.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `purchase`
+	///   - `credit card`
+	///   - `nfc`
+	static public let contactless_payment_duotone = PhosphorSymbol(identifier: "contactless-payment.duotone")
+
+	/// `control.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `ctrl`
+	///   - `key`
+	///   - `keyboard`
+	///   - `shortcut`
+	///   - `caret`
+	static public let control_duotone = PhosphorSymbol(identifier: "control.duotone")
+
+	/// `cookie.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `privacy`
+	///   - `dessert`
+	///   - `food`
+	///   - `dining`
+	static public let cookie_duotone = PhosphorSymbol(identifier: "cookie.duotone")
+
+	/// `cooking-pot.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `stew`
+	///   - `kitchen`
+	///   - `steaming`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let cooking_pot_duotone = PhosphorSymbol(identifier: "cooking-pot.duotone")
+
+	/// `copy.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `duplicated`
+	///   - `copied`
+	///   - `clipboard`
+	static public let copy_duotone = PhosphorSymbol(identifier: "copy.duotone")
+
+	/// `copy-simple.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `duplicated`
+	///   - `copied`
+	///   - `clipboard`
+	static public let copy_simple_duotone = PhosphorSymbol(identifier: "copy-simple.duotone")
+
+	/// `copyleft.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `🄯`
+	///   - `intellectual property`
+	///   - `copr.`
+	///   - `symbol`
+	static public let copyleft_duotone = PhosphorSymbol(identifier: "copyleft.duotone")
+
+	/// `copyright.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `©`
+	///   - `intellectual property`
+	///   - `copr.`
+	///   - `symbol`
+	static public let copyright_duotone = PhosphorSymbol(identifier: "copyright.duotone")
+
+	/// `corners-in.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `collapse`
+	///   - `windowed`
+	///   - `minimized`
+	static public let corners_in_duotone = PhosphorSymbol(identifier: "corners-in.duotone")
+
+	/// `corners-out.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `expand`
+	///   - `fullscreen`
+	///   - `maximized`
+	static public let corners_out_duotone = PhosphorSymbol(identifier: "corners-out.duotone")
+
+	/// `couch.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `furniture`
+	///   - `seat`
+	static public let couch_duotone = PhosphorSymbol(identifier: "couch.duotone")
+
+	/// `court-basketball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `nba`
+	static public let court_basketball_duotone = PhosphorSymbol(identifier: "court-basketball.duotone")
+
+	/// `cow.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `livestock`
+	///   - `beef`
+	///   - `bull`
+	///   - `milk`
+	///   - `dairy`
+	static public let cow_duotone = PhosphorSymbol(identifier: "cow.duotone")
+
+	/// `cowboy-hat.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `stetson`
+	static public let cowboy_hat_duotone = PhosphorSymbol(identifier: "cowboy-hat.duotone")
+
+	/// `cpu.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `processor`
+	///   - `microchip`
+	///   - `computer`
+	///   - `circuit`
+	static public let cpu_duotone = PhosphorSymbol(identifier: "cpu.duotone")
+
+	/// `crane.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `construction`
+	///   - `industry`
+	static public let crane_duotone = PhosphorSymbol(identifier: "crane.duotone")
+
+	/// `crane-tower.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `construction`
+	///   - `industry`
+	static public let crane_tower_duotone = PhosphorSymbol(identifier: "crane-tower.duotone")
+
+	/// `credit-card.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `debit`
+	///   - `visa`
+	///   - `mastercard`
+	///   - `money`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	///   - `swipe`
+	static public let credit_card_duotone = PhosphorSymbol(identifier: "credit-card.duotone")
+
+	/// `cricket.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `ball`
+	///   - `bat`
+	static public let cricket_duotone = PhosphorSymbol(identifier: "cricket.duotone")
+
+	/// `crop.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `clip`
+	///   - `screenshots`
+	static public let crop_duotone = PhosphorSymbol(identifier: "crop.duotone")
+
+	/// `cross.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `dagger`
+	///   - `crucifix`
+	///   - `christ`
+	///   - `christianity`
+	///   - `religion`
+	///   - `worship`
+	///   - `symbol`
+	static public let cross_duotone = PhosphorSymbol(identifier: "cross.duotone")
+
+	/// `crosshair.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `geolocation`
+	///   - `gps`
+	///   - `aiming`
+	///   - `targeting`
+	static public let crosshair_duotone = PhosphorSymbol(identifier: "crosshair.duotone")
+
+	/// `crosshair-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `geolocation`
+	///   - `gps`
+	///   - `aiming`
+	///   - `targeting`
+	static public let crosshair_simple_duotone = PhosphorSymbol(identifier: "crosshair-simple.duotone")
+
+	/// `crown-cross.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `king`
+	///   - `queen`
+	///   - `royalty`
+	///   - `monarch`
+	///   - `ruler`
+	///   - `leader`
+	///   - `chess`
+	static public let crown_cross_duotone = PhosphorSymbol(identifier: "crown-cross.duotone")
+
+	/// `crown.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `king`
+	///   - `queen`
+	///   - `royalty`
+	///   - `monarch`
+	///   - `ruler`
+	///   - `leader`
+	///   - `chess`
+	static public let crown_duotone = PhosphorSymbol(identifier: "crown.duotone")
+
+	/// `crown-simple.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `king`
+	///   - `queen`
+	///   - `royalty`
+	///   - `monarch`
+	///   - `ruler`
+	///   - `leader`
+	///   - `chess`
+	static public let crown_simple_duotone = PhosphorSymbol(identifier: "crown-simple.duotone")
+
+	/// `cube.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `square`
+	///   - `box`
+	///   - `3d`
+	///   - `volume`
+	///   - `blocks`
+	static public let cube_duotone = PhosphorSymbol(identifier: "cube.duotone")
+
+	/// `cube-focus.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `augmented reality`
+	///   - `ar`
+	///   - `virual reality`
+	///   - `vr`
+	///   - `3d`
+	///   - `scan`
+	static public let cube_focus_duotone = PhosphorSymbol(identifier: "cube-focus.duotone")
+
+	/// `cube-transparent.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `square`
+	///   - `box`
+	///   - `3d`
+	///   - `volume`
+	///   - `blocks`
+	///   - `necker`
+	static public let cube_transparent_duotone = PhosphorSymbol(identifier: "cube-transparent.duotone")
+
+	/// `currency-btc.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `btc`
+	///   - `bitcoin`
+	///   - `crypto`
+	///   - `cryptocurrency`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_btc_duotone = PhosphorSymbol(identifier: "currency-btc.duotone")
+
+	/// `currency-circle-dollar.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `usd`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_circle_dollar_duotone = PhosphorSymbol(identifier: "currency-circle-dollar.duotone")
+
+	/// `currency-cny.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `yuan`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_cny_duotone = PhosphorSymbol(identifier: "currency-cny.duotone")
+
+	/// `currency-dollar.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `usd`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_dollar_duotone = PhosphorSymbol(identifier: "currency-dollar.duotone")
+
+	/// `currency-dollar-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `usd`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_dollar_simple_duotone = PhosphorSymbol(identifier: "currency-dollar-simple.duotone")
+
+	/// `currency-eth.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `ethereum`
+	///   - `crypto`
+	///   - `cryptocurrency`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_eth_duotone = PhosphorSymbol(identifier: "currency-eth.duotone")
+
+	/// `currency-eur.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `euros`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_eur_duotone = PhosphorSymbol(identifier: "currency-eur.duotone")
+
+	/// `currency-gbp.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `pounds sterling`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_gbp_duotone = PhosphorSymbol(identifier: "currency-gbp.duotone")
+
+	/// `currency-inr.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `rupees`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_inr_duotone = PhosphorSymbol(identifier: "currency-inr.duotone")
+
+	/// `currency-jpy.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `yen`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_jpy_duotone = PhosphorSymbol(identifier: "currency-jpy.duotone")
+
+	/// `currency-krw.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `won`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_krw_duotone = PhosphorSymbol(identifier: "currency-krw.duotone")
+
+	/// `currency-kzt.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `kazakhstan`
+	///   - `tenge`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_kzt_duotone = PhosphorSymbol(identifier: "currency-kzt.duotone")
+
+	/// `currency-ngn.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `nigeria`
+	///   - `naira`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_ngn_duotone = PhosphorSymbol(identifier: "currency-ngn.duotone")
+
+	/// `currency-rub.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `rubles`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let currency_rub_duotone = PhosphorSymbol(identifier: "currency-rub.duotone")
+
+	/// `cursor-click.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pointer`
+	///   - `arrowhead`
+	///   - `mouse`
+	static public let cursor_click_duotone = PhosphorSymbol(identifier: "cursor-click.duotone")
+
+	/// `cursor.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pointer`
+	///   - `arrowhead`
+	///   - `mouse`
+	///   - `click`
+	static public let cursor_duotone = PhosphorSymbol(identifier: "cursor.duotone")
+
+	/// `cursor-text.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `i-beam`
+	///   - `input`
+	///   - `select`
+	static public let cursor_text_duotone = PhosphorSymbol(identifier: "cursor-text.duotone")
+
+	/// `cylinder.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `tube`
+	static public let cylinder_duotone = PhosphorSymbol(identifier: "cylinder.duotone")
+
+	/// `database.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `hard disk`
+	///   - `storage`
+	///   - `hdd`
+	///   - `servers`
+	///   - `databases`
+	static public let database_duotone = PhosphorSymbol(identifier: "database.duotone")
+
+	/// `desk.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `furniture`
+	///   - `workspace`
+	///   - `table`
+	static public let desk_duotone = PhosphorSymbol(identifier: "desk.duotone")
+
+	/// `desktop.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `computer`
+	///   - `pc`
+	///   - `imac`
+	///   - `tower`
+	static public let desktop_duotone = PhosphorSymbol(identifier: "desktop.duotone")
+
+	/// `desktop-tower.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `computer`
+	///   - `pc`
+	///   - `imac`
+	static public let desktop_tower_duotone = PhosphorSymbol(identifier: "desktop-tower.duotone")
+
+	/// `detective.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `incognito`
+	///   - `police`
+	///   - `law enforcement`
+	///   - `spy`
+	///   - `secret`
+	static public let detective_duotone = PhosphorSymbol(identifier: "detective.duotone")
+
+	/// `dev-to-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `social media`
+	///   - `logos`
+	static public let dev_to_logo_duotone = PhosphorSymbol(identifier: "dev-to-logo.duotone")
+
+	/// `device-mobile-camera.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	static public let device_mobile_camera_duotone = PhosphorSymbol(identifier: "device-mobile-camera.duotone")
+
+	/// `device-mobile.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	static public let device_mobile_duotone = PhosphorSymbol(identifier: "device-mobile.duotone")
+
+	/// `device-mobile-slash.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	static public let device_mobile_slash_duotone = PhosphorSymbol(identifier: "device-mobile-slash.duotone")
+
+	/// `device-mobile-speaker.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	static public let device_mobile_speaker_duotone = PhosphorSymbol(identifier: "device-mobile-speaker.duotone")
+
+	/// `device-rotate.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `orientation`
+	///   - `landscape`
+	///   - `portrait`
+	///   - `spin`
+	///   - `flip`
+	static public let device_rotate_duotone = PhosphorSymbol(identifier: "device-rotate.duotone")
+
+	/// `device-tablet-camera.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	///   - `ipad`
+	///   - `phablet`
+	static public let device_tablet_camera_duotone = PhosphorSymbol(identifier: "device-tablet-camera.duotone")
+
+	/// `device-tablet.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	///   - `ipad`
+	///   - `phablet`
+	static public let device_tablet_duotone = PhosphorSymbol(identifier: "device-tablet.duotone")
+
+	/// `device-tablet-speaker.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cellphone`
+	///   - `cellular`
+	///   - `ipad`
+	///   - `phablet`
+	static public let device_tablet_speaker_duotone = PhosphorSymbol(identifier: "device-tablet-speaker.duotone")
+
+	/// `devices.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `responsive`
+	///   - `cellphone`
+	///   - `cellular`
+	///   - `tablet`
+	///   - `desktop`
+	static public let devices_duotone = PhosphorSymbol(identifier: "devices.duotone")
+
+	/// `diamond.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `rectangle`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `diamonds`
+	///   - `suits`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	static public let diamond_duotone = PhosphorSymbol(identifier: "diamond.duotone")
+
+	/// `diamonds-four.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `grid`
+	///   - `component`
+	static public let diamonds_four_duotone = PhosphorSymbol(identifier: "diamonds-four.duotone")
+
+	/// `dice-five.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `5`
+	static public let dice_five_duotone = PhosphorSymbol(identifier: "dice-five.duotone")
+
+	/// `dice-four.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `4`
+	static public let dice_four_duotone = PhosphorSymbol(identifier: "dice-four.duotone")
+
+	/// `dice-one.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `1`
+	static public let dice_one_duotone = PhosphorSymbol(identifier: "dice-one.duotone")
+
+	/// `dice-six.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `6`
+	static public let dice_six_duotone = PhosphorSymbol(identifier: "dice-six.duotone")
+
+	/// `dice-three.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `3`
+	static public let dice_three_duotone = PhosphorSymbol(identifier: "dice-three.duotone")
+
+	/// `dice-two.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `die`
+	///   - `rolling`
+	///   - `gamble`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `2`
+	static public let dice_two_duotone = PhosphorSymbol(identifier: "dice-two.duotone")
+
+	/// `disc.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cd-rom`
+	///   - `compact disk`
+	///   - `album`
+	///   - `record`
+	static public let disc_duotone = PhosphorSymbol(identifier: "disc.duotone")
+
+	/// `disco-ball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `danging`
+	///   - `club`
+	///   - `70s`
+	static public let disco_ball_duotone = PhosphorSymbol(identifier: "disco-ball.duotone")
+
+	/// `discord-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `messages`
+	///   - `messaging`
+	///   - `chat`
+	static public let discord_logo_duotone = PhosphorSymbol(identifier: "discord-logo.duotone")
+
+	/// `divide.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `division`
+	///   - `divisor`
+	///   - `dividend`
+	///   - `quotient`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let divide_duotone = PhosphorSymbol(identifier: "divide.duotone")
+
+	/// `dna.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `double helix`
+	///   - `gene`
+	///   - `genetics`
+	static public let dna_duotone = PhosphorSymbol(identifier: "dna.duotone")
+
+	/// `dog.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `pets`
+	///   - `animals`
+	///   - `puppy`
+	static public let dog_duotone = PhosphorSymbol(identifier: "dog.duotone")
+
+	/// `door.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `entrance`
+	///   - `exit`
+	static public let door_duotone = PhosphorSymbol(identifier: "door.duotone")
+
+	/// `door-open.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `entrance`
+	///   - `exit`
+	static public let door_open_duotone = PhosphorSymbol(identifier: "door-open.duotone")
+
+	/// `dot.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dots`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	static public let dot_duotone = PhosphorSymbol(identifier: "dot.duotone")
+
+	/// `dot-outline.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dots`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	static public let dot_outline_duotone = PhosphorSymbol(identifier: "dot-outline.duotone")
+
+	/// `dots-nine.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `grid`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `9`
+	static public let dots_nine_duotone = PhosphorSymbol(identifier: "dots-nine.duotone")
+
+	/// `dots-six.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `drag handle`
+	///   - `knurling`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `6`
+	static public let dots_six_duotone = PhosphorSymbol(identifier: "dots-six.duotone")
+
+	/// `dots-six-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `drag handle`
+	///   - `knurling`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `6`
+	static public let dots_six_vertical_duotone = PhosphorSymbol(identifier: "dots-six-vertical.duotone")
+
+	/// `dots-three-circle.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_circle_duotone = PhosphorSymbol(identifier: "dots-three-circle.duotone")
+
+	/// `dots-three-circle-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_circle_vertical_duotone = PhosphorSymbol(identifier: "dots-three-circle-vertical.duotone")
+
+	/// `dots-three.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_duotone = PhosphorSymbol(identifier: "dots-three.duotone")
+
+	/// `dots-three-outline.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_outline_duotone = PhosphorSymbol(identifier: "dots-three-outline.duotone")
+
+	/// `dots-three-outline-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_outline_vertical_duotone = PhosphorSymbol(identifier: "dots-three-outline-vertical.duotone")
+
+	/// `dots-three-vertical.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `menu`
+	///   - `overflow`
+	///   - `circles`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `3`
+	///   - `ellipsis`
+	///   - `ellipses`
+	///   - `more`
+	static public let dots_three_vertical_duotone = PhosphorSymbol(identifier: "dots-three-vertical.duotone")
+
+	/// `download.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `downloaded`
+	///   - `downloading`
+	///   - `hard drive`
+	///   - `disk`
+	static public let download_duotone = PhosphorSymbol(identifier: "download.duotone")
+
+	/// `download-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `downloaded`
+	///   - `downloading`
+	///   - `hard drive`
+	///   - `disk`
+	///   - `import`
+	static public let download_simple_duotone = PhosphorSymbol(identifier: "download-simple.duotone")
+
+	/// `dress.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	static public let dress_duotone = PhosphorSymbol(identifier: "dress.duotone")
+
+	/// `dresser.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `furniture`
+	///   - `bedroom`
+	///   - `storage`
+	///   - `drawers`
+	///   - `wardrobe`
+	static public let dresser_duotone = PhosphorSymbol(identifier: "dresser.duotone")
+
+	/// `dribbble-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `round`
+	///   - `basketball`
+	///   - `sports`
+	///   - `design`
+	static public let dribbble_logo_duotone = PhosphorSymbol(identifier: "dribbble-logo.duotone")
+
+	/// `drone.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `aerial`
+	///   - `uav`
+	///   - `photography`
+	///   - `remote`
+	static public let drone_duotone = PhosphorSymbol(identifier: "drone.duotone")
+
+	/// `drop.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `droplet`
+	///   - `teardrop`
+	///   - `raindrop`
+	///   - `raining`
+	///   - `meteorology`
+	///   - `water`
+	///   - `blur`
+	static public let drop_duotone = PhosphorSymbol(identifier: "drop.duotone")
+
+	/// `drop-half-bottom.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `droplet`
+	///   - `teardrop`
+	///   - `raindrop`
+	///   - `humidity`
+	///   - `water`
+	///   - `contrast`
+	///   - `brightness`
+	static public let drop_half_bottom_duotone = PhosphorSymbol(identifier: "drop-half-bottom.duotone")
+
+	/// `drop-half.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `droplet`
+	///   - `teardrop`
+	///   - `raindrop`
+	///   - `humidity`
+	///   - `water`
+	///   - `contrast`
+	///   - `brightness`
+	static public let drop_half_duotone = PhosphorSymbol(identifier: "drop-half.duotone")
+
+	/// `drop-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `droplet`
+	///   - `teardrop`
+	///   - `raindrop`
+	///   - `raining`
+	///   - `humidity`
+	///   - `meteorology`
+	///   - `water`
+	///   - `blur`
+	static public let drop_simple_duotone = PhosphorSymbol(identifier: "drop-simple.duotone")
+
+	/// `drop-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `droplet`
+	///   - `teardrop`
+	///   - `raindrop`
+	///   - `raining`
+	///   - `humidity`
+	///   - `meteorology`
+	///   - `water`
+	///   - `blur`
+	///   - `disabled`
+	static public let drop_slash_duotone = PhosphorSymbol(identifier: "drop-slash.duotone")
+
+	/// `dropbox-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `cloud`
+	///   - `storage`
+	///   - `backup`
+	///   - `logos`
+	static public let dropbox_logo_duotone = PhosphorSymbol(identifier: "dropbox-logo.duotone")
+
+	/// `ear.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `hearing`
+	///   - `audio`
+	///   - `sound`
+	static public let ear_duotone = PhosphorSymbol(identifier: "ear.duotone")
+
+	/// `ear-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `hearing`
+	///   - `audio`
+	///   - `sound`
+	///   - `mute`
+	///   - `accessible`
+	static public let ear_slash_duotone = PhosphorSymbol(identifier: "ear-slash.duotone")
+
+	/// `egg-crack.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `chicken`
+	///   - `food`
+	///   - `meal`
+	///   - `baby`
+	///   - `hatch`
+	///   - `break`
+	static public let egg_crack_duotone = PhosphorSymbol(identifier: "egg-crack.duotone")
+
+	/// `egg.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `chicken`
+	///   - `food`
+	///   - `meal`
+	///   - `baby`
+	///   - `hatch`
+	static public let egg_duotone = PhosphorSymbol(identifier: "egg.duotone")
+
+	/// `eject.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `disconnect`
+	static public let eject_duotone = PhosphorSymbol(identifier: "eject.duotone")
+
+	/// `eject-simple.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `disconnect`
+	static public let eject_simple_duotone = PhosphorSymbol(identifier: "eject-simple.duotone")
+
+	/// `elevator.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `lift`
+	static public let elevator_duotone = PhosphorSymbol(identifier: "elevator.duotone")
+
+	/// `empty.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `∅`
+	///   - `empty set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `null`
+	static public let empty_duotone = PhosphorSymbol(identifier: "empty.duotone")
+
+	/// `engine.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `motor`
+	///   - `repair`
+	///   - `vehicles`
+	///   - `automobile`
+	static public let engine_duotone = PhosphorSymbol(identifier: "engine.duotone")
+
+	/// `envelope.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `message`
+	///   - `post`
+	///   - `letter`
+	static public let envelope_duotone = PhosphorSymbol(identifier: "envelope.duotone")
+
+	/// `envelope-open.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `message`
+	///   - `read`
+	///   - `post`
+	///   - `letter`
+	static public let envelope_open_duotone = PhosphorSymbol(identifier: "envelope-open.duotone")
+
+	/// `envelope-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `message`
+	///   - `post`
+	///   - `letter`
+	static public let envelope_simple_duotone = PhosphorSymbol(identifier: "envelope-simple.duotone")
+
+	/// `envelope-simple-open.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `message`
+	///   - `read`
+	///   - `post`
+	///   - `letter`
+	static public let envelope_simple_open_duotone = PhosphorSymbol(identifier: "envelope-simple-open.duotone")
+
+	/// `equalizer.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `meter`
+	///   - `volume`
+	///   - `spectrum`
+	///   - `eq`
+	///   - `deezer`
+	static public let equalizer_duotone = PhosphorSymbol(identifier: "equalizer.duotone")
+
+	/// `equals.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `=`
+	///   - `equality`
+	///   - `equivalent`
+	///   - `equivalence`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let equals_duotone = PhosphorSymbol(identifier: "equals.duotone")
+
+	/// `eraser.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `undo`
+	///   - `deleted`
+	static public let eraser_duotone = PhosphorSymbol(identifier: "eraser.duotone")
+
+	/// `escalator-down.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stairs`
+	static public let escalator_down_duotone = PhosphorSymbol(identifier: "escalator-down.duotone")
+
+	/// `escalator-up.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stairs`
+	static public let escalator_up_duotone = PhosphorSymbol(identifier: "escalator-up.duotone")
+
+	/// `exam.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `text`
+	///   - `examination`
+	///   - `paper`
+	///   - `school`
+	///   - `grade`
+	static public let exam_duotone = PhosphorSymbol(identifier: "exam.duotone")
+
+	/// `exclamation-mark.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `!`
+	///   - `alert`
+	///   - `warning`
+	///   - `caution`
+	///   - `interjection`
+	///   - `punctuation`
+	///   - `symbol`
+	static public let exclamation_mark_duotone = PhosphorSymbol(identifier: "exclamation-mark.duotone")
+
+	/// `exclude.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `venn-diagram`
+	///   - `difference`
+	///   - `intersection`
+	static public let exclude_duotone = PhosphorSymbol(identifier: "exclude.duotone")
+
+	/// `exclude-square.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `venn-diagram`
+	///   - `difference`
+	///   - `intersection`
+	static public let exclude_square_duotone = PhosphorSymbol(identifier: "exclude-square.duotone")
+
+	/// `export.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `share`
+	///   - `send to`
+	///   - `arrows`
+	static public let export_duotone = PhosphorSymbol(identifier: "export.duotone")
+
+	/// `eye-closed.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `visible`
+	///   - `hidden`
+	///   - `show`
+	///   - `hide`
+	///   - `visibility`
+	///   - `view`
+	///   - `invisible`
+	///   - `private`
+	static public let eye_closed_duotone = PhosphorSymbol(identifier: "eye-closed.duotone")
+
+	/// `eye.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `visible`
+	///   - `hidden`
+	///   - `show`
+	///   - `hide`
+	///   - `visibility`
+	///   - `view`
+	static public let eye_duotone = PhosphorSymbol(identifier: "eye.duotone")
+
+	/// `eye-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `visible`
+	///   - `hidden`
+	///   - `show`
+	///   - `hide`
+	///   - `visibility`
+	///   - `view`
+	///   - `invisible`
+	///   - `eyelashes`
+	///   - `disabled`
+	///   - `private`
+	static public let eye_slash_duotone = PhosphorSymbol(identifier: "eye-slash.duotone")
+
+	/// `eyedropper.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `sample`
+	///   - `arts`
+	static public let eyedropper_duotone = PhosphorSymbol(identifier: "eyedropper.duotone")
+
+	/// `eyedropper-sample.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `arts`
+	static public let eyedropper_sample_duotone = PhosphorSymbol(identifier: "eyedropper-sample.duotone")
+
+	/// `eyeglasses.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vision`
+	///   - `spectacles`
+	static public let eyeglasses_duotone = PhosphorSymbol(identifier: "eyeglasses.duotone")
+
+	/// `eyes.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `look`
+	///   - `glance`
+	static public let eyes_duotone = PhosphorSymbol(identifier: "eyes.duotone")
+
+	/// `face-mask.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `ppe`
+	///   - `facemask`
+	///   - `covid-19`
+	///   - `coronavirus`
+	///   - `flu`
+	///   - `cold`
+	static public let face_mask_duotone = PhosphorSymbol(identifier: "face-mask.duotone")
+
+	/// `facebook-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `social media`
+	static public let facebook_logo_duotone = PhosphorSymbol(identifier: "facebook-logo.duotone")
+
+	/// `factory.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `industry`
+	///   - `manufacture`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let factory_duotone = PhosphorSymbol(identifier: "factory.duotone")
+
+	/// `faders.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `sliders`
+	///   - `filters`
+	///   - `equalizer`
+	///   - `volume`
+	///   - `settings`
+	///   - `preferences`
+	static public let faders_duotone = PhosphorSymbol(identifier: "faders.duotone")
+
+	/// `faders-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `sliders`
+	///   - `filters`
+	///   - `equalizer`
+	///   - `volume`
+	///   - `settings`
+	///   - `preferences`
+	static public let faders_horizontal_duotone = PhosphorSymbol(identifier: "faders-horizontal.duotone")
+
+	/// `fallout-shelter.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `radiation`
+	///   - `radioactive`
+	///   - `nuclear`
+	///   - `bunker`
+	///   - `contamination`
+	///   - `quarantine`
+	///   - `toxic`
+	///   - `danger`
+	///   - `caution`
+	static public let fallout_shelter_duotone = PhosphorSymbol(identifier: "fallout-shelter.duotone")
+
+	/// `fan.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `desk fan`
+	///   - `air conditioning`
+	static public let fan_duotone = PhosphorSymbol(identifier: "fan.duotone")
+
+	/// `farm.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `farmer`
+	///   - `field`
+	///   - `farming`
+	///   - `agriculture`
+	static public let farm_duotone = PhosphorSymbol(identifier: "farm.duotone")
+
+	/// `fast-forward-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `music`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `ahead`
+	///   - `skip`
+	static public let fast_forward_circle_duotone = PhosphorSymbol(identifier: "fast-forward-circle.duotone")
+
+	/// `fast-forward.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `music`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `ahead`
+	///   - `skip`
+	static public let fast_forward_duotone = PhosphorSymbol(identifier: "fast-forward.duotone")
+
+	/// `feather.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bird`
+	static public let feather_duotone = PhosphorSymbol(identifier: "feather.duotone")
+
+	/// `fediverse-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `social media`
+	///   - `decentralized`
+	static public let fediverse_logo_duotone = PhosphorSymbol(identifier: "fediverse-logo.duotone")
+
+	/// `figma-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `drawing`
+	///   - `art`
+	///   - `illustration`
+	///   - `ui`
+	///   - `interface`
+	///   - `prototype`
+	///   - `prototyping`
+	static public let figma_logo_duotone = PhosphorSymbol(identifier: "figma-logo.duotone")
+
+	/// `file-archive.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `zip`
+	///   - `compression`
+	static public let file_archive_duotone = PhosphorSymbol(identifier: "file-archive.duotone")
+
+	/// `file-arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `download`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let file_arrow_down_duotone = PhosphorSymbol(identifier: "file-arrow-down.duotone")
+
+	/// `file-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `upload`
+	///   - `directional`
+	///   - `pointer`
+	///   - `pointing`
+	///   - `arrowhead`
+	static public let file_arrow_up_duotone = PhosphorSymbol(identifier: "file-arrow-up.duotone")
+
+	/// `file-audio.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `music`
+	///   - `sound`
+	static public let file_audio_duotone = PhosphorSymbol(identifier: "file-audio.duotone")
+
+	/// `file-c.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	static public let file_c_duotone = PhosphorSymbol(identifier: "file-c.duotone")
+
+	/// `file-c-sharp.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `c#`
+	static public let file_c_sharp_duotone = PhosphorSymbol(identifier: "file-c-sharp.duotone")
+
+	/// `file-cloud.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `sync`
+	static public let file_cloud_duotone = PhosphorSymbol(identifier: "file-cloud.duotone")
+
+	/// `file-code.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	static public let file_code_duotone = PhosphorSymbol(identifier: "file-code.duotone")
+
+	/// `file-cpp.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `c++`
+	static public let file_cpp_duotone = PhosphorSymbol(identifier: "file-cpp.duotone")
+
+	/// `file-css.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	static public let file_css_duotone = PhosphorSymbol(identifier: "file-css.duotone")
+
+	/// `file-csv.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `data`
+	static public let file_csv_duotone = PhosphorSymbol(identifier: "file-csv.duotone")
+
+	/// `file-dashed.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `browse`
+	///   - `draft`
+	///   - `open`
+	///   - `dotted`
+	static public let file_dashed_duotone = PhosphorSymbol(identifier: "file-dashed.duotone")
+
+	/// `file-doc.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `word`
+	///   - `microsoft`
+	static public let file_doc_duotone = PhosphorSymbol(identifier: "file-doc.duotone")
+
+	/// `file.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `page`
+	static public let file_duotone = PhosphorSymbol(identifier: "file.duotone")
+
+	/// `file-html.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	static public let file_html_duotone = PhosphorSymbol(identifier: "file-html.duotone")
+
+	/// `file-image.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `pictures`
+	///   - `photograph`
+	static public let file_image_duotone = PhosphorSymbol(identifier: "file-image.duotone")
+
+	/// `file-ini.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	static public let file_ini_duotone = PhosphorSymbol(identifier: "file-ini.duotone")
+
+	/// `file-jpg.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `pictures`
+	///   - `photograph`
+	///   - `jpeg`
+	static public let file_jpg_duotone = PhosphorSymbol(identifier: "file-jpg.duotone")
+
+	/// `file-js.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `javascript`
+	static public let file_js_duotone = PhosphorSymbol(identifier: "file-js.duotone")
+
+	/// `file-jsx.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `javascript`
+	static public let file_jsx_duotone = PhosphorSymbol(identifier: "file-jsx.duotone")
+
+	/// `file-lock.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `secure`
+	///   - `locked`
+	///   - `private`
+	static public let file_lock_duotone = PhosphorSymbol(identifier: "file-lock.duotone")
+
+	/// `file-magnifying-glass.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `search`
+	///   - `find`
+	///   - `locate`
+	///   - `browse`
+	///   - `missing`
+	static public let file_magnifying_glass_duotone = PhosphorSymbol(identifier: "file-magnifying-glass.duotone")
+
+	/// `file-md.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `notes`
+	///   - `markdown`
+	static public let file_md_duotone = PhosphorSymbol(identifier: "file-md.duotone")
+
+	/// `file-minus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `delete`
+	///   - `write`
+	///   - `remove`
+	///   - `-`
+	static public let file_minus_duotone = PhosphorSymbol(identifier: "file-minus.duotone")
+
+	/// `file-pdf.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `acrobat`
+	static public let file_pdf_duotone = PhosphorSymbol(identifier: "file-pdf.duotone")
+
+	/// `file-plus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `add`
+	///   - `new`
+	///   - `create`
+	///   - `+`
+	static public let file_plus_duotone = PhosphorSymbol(identifier: "file-plus.duotone")
+
+	/// `file-png.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `pictures`
+	///   - `photograph`
+	static public let file_png_duotone = PhosphorSymbol(identifier: "file-png.duotone")
+
+	/// `file-ppt.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `powerpoint`
+	///   - `microsoft`
+	static public let file_ppt_duotone = PhosphorSymbol(identifier: "file-ppt.duotone")
+
+	/// `file-py.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `python`
+	static public let file_py_duotone = PhosphorSymbol(identifier: "file-py.duotone")
+
+	/// `file-rs.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `rust`
+	static public let file_rs_duotone = PhosphorSymbol(identifier: "file-rs.duotone")
+
+	/// `file-sql.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `database`
+	static public let file_sql_duotone = PhosphorSymbol(identifier: "file-sql.duotone")
+
+	/// `file-svg.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `images`
+	///   - `vector`
+	static public let file_svg_duotone = PhosphorSymbol(identifier: "file-svg.duotone")
+
+	/// `file-text.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	static public let file_text_duotone = PhosphorSymbol(identifier: "file-text.duotone")
+
+	/// `file-ts.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `typescript`
+	static public let file_ts_duotone = PhosphorSymbol(identifier: "file-ts.duotone")
+
+	/// `file-tsx.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	///   - `typescript`
+	static public let file_tsx_duotone = PhosphorSymbol(identifier: "file-tsx.duotone")
+
+	/// `file-txt.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	static public let file_txt_duotone = PhosphorSymbol(identifier: "file-txt.duotone")
+
+	/// `file-video.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `movie`
+	static public let file_video_duotone = PhosphorSymbol(identifier: "file-video.duotone")
+
+	/// `file-vue.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `code`
+	static public let file_vue_duotone = PhosphorSymbol(identifier: "file-vue.duotone")
+
+	/// `file-x.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `files`
+	///   - `cancelled`
+	///   - `deleted`
+	///   - `removed`
+	///   - `errors`
+	static public let file_x_duotone = PhosphorSymbol(identifier: "file-x.duotone")
+
+	/// `file-xls.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `excel`
+	///   - `microsoft`
+	static public let file_xls_duotone = PhosphorSymbol(identifier: "file-xls.duotone")
+
+	/// `file-zip.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `archive`
+	///   - `compression`
+	static public let file_zip_duotone = PhosphorSymbol(identifier: "file-zip.duotone")
+
+	/// `files.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `open`
+	///   - `library`
+	static public let files_duotone = PhosphorSymbol(identifier: "files.duotone")
+
+	/// `film-reel.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `videography`
+	///   - `films`
+	///   - `movies`
+	///   - `recording`
+	static public let film_reel_duotone = PhosphorSymbol(identifier: "film-reel.duotone")
+
+	/// `film-script.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `screenplay`
+	///   - `movie`
+	static public let film_script_duotone = PhosphorSymbol(identifier: "film-script.duotone")
+
+	/// `film-slate.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clapper`
+	///   - `movie`
+	static public let film_slate_duotone = PhosphorSymbol(identifier: "film-slate.duotone")
+
+	/// `film-strip.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `camera`
+	///   - `photography`
+	///   - `darkroom`
+	///   - `movie`
+	///   - `analog`
+	static public let film_strip_duotone = PhosphorSymbol(identifier: "film-strip.duotone")
+
+	/// `fingerprint.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `biometrics`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let fingerprint_duotone = PhosphorSymbol(identifier: "fingerprint.duotone")
+
+	/// `fingerprint-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `biometrics`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let fingerprint_simple_duotone = PhosphorSymbol(identifier: "fingerprint-simple.duotone")
+
+	/// `finn-the-human.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `adventure time`
+	///   - `cartoons`
+	///   - `television`
+	///   - `tv`
+	///   - `character`
+	static public let finn_the_human_duotone = PhosphorSymbol(identifier: "finn-the-human.duotone")
+
+	/// `fire.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `flame`
+	///   - `burning`
+	///   - `match`
+	///   - `lighter`
+	static public let fire_duotone = PhosphorSymbol(identifier: "fire.duotone")
+
+	/// `fire-extinguisher.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `safety`
+	///   - `prevention`
+	///   - `emergency`
+	///   - `hazard`
+	///   - `danger`
+	///   - `caution`
+	static public let fire_extinguisher_duotone = PhosphorSymbol(identifier: "fire-extinguisher.duotone")
+
+	/// `fire-simple.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `flame`
+	///   - `burning`
+	///   - `match`
+	///   - `lighter`
+	static public let fire_simple_duotone = PhosphorSymbol(identifier: "fire-simple.duotone")
+
+	/// `fire-truck.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `first-aid`
+	///   - `emt`
+	///   - `medical`
+	///   - `medicine`
+	///   - `injury`
+	///   - `safety`
+	///   - `emergency`
+	///   - `firefighter`
+	static public let fire_truck_duotone = PhosphorSymbol(identifier: "fire-truck.duotone")
+
+	/// `first-aid.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `hospital`
+	///   - `cross`
+	///   - `medical`
+	///   - `medicine`
+	///   - `injury`
+	///   - `safety`
+	///   - `emergency`
+	///   - `doctor`
+	static public let first_aid_duotone = PhosphorSymbol(identifier: "first-aid.duotone")
+
+	/// `first-aid-kit.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `bandages`
+	///   - `medical`
+	///   - `medicine`
+	///   - `injury`
+	///   - `safety`
+	///   - `emergency`
+	///   - `doctor`
+	static public let first_aid_kit_duotone = PhosphorSymbol(identifier: "first-aid-kit.duotone")
+
+	/// `fish.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `pets`
+	///   - `food`
+	///   - `seafood`
+	///   - `restaurants`
+	///   - `dining`
+	static public let fish_duotone = PhosphorSymbol(identifier: "fish.duotone")
+
+	/// `fish-simple.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `pets`
+	///   - `food`
+	///   - `seafood`
+	///   - `restaurants`
+	///   - `dining`
+	static public let fish_simple_duotone = PhosphorSymbol(identifier: "fish-simple.duotone")
+
+	/// `flag-banner.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `ribbon`
+	///   - `country`
+	///   - `countries`
+	///   - `finished`
+	///   - `completed`
+	///   - `flags`
+	///   - `swallowtail`
+	static public let flag_banner_duotone = PhosphorSymbol(identifier: "flag-banner.duotone")
+
+	/// `flag-banner-fold.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `ribbon`
+	///   - `country`
+	///   - `countries`
+	///   - `finished`
+	///   - `completed`
+	///   - `flags`
+	///   - `swallowtail`
+	static public let flag_banner_fold_duotone = PhosphorSymbol(identifier: "flag-banner-fold.duotone")
+
+	/// `flag-checkered.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `flags`
+	///   - `race`
+	///   - `racing`
+	///   - `finish line`
+	static public let flag_checkered_duotone = PhosphorSymbol(identifier: "flag-checkered.duotone")
+
+	/// `flag.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `country`
+	///   - `countries`
+	///   - `finished`
+	///   - `completed`
+	///   - `flags`
+	static public let flag_duotone = PhosphorSymbol(identifier: "flag.duotone")
+
+	/// `flag-pennant.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///   - `system`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `flags`
+	///   - `race`
+	///   - `sports`
+	///   - `team`
+	static public let flag_pennant_duotone = PhosphorSymbol(identifier: "flag-pennant.duotone")
+
+	/// `flame.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `fire`
+	///   - `burning`
+	///   - `match`
+	///   - `lighter`
+	static public let flame_duotone = PhosphorSymbol(identifier: "flame.duotone")
+
+	/// `flashlight.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `torch`
+	///   - `find`
+	///   - `search`
+	///   - `locate`
+	static public let flashlight_duotone = PhosphorSymbol(identifier: "flashlight.duotone")
+
+	/// `flask.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `beaker`
+	///   - `science`
+	///   - `chemistry`
+	///   - `experiment`
+	///   - `erlenmeyer`
+	static public let flask_duotone = PhosphorSymbol(identifier: "flask.duotone")
+
+	/// `flip-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `mirror`
+	///   - `rotate`
+	///   - `invert`
+	static public let flip_horizontal_duotone = PhosphorSymbol(identifier: "flip-horizontal.duotone")
+
+	/// `flip-vertical.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `mirror`
+	///   - `rotate`
+	///   - `invert`
+	static public let flip_vertical_duotone = PhosphorSymbol(identifier: "flip-vertical.duotone")
+
+	/// `floppy-disk-back.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `diskette`
+	///   - `directory`
+	///   - `directories`
+	///   - `folders`
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	static public let floppy_disk_back_duotone = PhosphorSymbol(identifier: "floppy-disk-back.duotone")
+
+	/// `floppy-disk.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `diskette`
+	///   - `directory`
+	///   - `directories`
+	///   - `folders`
+	///   - `documents`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	static public let floppy_disk_duotone = PhosphorSymbol(identifier: "floppy-disk.duotone")
+
+	/// `flow-arrow.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `flowchart`
+	///   - `arrowhead`
+	static public let flow_arrow_duotone = PhosphorSymbol(identifier: "flow-arrow.duotone")
+
+	/// `flower.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `green`
+	///   - `environmental`
+	static public let flower_duotone = PhosphorSymbol(identifier: "flower.duotone")
+
+	/// `flower-lotus.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `green`
+	///   - `environmental`
+	///   - `spirituality`
+	static public let flower_lotus_duotone = PhosphorSymbol(identifier: "flower-lotus.duotone")
+
+	/// `flower-tulip.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `green`
+	///   - `environmental`
+	static public let flower_tulip_duotone = PhosphorSymbol(identifier: "flower-tulip.duotone")
+
+	/// `flying-saucer.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ufo`
+	///   - `space`
+	///   - `aliens`
+	///   - `extra terrestrial`
+	///   - `sci-fi`
+	static public let flying_saucer_duotone = PhosphorSymbol(identifier: "flying-saucer.duotone")
+
+	/// `folder-dashed.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `missing`
+	///   - `temporary`
+	///   - `dotted`
+	static public let folder_dashed_duotone = PhosphorSymbol(identifier: "folder-dashed.duotone")
+
+	/// `folder.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	static public let folder_duotone = PhosphorSymbol(identifier: "folder.duotone")
+
+	/// `folder-lock.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `private`
+	///   - `secure`
+	static public let folder_lock_duotone = PhosphorSymbol(identifier: "folder-lock.duotone")
+
+	/// `folder-minus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `delete`
+	///   - `write`
+	///   - `remove`
+	///   - `-`
+	static public let folder_minus_duotone = PhosphorSymbol(identifier: "folder-minus.duotone")
+
+	/// `folder-open.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `load`
+	static public let folder_open_duotone = PhosphorSymbol(identifier: "folder-open.duotone")
+
+	/// `folder-plus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `add`
+	///   - `new`
+	///   - `create`
+	///   - `+`
+	static public let folder_plus_duotone = PhosphorSymbol(identifier: "folder-plus.duotone")
+
+	/// `folder-simple-dashed.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `missing`
+	///   - `temporary`
+	///   - `dotted`
+	static public let folder_simple_dashed_duotone = PhosphorSymbol(identifier: "folder-simple-dashed.duotone")
+
+	/// `folder-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	static public let folder_simple_duotone = PhosphorSymbol(identifier: "folder-simple.duotone")
+
+	/// `folder-simple-lock.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `private`
+	///   - `secure`
+	static public let folder_simple_lock_duotone = PhosphorSymbol(identifier: "folder-simple-lock.duotone")
+
+	/// `folder-simple-minus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `delete`
+	///   - `write`
+	///   - `remove`
+	///   - `-`
+	static public let folder_simple_minus_duotone = PhosphorSymbol(identifier: "folder-simple-minus.duotone")
+
+	/// `folder-simple-plus.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `save`
+	///   - `write`
+	///   - `add`
+	///   - `new`
+	///   - `create`
+	///   - `+`
+	static public let folder_simple_plus_duotone = PhosphorSymbol(identifier: "folder-simple-plus.duotone")
+
+	/// `folder-simple-star.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `favorite`
+	///   - `starred`
+	static public let folder_simple_star_duotone = PhosphorSymbol(identifier: "folder-simple-star.duotone")
+
+	/// `folder-simple-user.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `personal`
+	static public let folder_simple_user_duotone = PhosphorSymbol(identifier: "folder-simple-user.duotone")
+
+	/// `folder-star.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `favorite`
+	///   - `starred`
+	static public let folder_star_duotone = PhosphorSymbol(identifier: "folder-star.duotone")
+
+	/// `folder-user.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `personal`
+	static public let folder_user_duotone = PhosphorSymbol(identifier: "folder-user.duotone")
+
+	/// `folders.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `directory`
+	///   - `directories`
+	///   - `files`
+	///   - `folders`
+	///   - `copy`
+	///   - `copied`
+	///   - `duplicated`
+	static public let folders_duotone = PhosphorSymbol(identifier: "folders.duotone")
+
+	/// `football.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `american football`
+	///   - `nfl`
+	static public let football_duotone = PhosphorSymbol(identifier: "football.duotone")
+
+	/// `football-helmet.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `american football`
+	///   - `nfl`
+	static public let football_helmet_duotone = PhosphorSymbol(identifier: "football-helmet.duotone")
+
+	/// `footprints.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `path`
+	///   - `trail`
+	///   - `walk`
+	///   - `route`
+	///   - `hike`
+	///   - `hiking`
+	static public let footprints_duotone = PhosphorSymbol(identifier: "footprints.duotone")
+
+	/// `fork-knife.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `meal`
+	///   - `eating`
+	///   - `restaurants`
+	///   - `dining`
+	///   - `utensils`
+	static public let fork_knife_duotone = PhosphorSymbol(identifier: "fork-knife.duotone")
+
+	/// `four-k.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `uhd`
+	///   - `resolution`
+	///   - `video`
+	static public let four_k_duotone = PhosphorSymbol(identifier: "four-k.duotone")
+
+	/// `frame-corners.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `expand`
+	///   - `fullscreen`
+	///   - `maximized`
+	///   - `resize`
+	///   - `windowed`
+	///   - `capture`
+	static public let frame_corners_duotone = PhosphorSymbol(identifier: "frame-corners.duotone")
+
+	/// `framer-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `interface`
+	///   - `ui`
+	///   - `motion`
+	///   - `prototype`
+	///   - `prototyping`
+	static public let framer_logo_duotone = PhosphorSymbol(identifier: "framer-logo.duotone")
+
+	/// `function.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `f-stop`
+	static public let function_duotone = PhosphorSymbol(identifier: "function.duotone")
+
+	/// `funnel.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `filters`
+	///   - `refine`
+	///   - `sorting`
+	static public let funnel_duotone = PhosphorSymbol(identifier: "funnel.duotone")
+
+	/// `funnel-simple.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `filters`
+	///   - `refine`
+	///   - `sorting`
+	static public let funnel_simple_duotone = PhosphorSymbol(identifier: "funnel-simple.duotone")
+
+	/// `funnel-simple-x.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `filters`
+	///   - `refine`
+	///   - `sorting`
+	static public let funnel_simple_x_duotone = PhosphorSymbol(identifier: "funnel-simple-x.duotone")
+
+	/// `funnel-x.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `filters`
+	///   - `refine`
+	///   - `sorting`
+	static public let funnel_x_duotone = PhosphorSymbol(identifier: "funnel-x.duotone")
+
+	/// `game-controller.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `gaming`
+	///   - `video games`
+	///   - `nintendo switch`
+	///   - `sony playstation`
+	///   - `microsoft xbox`
+	static public let game_controller_duotone = PhosphorSymbol(identifier: "game-controller.duotone")
+
+	/// `garage.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `buildings`
+	///   - `transportation`
+	static public let garage_duotone = PhosphorSymbol(identifier: "garage.duotone")
+
+	/// `gas-can.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `jerrycan`
+	///   - `petrol`
+	///   - `fuel`
+	///   - `gasoline`
+	static public let gas_can_duotone = PhosphorSymbol(identifier: "gas-can.duotone")
+
+	/// `gas-pump.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `gas station`
+	///   - `petrol`
+	///   - `fuel`
+	///   - `gasoline`
+	static public let gas_pump_duotone = PhosphorSymbol(identifier: "gas-pump.duotone")
+
+	/// `gauge.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dashboard`
+	///   - `meter`
+	///   - `speed`
+	///   - `speedometer`
+	///   - `odometer`
+	///   - `performance`
+	static public let gauge_duotone = PhosphorSymbol(identifier: "gauge.duotone")
+
+	/// `gavel.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `judge`
+	///   - `justice`
+	///   - `legal`
+	///   - `law`
+	///   - `court`
+	///   - `hammer`
+	///   - `government`
+	static public let gavel_duotone = PhosphorSymbol(identifier: "gavel.duotone")
+
+	/// `gear.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `8`
+	///   - `settings`
+	///   - `setup`
+	///   - `preferences`
+	///   - `cogs`
+	///   - `gears`
+	///   - `machinery`
+	///   - `mechanical`
+	static public let gear_duotone = PhosphorSymbol(identifier: "gear.duotone")
+
+	/// `gear-fine.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `setup`
+	///   - `preferences`
+	///   - `cogs`
+	///   - `gears`
+	///   - `machinery`
+	///   - `mechanical`
+	static public let gear_fine_duotone = PhosphorSymbol(identifier: "gear-fine.duotone")
+
+	/// `gear-six.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `6`
+	///   - `settings`
+	///   - `setup`
+	///   - `preferences`
+	///   - `cogs`
+	///   - `gears`
+	///   - `machinery`
+	///   - `mechanical`
+	static public let gear_six_duotone = PhosphorSymbol(identifier: "gear-six.duotone")
+
+	/// `gender-female.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `woman`
+	///   - `feminine`
+	///   - `venus`
+	static public let gender_female_duotone = PhosphorSymbol(identifier: "gender-female.duotone")
+
+	/// `gender-intersex.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `transgender`
+	///   - `non-binary`
+	static public let gender_intersex_duotone = PhosphorSymbol(identifier: "gender-intersex.duotone")
+
+	/// `gender-male.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `man`
+	///   - `masculine`
+	///   - `mars`
+	static public let gender_male_duotone = PhosphorSymbol(identifier: "gender-male.duotone")
+
+	/// `gender-neuter.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `agender`
+	///   - `non-binary`
+	///   - `asexual`
+	static public let gender_neuter_duotone = PhosphorSymbol(identifier: "gender-neuter.duotone")
+
+	/// `gender-nonbinary.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `intersex`
+	///   - `non-binary`
+	static public let gender_nonbinary_duotone = PhosphorSymbol(identifier: "gender-nonbinary.duotone")
+
+	/// `gender-transgender.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `intersex`
+	///   - `non-binary`
+	static public let gender_transgender_duotone = PhosphorSymbol(identifier: "gender-transgender.duotone")
+
+	/// `ghost.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `pac-man`
+	///   - `spirit`
+	///   - `scary`
+	///   - `halloween`
+	static public let ghost_duotone = PhosphorSymbol(identifier: "ghost.duotone")
+
+	/// `gif.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `gifs`
+	///   - `.gif`
+	///   - `giphy`
+	static public let gif_duotone = PhosphorSymbol(identifier: "gif.duotone")
+
+	/// `gift.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `presents`
+	///   - `holiday`
+	///   - `birthday`
+	static public let gift_duotone = PhosphorSymbol(identifier: "gift.duotone")
+
+	/// `git-branch.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `branches`
+	static public let git_branch_duotone = PhosphorSymbol(identifier: "git-branch.duotone")
+
+	/// `git-commit.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `commits`
+	static public let git_commit_duotone = PhosphorSymbol(identifier: "git-commit.duotone")
+
+	/// `git-diff.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `difference`
+	///   - `compare`
+	static public let git_diff_duotone = PhosphorSymbol(identifier: "git-diff.duotone")
+
+	/// `git-fork.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `split`
+	static public let git_fork_duotone = PhosphorSymbol(identifier: "git-fork.duotone")
+
+	/// `git-merge.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `split`
+	static public let git_merge_duotone = PhosphorSymbol(identifier: "git-merge.duotone")
+
+	/// `git-pull-request.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `github`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `merge request`
+	static public let git_pull_request_duotone = PhosphorSymbol(identifier: "git-pull-request.duotone")
+
+	/// `github-logo.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `octocat`
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `branches`
+	static public let github_logo_duotone = PhosphorSymbol(identifier: "github-logo.duotone")
+
+	/// `gitlab-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `branches`
+	static public let gitlab_logo_duotone = PhosphorSymbol(identifier: "gitlab-logo.duotone")
+
+	/// `gitlab-logo-simple.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `vcs`
+	///   - `source control`
+	///   - `version control`
+	///   - `versioning`
+	///   - `branches`
+	static public let gitlab_logo_simple_duotone = PhosphorSymbol(identifier: "gitlab-logo-simple.duotone")
+
+	/// `globe.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	///   - `internet`
+	static public let globe_duotone = PhosphorSymbol(identifier: "globe.duotone")
+
+	/// `globe-hemisphere-east.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	///   - `europe`
+	///   - `africa`
+	///   - `asia`
+	///   - `australia`
+	static public let globe_hemisphere_east_duotone = PhosphorSymbol(identifier: "globe-hemisphere-east.duotone")
+
+	/// `globe-hemisphere-west.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	///   - `north america`
+	///   - `south america`
+	static public let globe_hemisphere_west_duotone = PhosphorSymbol(identifier: "globe-hemisphere-west.duotone")
+
+	/// `globe-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	static public let globe_simple_duotone = PhosphorSymbol(identifier: "globe-simple.duotone")
+
+	/// `globe-simple-x.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	///   - `internet`
+	static public let globe_simple_x_duotone = PhosphorSymbol(identifier: "globe-simple-x.duotone")
+
+	/// `globe-stand.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	static public let globe_stand_duotone = PhosphorSymbol(identifier: "globe-stand.duotone")
+
+	/// `globe-x.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `world`
+	///   - `earth`
+	///   - `global`
+	///   - `planet`
+	///   - `circle`
+	///   - `round`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `languages`
+	///   - `country`
+	///   - `countries`
+	///   - `geography`
+	///   - `internet`
+	static public let globe_x_duotone = PhosphorSymbol(identifier: "globe-x.duotone")
+
+	/// `goggles.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `swim`
+	///   - `swimming`
+	///   - `sports`
+	///   - `exercise`
+	///   - `olympics`
+	///   - `aquatics`
+	static public let goggles_duotone = PhosphorSymbol(identifier: "goggles.duotone")
+
+	/// `golf.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `pga`
+	///   - `tee`
+	///   - `ball`
+	static public let golf_duotone = PhosphorSymbol(identifier: "golf.duotone")
+
+	/// `goodreads-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `books`
+	///   - `social media`
+	///   - `logos`
+	static public let goodreads_logo_duotone = PhosphorSymbol(identifier: "goodreads-logo.duotone")
+
+	/// `google-cardboard-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `virtual reality`
+	///   - `vr`
+	///   - `logos`
+	static public let google_cardboard_logo_duotone = PhosphorSymbol(identifier: "google-cardboard-logo.duotone")
+
+	/// `google-chrome-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `web browsers`
+	///   - `internet`
+	static public let google_chrome_logo_duotone = PhosphorSymbol(identifier: "google-chrome-logo.duotone")
+
+	/// `google-drive-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `cloud`
+	///   - `storage`
+	///   - `backup`
+	///   - `logos`
+	static public let google_drive_logo_duotone = PhosphorSymbol(identifier: "google-drive-logo.duotone")
+
+	/// `google-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `search engine`
+	///   - `phone`
+	///   - `mobile`
+	///   - `android`
+	static public let google_logo_duotone = PhosphorSymbol(identifier: "google-logo.duotone")
+
+	/// `google-photos-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `album`
+	///   - `pictures`
+	///   - `photography`
+	static public let google_photos_logo_duotone = PhosphorSymbol(identifier: "google-photos-logo.duotone")
+
+	/// `google-play-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `system`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `games`
+	///   - `apps`
+	///   - `applications`
+	///   - `play store`
+	///   - `app store`
+	///   - `phone`
+	///   - `mobile`
+	///   - `android`
+	static public let google_play_logo_duotone = PhosphorSymbol(identifier: "google-play-logo.duotone")
+
+	/// `google-podcasts-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `audio`
+	static public let google_podcasts_logo_duotone = PhosphorSymbol(identifier: "google-podcasts-logo.duotone")
+
+	/// `gps.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `geolocation`
+	///   - `location`
+	///   - `navigation`
+	static public let gps_duotone = PhosphorSymbol(identifier: "gps.duotone")
+
+	/// `gps-fix.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `geolocation`
+	///   - `location`
+	///   - `navigation`
+	static public let gps_fix_duotone = PhosphorSymbol(identifier: "gps-fix.duotone")
+
+	/// `gps-slash.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `geolocation`
+	///   - `location`
+	///   - `navigation`
+	///   - `disabled`
+	static public let gps_slash_duotone = PhosphorSymbol(identifier: "gps-slash.duotone")
+
+	/// `gradient.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `fade`
+	///   - `ombre`
+	///   - `opacity`
+	static public let gradient_duotone = PhosphorSymbol(identifier: "gradient.duotone")
+
+	/// `graduation-cap.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `classroom`
+	///   - `teacher`
+	///   - `education`
+	///   - `school`
+	///   - `college`
+	///   - `university`
+	///   - `degree`
+	///   - `graduate`
+	///   - `hat`
+	static public let graduation_cap_duotone = PhosphorSymbol(identifier: "graduation-cap.duotone")
+
+	/// `grains.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `wheat`
+	///   - `gluten`
+	///   - `farm`
+	///   - `farming`
+	///   - `agriculture`
+	static public let grains_duotone = PhosphorSymbol(identifier: "grains.duotone")
+
+	/// `grains-slash.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `gluten-free`
+	///   - `wheat`
+	///   - `gluten`
+	///   - `farm`
+	///   - `farming`
+	///   - `agriculture`
+	static public let grains_slash_duotone = PhosphorSymbol(identifier: "grains-slash.duotone")
+
+	/// `graph.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `nodes`
+	///   - `tree`
+	static public let graph_duotone = PhosphorSymbol(identifier: "graph.duotone")
+
+	/// `graphics-card.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `graphics card`
+	///   - `microchip`
+	///   - `computer`
+	///   - `circuit`
+	static public let graphics_card_duotone = PhosphorSymbol(identifier: "graphics-card.duotone")
+
+	/// `greater-than.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `>`
+	///   - `greater than`
+	///   - `gt`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let greater_than_duotone = PhosphorSymbol(identifier: "greater-than.duotone")
+
+	/// `greater-than-or-equal.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `≥`
+	///   - `greater than or equal`
+	///   - `gte`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let greater_than_or_equal_duotone = PhosphorSymbol(identifier: "greater-than-or-equal.duotone")
+
+	/// `grid-four.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `apps`
+	///   - `applications`
+	///   - `squares`
+	///   - `tiles`
+	///   - `cells`
+	///   - `tables`
+	///   - `tabular`
+	///   - `spreadsheets`
+	///   - `excel`
+	static public let grid_four_duotone = PhosphorSymbol(identifier: "grid-four.duotone")
+
+	/// `grid-nine.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `9`
+	///   - `apps`
+	///   - `applications`
+	///   - `squares`
+	///   - `tiles`
+	///   - `cells`
+	///   - `tables`
+	///   - `tabular`
+	///   - `spreadsheets`
+	///   - `excel`
+	static public let grid_nine_duotone = PhosphorSymbol(identifier: "grid-nine.duotone")
+
+	/// `guitar.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `instrument`
+	static public let guitar_duotone = PhosphorSymbol(identifier: "guitar.duotone")
+
+	/// `hair-dryer.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `blow dryer`
+	///   - `beauty`
+	///   - `grooming`
+	///   - `salon`
+	static public let hair_dryer_duotone = PhosphorSymbol(identifier: "hair-dryer.duotone")
+
+	/// `hamburger.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `fast food`
+	///   - `party`
+	///   - `places`
+	///   - `locations`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let hamburger_duotone = PhosphorSymbol(identifier: "hamburger.duotone")
+
+	/// `hammer.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `carpentry`
+	///   - `construction`
+	static public let hammer_duotone = PhosphorSymbol(identifier: "hammer.duotone")
+
+	/// `hand-arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `take`
+	///   - `receive`
+	///   - `remove`
+	///   - `withdraw`
+	///   - `emoji`
+	static public let hand_arrow_down_duotone = PhosphorSymbol(identifier: "hand-arrow-down.duotone")
+
+	/// `hand-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `give`
+	///   - `insert`
+	///   - `deposit`
+	///   - `donation`
+	///   - `emoji`
+	static public let hand_arrow_up_duotone = PhosphorSymbol(identifier: "hand-arrow-up.duotone")
+
+	/// `hand-coins.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `donation`
+	///   - `payment`
+	///   - `money`
+	///   - `paying`
+	///   - `purchase`
+	static public let hand_coins_duotone = PhosphorSymbol(identifier: "hand-coins.duotone")
+
+	/// `hand-deposit.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `give`
+	///   - `insert`
+	///   - `donation`
+	///   - `atm`
+	///   - `emoji`
+	static public let hand_deposit_duotone = PhosphorSymbol(identifier: "hand-deposit.duotone")
+
+	/// `hand.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `emoji`
+	///   - `backhand`
+	static public let hand_duotone = PhosphorSymbol(identifier: "hand.duotone")
+
+	/// `hand-eye.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `hamsa`
+	///   - `evil eye`
+	static public let hand_eye_duotone = PhosphorSymbol(identifier: "hand-eye.duotone")
+
+	/// `hand-fist.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `power`
+	///   - `protest`
+	///   - `blm`
+	static public let hand_fist_duotone = PhosphorSymbol(identifier: "hand-fist.duotone")
+
+	/// `hand-grabbing.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `emoji`
+	///   - `drag`
+	///   - `hold`
+	static public let hand_grabbing_duotone = PhosphorSymbol(identifier: "hand-grabbing.duotone")
+
+	/// `hand-heart.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `donation`
+	///   - `care`
+	///   - `emoji`
+	static public let hand_heart_duotone = PhosphorSymbol(identifier: "hand-heart.duotone")
+
+	/// `hand-palm.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `emoji`
+	///   - `palm`
+	///   - `stop`
+	///   - `wait`
+	///   - `hamsa`
+	///   - `5`
+	static public let hand_palm_duotone = PhosphorSymbol(identifier: "hand-palm.duotone")
+
+	/// `hand-peace.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `victory`
+	static public let hand_peace_duotone = PhosphorSymbol(identifier: "hand-peace.duotone")
+
+	/// `hand-pointing.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `emoji`
+	///   - `fingers`
+	///   - `clicks`
+	///   - `mouse`
+	static public let hand_pointing_duotone = PhosphorSymbol(identifier: "hand-pointing.duotone")
+
+	/// `hand-soap.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `dispenser`
+	///   - `pump`
+	///   - `sanitizer`
+	///   - `disinfectant`
+	///   - `lotion`
+	///   - `bottle`
+	static public let hand_soap_duotone = PhosphorSymbol(identifier: "hand-soap.duotone")
+
+	/// `hand-swipe-left.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `gesture`
+	static public let hand_swipe_left_duotone = PhosphorSymbol(identifier: "hand-swipe-left.duotone")
+
+	/// `hand-swipe-right.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `gesture`
+	static public let hand_swipe_right_duotone = PhosphorSymbol(identifier: "hand-swipe-right.duotone")
+
+	/// `hand-tap.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pointers`
+	///   - `cursors`
+	///   - `gesture`
+	static public let hand_tap_duotone = PhosphorSymbol(identifier: "hand-tap.duotone")
+
+	/// `hand-waving.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `palm`
+	///   - `wave`
+	///   - `hello`
+	///   - `goodbye`
+	static public let hand_waving_duotone = PhosphorSymbol(identifier: "hand-waving.duotone")
+
+	/// `hand-withdraw.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `take`
+	///   - `remove`
+	///   - `withdrawal`
+	///   - `atm`
+	///   - `emoji`
+	static public let hand_withdraw_duotone = PhosphorSymbol(identifier: "hand-withdraw.duotone")
+
+	/// `handbag.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcases`
+	///   - `valises`
+	///   - `baggage`
+	///   - `purses`
+	static public let handbag_duotone = PhosphorSymbol(identifier: "handbag.duotone")
+
+	/// `handbag-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcases`
+	///   - `valises`
+	///   - `baggage`
+	///   - `purses`
+	static public let handbag_simple_duotone = PhosphorSymbol(identifier: "handbag-simple.duotone")
+
+	/// `hands-clapping.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `clap`
+	///   - `applause`
+	static public let hands_clapping_duotone = PhosphorSymbol(identifier: "hands-clapping.duotone")
+
+	/// `hands-praying.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `religion`
+	///   - `worship`
+	///   - `prayer`
+	///   - `thanks`
+	///   - `thank you`
+	static public let hands_praying_duotone = PhosphorSymbol(identifier: "hands-praying.duotone")
+
+	/// `handshake.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `emoji`
+	///   - `deal`
+	///   - `agreement`
+	static public let handshake_duotone = PhosphorSymbol(identifier: "handshake.duotone")
+
+	/// `hard-drive.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `hard disk`
+	///   - `storage`
+	///   - `hdd`
+	///   - `servers`
+	///   - `databases`
+	static public let hard_drive_duotone = PhosphorSymbol(identifier: "hard-drive.duotone")
+
+	/// `hard-drives.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `hard disk`
+	///   - `storage`
+	///   - `hdd`
+	///   - `servers`
+	///   - `databases`
+	static public let hard_drives_duotone = PhosphorSymbol(identifier: "hard-drives.duotone")
+
+	/// `hard-hat.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `safety`
+	///   - `construction`
+	///   - `industry`
+	///   - `helmet`
+	///   - `ppe`
+	static public let hard_hat_duotone = PhosphorSymbol(identifier: "hard-hat.duotone")
+
+	/// `hash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `hashtag`
+	///   - `octothorpe`
+	///   - `pound sign`
+	///   - `number sign`
+	///   - `tic-tac-toe`
+	///   - `symbol`
+	static public let hash_duotone = PhosphorSymbol(identifier: "hash.duotone")
+
+	/// `hash-straight.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `hashtag`
+	///   - `octothorpe`
+	///   - `pound sign`
+	///   - `number sign`
+	///   - `tic-tac-toe`
+	///   - `symbol`
+	static public let hash_straight_duotone = PhosphorSymbol(identifier: "hash-straight.duotone")
+
+	/// `head-circuit.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `automaton`
+	///   - `artificial intelligence`
+	///   - `ai`
+	static public let head_circuit_duotone = PhosphorSymbol(identifier: "head-circuit.duotone")
+
+	/// `headlights.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `brights`
+	///   - `high beams`
+	static public let headlights_duotone = PhosphorSymbol(identifier: "headlights.duotone")
+
+	/// `headphones.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `listening`
+	static public let headphones_duotone = PhosphorSymbol(identifier: "headphones.duotone")
+
+	/// `headset.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `listening`
+	///   - `gaming`
+	///   - `voice chat`
+	///   - `microphone`
+	///   - `headphones`
+	///   - `support`
+	///   - `customer-service`
+	///   - `call-center`
+	static public let headset_duotone = PhosphorSymbol(identifier: "headset.duotone")
+
+	/// `heart-break.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `love`
+	///   - `hate`
+	///   - `crack`
+	///   - `split`
+	///   - `divorce`
+	///   - `emoji`
+	static public let heart_break_duotone = PhosphorSymbol(identifier: "heart-break.duotone")
+
+	/// `heart.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `wellness`
+	///   - `love`
+	///   - `healthy`
+	///   - `like`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `suits`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `emoji`
+	static public let heart_duotone = PhosphorSymbol(identifier: "heart.duotone")
+
+	/// `heart-half.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `wellness`
+	///   - `love`
+	///   - `healthy`
+	///   - `like`
+	///   - `favorites`
+	///   - `favorited`
+	static public let heart_half_duotone = PhosphorSymbol(identifier: "heart-half.duotone")
+
+	/// `heart-straight-break.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `love`
+	///   - `hate`
+	///   - `crack`
+	///   - `split`
+	///   - `divorce`
+	///   - `emoji`
+	static public let heart_straight_break_duotone = PhosphorSymbol(identifier: "heart-straight-break.duotone")
+
+	/// `heart-straight.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `wellness`
+	///   - `love`
+	///   - `healthy`
+	///   - `like`
+	///   - `favorites`
+	///   - `favorited`
+	///   - `suits`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	///   - `emoji`
+	static public let heart_straight_duotone = PhosphorSymbol(identifier: "heart-straight.duotone")
+
+	/// `heartbeat.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wellness`
+	///   - `healthy`
+	///   - `ecg`
+	///   - `ekg`
+	///   - `vitals`
+	///   - `monitor`
+	static public let heartbeat_duotone = PhosphorSymbol(identifier: "heartbeat.duotone")
+
+	/// `hexagon.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `6`
+	///   - `shapes`
+	///   - `polygons`
+	static public let hexagon_duotone = PhosphorSymbol(identifier: "hexagon.duotone")
+
+	/// `high-definition.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `hd`
+	///   - `resolution`
+	///   - `video`
+	static public let high_definition_duotone = PhosphorSymbol(identifier: "high-definition.duotone")
+
+	/// `high-heel.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `pumps`
+	///   - `clothes`
+	///   - `clothing`
+	///   - `shoes`
+	static public let high_heel_duotone = PhosphorSymbol(identifier: "high-heel.duotone")
+
+	/// `highlighter-circle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `drawing`
+	static public let highlighter_circle_duotone = PhosphorSymbol(identifier: "highlighter-circle.duotone")
+
+	/// `highlighter.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `marker`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	static public let highlighter_duotone = PhosphorSymbol(identifier: "highlighter.duotone")
+
+	/// `hockey.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `nhl`
+	///   - `stick`
+	///   - `puck`
+	static public let hockey_duotone = PhosphorSymbol(identifier: "hockey.duotone")
+
+	/// `hoodie.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `sweatshirt`
+	static public let hoodie_duotone = PhosphorSymbol(identifier: "hoodie.duotone")
+
+	/// `horse.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `animals`
+	///   - `equestrian`
+	///   - `chess`
+	///   - `knight`
+	///   - `sports`
+	static public let horse_duotone = PhosphorSymbol(identifier: "horse.duotone")
+
+	/// `hospital.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `places`
+	///   - `locations`
+	///   - `medical`
+	///   - `medicine`
+	///   - `emergency`
+	///   - `doctor`
+	///   - `buildings`
+	static public let hospital_duotone = PhosphorSymbol(identifier: "hospital.duotone")
+
+	/// `hourglass.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_duotone = PhosphorSymbol(identifier: "hourglass.duotone")
+
+	/// `hourglass-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_high_duotone = PhosphorSymbol(identifier: "hourglass-high.duotone")
+
+	/// `hourglass-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_low_duotone = PhosphorSymbol(identifier: "hourglass-low.duotone")
+
+	/// `hourglass-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_medium_duotone = PhosphorSymbol(identifier: "hourglass-medium.duotone")
+
+	/// `hourglass-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_simple_duotone = PhosphorSymbol(identifier: "hourglass-simple.duotone")
+
+	/// `hourglass-simple-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_simple_high_duotone = PhosphorSymbol(identifier: "hourglass-simple-high.duotone")
+
+	/// `hourglass-simple-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_simple_low_duotone = PhosphorSymbol(identifier: "hourglass-simple-low.duotone")
+
+	/// `hourglass-simple-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarms`
+	///   - `clock`
+	///   - `schedule`
+	///   - `events`
+	///   - `waiting`
+	///   - `progress`
+	static public let hourglass_simple_medium_duotone = PhosphorSymbol(identifier: "hourglass-simple-medium.duotone")
+
+	/// `house.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `homes`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let house_duotone = PhosphorSymbol(identifier: "house.duotone")
+
+	/// `house-line.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `homes`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let house_line_duotone = PhosphorSymbol(identifier: "house-line.duotone")
+
+	/// `house-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `homes`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let house_simple_duotone = PhosphorSymbol(identifier: "house-simple.duotone")
+
+	/// `hurricane.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `cyclone`
+	///   - `storm`
+	///   - `disaster`
+	///   - `wind`
+	static public let hurricane_duotone = PhosphorSymbol(identifier: "hurricane.duotone")
+
+	/// `ice-cream.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `dessert`
+	///   - `cone`
+	static public let ice_cream_duotone = PhosphorSymbol(identifier: "ice-cream.duotone")
+
+	/// `identification-badge.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `license`
+	///   - `credentials`
+	///   - `nametag`
+	///   - `user`
+	///   - `verification`
+	static public let identification_badge_duotone = PhosphorSymbol(identifier: "identification-badge.duotone")
+
+	/// `identification-card.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `license`
+	///   - `badge`
+	///   - `credentials`
+	///   - `nametag`
+	///   - `user`
+	///   - `verification`
+	static public let identification_card_duotone = PhosphorSymbol(identifier: "identification-card.duotone")
+
+	/// `image-broken.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `photographs`
+	///   - `photography`
+	///   - `wallpapers`
+	///   - `gallery`
+	///   - `landscape`
+	///   - `missing`
+	///   - `error`
+	///   - `404`
+	static public let image_broken_duotone = PhosphorSymbol(identifier: "image-broken.duotone")
+
+	/// `image.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `photographs`
+	///   - `photography`
+	///   - `wallpapers`
+	///   - `gallery`
+	///   - `landscape`
+	static public let image_duotone = PhosphorSymbol(identifier: "image.duotone")
+
+	/// `image-square.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `photographs`
+	///   - `photography`
+	///   - `wallpapers`
+	///   - `gallery`
+	///   - `landscape`
+	static public let image_square_duotone = PhosphorSymbol(identifier: "image-square.duotone")
+
+	/// `images.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `photographs`
+	///   - `photography`
+	///   - `wallpapers`
+	///   - `gallery`
+	///   - `landscape`
+	///   - `album`
+	static public let images_duotone = PhosphorSymbol(identifier: "images.duotone")
+
+	/// `images-square.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `photographs`
+	///   - `photography`
+	///   - `wallpapers`
+	///   - `gallery`
+	///   - `landscape`
+	///   - `album`
+	static public let images_square_duotone = PhosphorSymbol(identifier: "images-square.duotone")
+
+	/// `infinity.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `infinite`
+	///   - `lemniscate`
+	///   - `figure-eight`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `∞`
+	static public let infinity_duotone = PhosphorSymbol(identifier: "infinity.duotone")
+
+	/// `info.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `information`
+	///   - `help`
+	///   - `support`
+	static public let info_duotone = PhosphorSymbol(identifier: "info.duotone")
+
+	/// `instagram-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `social media`
+	///   - `photography`
+	///   - `camera`
+	static public let instagram_logo_duotone = PhosphorSymbol(identifier: "instagram-logo.duotone")
+
+	/// `intersect.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `join`
+	///   - `union`
+	///   - `merge`
+	///   - `combine`
+	///   - `intersecting`
+	///   - `intersection`
+	static public let intersect_duotone = PhosphorSymbol(identifier: "intersect.duotone")
+
+	/// `intersect-square.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `venn-diagram`
+	///   - `join`
+	///   - `intersection`
+	static public let intersect_square_duotone = PhosphorSymbol(identifier: "intersect-square.duotone")
+
+	/// `intersect-three.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `venn-diagram`
+	///   - `join`
+	///   - `intersection`
+	///   - `gender`
+	///   - `pronouns`
+	static public let intersect_three_duotone = PhosphorSymbol(identifier: "intersect-three.duotone")
+
+	/// `intersection.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `∩`
+	///   - `intersection`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let intersection_duotone = PhosphorSymbol(identifier: "intersection.duotone")
+
+	/// `invoice.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `receipt`
+	///   - `expense`
+	///   - `bill`
+	static public let invoice_duotone = PhosphorSymbol(identifier: "invoice.duotone")
+
+	/// `island.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `geography`
+	///   - `beach`
+	///   - `ocean`
+	///   - `tropical`
+	///   - `palm`
+	///   - `vacation`
+	///   - `trip`
+	///   - `locations`
+	///   - `places`
+	static public let island_duotone = PhosphorSymbol(identifier: "island.duotone")
+
+	/// `jar.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `mason jar`
+	///   - `kitchen`
+	///   - `pantry`
+	///   - `canning`
+	///   - `preserves`
+	///   - `food`
+	///   - `condiments`
+	static public let jar_duotone = PhosphorSymbol(identifier: "jar.duotone")
+
+	/// `jar-label.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `mason jar`
+	///   - `kitchen`
+	///   - `pantry`
+	///   - `canning`
+	///   - `preserves`
+	///   - `food`
+	///   - `condiments`
+	static public let jar_label_duotone = PhosphorSymbol(identifier: "jar-label.duotone")
+
+	/// `jeep.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `suv`
+	///   - `cars`
+	///   - `trucks`
+	///   - `wrangler`
+	///   - `off-road`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let jeep_duotone = PhosphorSymbol(identifier: "jeep.duotone")
+
+	/// `joystick.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `gaming`
+	///   - `game controller`
+	///   - `video games`
+	///   - `arcade game`
+	///   - `atari`
+	static public let joystick_duotone = PhosphorSymbol(identifier: "joystick.duotone")
+
+	/// `kanban.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `scheduling`
+	///   - `tasks`
+	///   - `project management`
+	///   - `process`
+	///   - `lean`
+	///   - `agile`
+	static public let kanban_duotone = PhosphorSymbol(identifier: "kanban.duotone")
+
+	/// `key.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let key_duotone = PhosphorSymbol(identifier: "key.duotone")
+
+	/// `key-return.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `keyboard`
+	///   - `enter`
+	static public let key_return_duotone = PhosphorSymbol(identifier: "key-return.duotone")
+
+	/// `keyboard.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `typing`
+	///   - `type`
+	///   - `keys`
+	///   - `input`
+	static public let keyboard_duotone = PhosphorSymbol(identifier: "keyboard.duotone")
+
+	/// `keyhole.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `lock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let keyhole_duotone = PhosphorSymbol(identifier: "keyhole.duotone")
+
+	/// `knife.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `food`
+	///   - `meal`
+	///   - `eating`
+	///   - `restaurants`
+	///   - `dining`
+	///   - `utensils`
+	static public let knife_duotone = PhosphorSymbol(identifier: "knife.duotone")
+
+	/// `ladder.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stairs`
+	///   - `steps`
+	///   - `climbing`
+	static public let ladder_duotone = PhosphorSymbol(identifier: "ladder.duotone")
+
+	/// `ladder-simple.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stairs`
+	///   - `steps`
+	///   - `climbing`
+	static public let ladder_simple_duotone = PhosphorSymbol(identifier: "ladder-simple.duotone")
+
+	/// `lamp.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `light`
+	///   - `furniture`
+	///   - `appliances`
+	static public let lamp_duotone = PhosphorSymbol(identifier: "lamp.duotone")
+
+	/// `lamp-pendant.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `light`
+	///   - `furniture`
+	///   - `appliances`
+	static public let lamp_pendant_duotone = PhosphorSymbol(identifier: "lamp-pendant.duotone")
+
+	/// `laptop.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `computer`
+	///   - `notebook`
+	///   - `pc`
+	///   - `macbook`
+	static public let laptop_duotone = PhosphorSymbol(identifier: "laptop.duotone")
+
+	/// `lasso.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `select`
+	///   - `selection`
+	///   - `loop`
+	///   - `rope`
+	///   - `cowboy`
+	static public let lasso_duotone = PhosphorSymbol(identifier: "lasso.duotone")
+
+	/// `lastfm-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `scrobble`
+	///   - `music`
+	///   - `social media`
+	static public let lastfm_logo_duotone = PhosphorSymbol(identifier: "lastfm-logo.duotone")
+
+	/// `layout.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `wireframe`
+	///   - `sidebar`
+	///   - `ui`
+	///   - `interface`
+	static public let layout_duotone = PhosphorSymbol(identifier: "layout.duotone")
+
+	/// `leaf.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `trees`
+	///   - `branches`
+	///   - `leaves`
+	///   - `nodes`
+	///   - `green`
+	///   - `environmental`
+	static public let leaf_duotone = PhosphorSymbol(identifier: "leaf.duotone")
+
+	/// `lectern.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `lecture`
+	///   - `podium`
+	///   - `pulpit`
+	///   - `stand`
+	///   - `speech`
+	///   - `presentation`
+	///   - `keynote`
+	static public let lectern_duotone = PhosphorSymbol(identifier: "lectern.duotone")
+
+	/// `lego.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `toys`
+	///   - `blocks`
+	///   - `bricks`
+	static public let lego_duotone = PhosphorSymbol(identifier: "lego.duotone")
+
+	/// `lego-smiley.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `toys`
+	///   - `blocks`
+	///   - `bricks`
+	static public let lego_smiley_duotone = PhosphorSymbol(identifier: "lego-smiley.duotone")
+
+	/// `less-than.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `<`
+	///   - `less than`
+	///   - `lt`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let less_than_duotone = PhosphorSymbol(identifier: "less-than.duotone")
+
+	/// `less-than-or-equal.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `≤`
+	///   - `less than or equal`
+	///   - `lte`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let less_than_or_equal_duotone = PhosphorSymbol(identifier: "less-than-or-equal.duotone")
+
+	/// `letter-circle-h.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `map`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `hospital`
+	///   - `letter`
+	///   - `glyph`
+	///   - `character`
+	static public let letter_circle_h_duotone = PhosphorSymbol(identifier: "letter-circle-h.duotone")
+
+	/// `letter-circle-p.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `map`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `parking lot`
+	///   - `valet`
+	///   - `vehicles`
+	///   - `letter`
+	///   - `glyph`
+	///   - `character`
+	static public let letter_circle_p_duotone = PhosphorSymbol(identifier: "letter-circle-p.duotone")
+
+	/// `letter-circle-v.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `design`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `vegan`
+	///   - `letter`
+	///   - `glyph`
+	///   - `character`
+	static public let letter_circle_v_duotone = PhosphorSymbol(identifier: "letter-circle-v.duotone")
+
+	/// `lifebuoy.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `lifebelt`
+	///   - `lifesaver`
+	///   - `safety`
+	///   - `help`
+	///   - `support`
+	///   - `nautical`
+	///   - `boats`
+	///   - `ships`
+	static public let lifebuoy_duotone = PhosphorSymbol(identifier: "lifebuoy.duotone")
+
+	/// `lightbulb.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `flashlight`
+	///   - `bulbs`
+	///   - `lighting`
+	///   - `led`
+	///   - `energy`
+	///   - `idea`
+	static public let lightbulb_duotone = PhosphorSymbol(identifier: "lightbulb.duotone")
+
+	/// `lightbulb-filament.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `flashlight`
+	///   - `bulbs`
+	///   - `lighting`
+	///   - `led`
+	///   - `energy`
+	///   - `idea`
+	static public let lightbulb_filament_duotone = PhosphorSymbol(identifier: "lightbulb-filament.duotone")
+
+	/// `lighthouse.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `buildings`
+	///   - `nautical`
+	///   - `navigation`
+	///   - `boats`
+	///   - `ships`
+	///   - `safety`
+	static public let lighthouse_duotone = PhosphorSymbol(identifier: "lighthouse.duotone")
+
+	/// `lightning-a.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `flash`
+	///   - `auto`
+	static public let lightning_a_duotone = PhosphorSymbol(identifier: "lightning-a.duotone")
+
+	/// `lightning.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `stormy`
+	///   - `thunderstorm`
+	///   - `thunderbolt`
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `electricity`
+	///   - `flash`
+	static public let lightning_duotone = PhosphorSymbol(identifier: "lightning.duotone")
+
+	/// `lightning-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `thunderbolt`
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `power`
+	///   - `electricity`
+	///   - `disabled`
+	///   - `flash`
+	static public let lightning_slash_duotone = PhosphorSymbol(identifier: "lightning-slash.duotone")
+
+	/// `line-segment.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `drawing`
+	///   - `path`
+	///   - `pen`
+	///   - `vector`
+	static public let line_segment_duotone = PhosphorSymbol(identifier: "line-segment.duotone")
+
+	/// `line-segments.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `drawing`
+	///   - `path`
+	///   - `pen`
+	///   - `vector`
+	static public let line_segments_duotone = PhosphorSymbol(identifier: "line-segments.duotone")
+
+	/// `line-vertical.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `bar`
+	///   - `pipe`
+	///   - `|`
+	///   - `divider. symbol`
+	static public let line_vertical_duotone = PhosphorSymbol(identifier: "line-vertical.duotone")
+
+	/// `link-break.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	///   - `errors`
+	///   - `broken`
+	static public let link_break_duotone = PhosphorSymbol(identifier: "link-break.duotone")
+
+	/// `link.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	static public let link_duotone = PhosphorSymbol(identifier: "link.duotone")
+
+	/// `link-simple-break.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	///   - `errors`
+	///   - `broken`
+	static public let link_simple_break_duotone = PhosphorSymbol(identifier: "link-simple-break.duotone")
+
+	/// `link-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	static public let link_simple_duotone = PhosphorSymbol(identifier: "link-simple.duotone")
+
+	/// `link-simple-horizontal-break.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	///   - `errors`
+	///   - `broken`
+	static public let link_simple_horizontal_break_duotone = PhosphorSymbol(identifier: "link-simple-horizontal-break.duotone")
+
+	/// `link-simple-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `anchor`
+	///   - `hyperlink`
+	///   - `hypertext`
+	///   - `chains`
+	///   - `chained`
+	static public let link_simple_horizontal_duotone = PhosphorSymbol(identifier: "link-simple-horizontal.duotone")
+
+	/// `linkedin-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `jobs`
+	///   - `employment`
+	///   - `social media`
+	static public let linkedin_logo_duotone = PhosphorSymbol(identifier: "linkedin-logo.duotone")
+
+	/// `linktree-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `social media`
+	///   - `links`
+	static public let linktree_logo_duotone = PhosphorSymbol(identifier: "linktree-logo.duotone")
+
+	/// `linux-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `penguin`
+	///   - `computer`
+	///   - `animals`
+	static public let linux_logo_duotone = PhosphorSymbol(identifier: "linux-logo.duotone")
+
+	/// `list-bullets.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `ul`
+	///   - `unordered list`
+	///   - `bulleted list`
+	///   - `checklist`
+	static public let list_bullets_duotone = PhosphorSymbol(identifier: "list-bullets.duotone")
+
+	/// `list-checks.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `checklist`
+	///   - `todo`
+	static public let list_checks_duotone = PhosphorSymbol(identifier: "list-checks.duotone")
+
+	/// `list-dashes.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `ul`
+	///   - `unordered list`
+	///   - `dashed list`
+	///   - `checklist`
+	static public let list_dashes_duotone = PhosphorSymbol(identifier: "list-dashes.duotone")
+
+	/// `list.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `hamburger menu`
+	///   - `overflow menu`
+	///   - `sidebar`
+	///   - `3`
+	///   - `ul`
+	///   - `ol`
+	///   - `unordered list`
+	///   - `ordered list`
+	///   - `checklist`
+	///   - `lines`
+	static public let list_duotone = PhosphorSymbol(identifier: "list.duotone")
+
+	/// `list-heart.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `wishlist`
+	///   - `liked`
+	static public let list_heart_duotone = PhosphorSymbol(identifier: "list-heart.duotone")
+
+	/// `list-magnifying-glass.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `search`
+	///   - `find`
+	///   - `locate`
+	///   - `query`
+	///   - `inspect`
+	static public let list_magnifying_glass_duotone = PhosphorSymbol(identifier: "list-magnifying-glass.duotone")
+
+	/// `list-numbers.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `ol`
+	///   - `ordered list`
+	///   - `numbered list`
+	///   - `checklist`
+	static public let list_numbers_duotone = PhosphorSymbol(identifier: "list-numbers.duotone")
+
+	/// `list-plus.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `ul`
+	///   - `ol`
+	///   - `unordered list`
+	///   - `ordered list`
+	///   - `checklist`
+	///   - `add`
+	///   - `+`
+	static public let list_plus_duotone = PhosphorSymbol(identifier: "list-plus.duotone")
+
+	/// `list-star.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `wishlist`
+	///   - `liked`
+	static public let list_star_duotone = PhosphorSymbol(identifier: "list-star.duotone")
+
+	/// `lock.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_duotone = PhosphorSymbol(identifier: "lock.duotone")
+
+	/// `lock-key.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_key_duotone = PhosphorSymbol(identifier: "lock-key.duotone")
+
+	/// `lock-key-open.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `unsecured`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `login`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `privacy`
+	static public let lock_key_open_duotone = PhosphorSymbol(identifier: "lock-key-open.duotone")
+
+	/// `lock-laminated.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_laminated_duotone = PhosphorSymbol(identifier: "lock-laminated.duotone")
+
+	/// `lock-laminated-open.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `unsecured`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `login`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_laminated_open_duotone = PhosphorSymbol(identifier: "lock-laminated-open.duotone")
+
+	/// `lock-open.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `unsecured`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `login`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `privacy`
+	static public let lock_open_duotone = PhosphorSymbol(identifier: "lock-open.duotone")
+
+	/// `lock-simple.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_simple_duotone = PhosphorSymbol(identifier: "lock-simple.duotone")
+
+	/// `lock-simple-open.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `padlock`
+	///   - `security`
+	///   - `unsecured`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `login`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `privacy`
+	///   - `private`
+	static public let lock_simple_open_duotone = PhosphorSymbol(identifier: "lock-simple-open.duotone")
+
+	/// `lockers.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `locker room`
+	///   - `gym`
+	///   - `storage`
+	static public let lockers_duotone = PhosphorSymbol(identifier: "lockers.duotone")
+
+	/// `log.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `tree`
+	///   - `stump`
+	///   - `stick`
+	///   - `branch`
+	static public let log_duotone = PhosphorSymbol(identifier: "log.duotone")
+
+	/// `magic-wand.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `selection`
+	///   - `wizard`
+	///   - `games`
+	static public let magic_wand_duotone = PhosphorSymbol(identifier: "magic-wand.duotone")
+
+	/// `magnet.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `magnetism`
+	///   - `science`
+	///   - `physics`
+	static public let magnet_duotone = PhosphorSymbol(identifier: "magnet.duotone")
+
+	/// `magnet-straight.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `magnetism`
+	///   - `science`
+	///   - `physics`
+	static public let magnet_straight_duotone = PhosphorSymbol(identifier: "magnet-straight.duotone")
+
+	/// `magnifying-glass.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `search`
+	///   - `find`
+	///   - `locate`
+	///   - `query`
+	///   - `inspect`
+	static public let magnifying_glass_duotone = PhosphorSymbol(identifier: "magnifying-glass.duotone")
+
+	/// `magnifying-glass-minus.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `search`
+	///   - `find`
+	///   - `locate`
+	///   - `query`
+	///   - `inspect`
+	///   - `zoom out`
+	///   - `-`
+	static public let magnifying_glass_minus_duotone = PhosphorSymbol(identifier: "magnifying-glass-minus.duotone")
+
+	/// `magnifying-glass-plus.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `search`
+	///   - `find`
+	///   - `locate`
+	///   - `query`
+	///   - `inspect`
+	///   - `zoom in`
+	///   - `+`
+	static public let magnifying_glass_plus_duotone = PhosphorSymbol(identifier: "magnifying-glass-plus.duotone")
+
+	/// `mailbox.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `email`
+	///   - `letters`
+	///   - `messaging`
+	///   - `post`
+	static public let mailbox_duotone = PhosphorSymbol(identifier: "mailbox.duotone")
+
+	/// `map-pin-area.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_area_duotone = PhosphorSymbol(identifier: "map-pin-area.duotone")
+
+	/// `map-pin.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_duotone = PhosphorSymbol(identifier: "map-pin.duotone")
+
+	/// `map-pin-line.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_line_duotone = PhosphorSymbol(identifier: "map-pin-line.duotone")
+
+	/// `map-pin-plus.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `add`
+	///   - `point of interest`
+	static public let map_pin_plus_duotone = PhosphorSymbol(identifier: "map-pin-plus.duotone")
+
+	/// `map-pin-simple-area.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_simple_area_duotone = PhosphorSymbol(identifier: "map-pin-simple-area.duotone")
+
+	/// `map-pin-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_simple_duotone = PhosphorSymbol(identifier: "map-pin-simple.duotone")
+
+	/// `map-pin-simple-line.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `markers`
+	///   - `pins`
+	///   - `locations`
+	///   - `poi`
+	///   - `point of interest`
+	static public let map_pin_simple_line_duotone = PhosphorSymbol(identifier: "map-pin-simple-line.duotone")
+
+	/// `map-trifold.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `maps`
+	///   - `places`
+	///   - `locations`
+	///   - `cartography`
+	///   - `geography`
+	static public let map_trifold_duotone = PhosphorSymbol(identifier: "map-trifold.duotone")
+
+	/// `markdown-logo.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `office`
+	///   - `media`
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `markup`
+	///   - `editor`
+	///   - `.md`
+	static public let markdown_logo_duotone = PhosphorSymbol(identifier: "markdown-logo.duotone")
+
+	/// `marker-circle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `drawing`
+	static public let marker_circle_duotone = PhosphorSymbol(identifier: "marker-circle.duotone")
+
+	/// `martini.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `glass`
+	///   - `drinks`
+	///   - `beverages`
+	///   - `cocktails`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let martini_duotone = PhosphorSymbol(identifier: "martini.duotone")
+
+	/// `mask-happy.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `theater`
+	///   - `costume`
+	///   - `smile`
+	///   - `smiling`
+	///   - `thalia`
+	static public let mask_happy_duotone = PhosphorSymbol(identifier: "mask-happy.duotone")
+
+	/// `mask-sad.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `theater`
+	///   - `costume`
+	///   - `cry`
+	///   - `crying`
+	///   - `melpomene`
+	static public let mask_sad_duotone = PhosphorSymbol(identifier: "mask-sad.duotone")
+
+	/// `mastodon-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `fediverse`
+	///   - `social media`
+	///   - `decentralized`
+	static public let mastodon_logo_duotone = PhosphorSymbol(identifier: "mastodon-logo.duotone")
+
+	/// `math-operations.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `addition`
+	///   - `sum`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `multiply`
+	///   - `multiplication`
+	///   - `product`
+	///   - `divide`
+	///   - `division`
+	///   - `divisor`
+	///   - `dividend`
+	///   - `quotient`
+	///   - `equals`
+	///   - `equality`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `+`
+	///   - `-`
+	///   - `±`
+	///   - `×`
+	///   - `÷`
+	///   - `=`
+	static public let math_operations_duotone = PhosphorSymbol(identifier: "math-operations.duotone")
+
+	/// `matrix-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `matrix protocol`
+	///   - `brands`
+	///   - `logos`
+	static public let matrix_logo_duotone = PhosphorSymbol(identifier: "matrix-logo.duotone")
+
+	/// `medal.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `ribbons`
+	///   - `winning`
+	///   - `victory`
+	///   - `awards`
+	///   - `rosette`
+	static public let medal_duotone = PhosphorSymbol(identifier: "medal.duotone")
+
+	/// `medal-military.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `ribbons`
+	///   - `winning`
+	///   - `victory`
+	///   - `awards`
+	///   - `military`
+	static public let medal_military_duotone = PhosphorSymbol(identifier: "medal-military.duotone")
+
+	/// `medium-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `reading`
+	///   - `writing`
+	///   - `news`
+	///   - `social media`
+	static public let medium_logo_duotone = PhosphorSymbol(identifier: "medium-logo.duotone")
+
+	/// `megaphone.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bullhorn`
+	///   - `announcements`
+	///   - `loudspeaker`
+	///   - `broadcast`
+	static public let megaphone_duotone = PhosphorSymbol(identifier: "megaphone.duotone")
+
+	/// `megaphone-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bullhorn`
+	///   - `announcements`
+	///   - `loudspeaker`
+	///   - `broadcast`
+	static public let megaphone_simple_duotone = PhosphorSymbol(identifier: "megaphone-simple.duotone")
+
+	/// `member-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `∈`
+	///   - `is element of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let member_of_duotone = PhosphorSymbol(identifier: "member-of.duotone")
+
+	/// `memory.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `ram`
+	///   - `microchip`
+	///   - `computer`
+	///   - `circuit`
+	///   - `electronics`
+	static public let memory_duotone = PhosphorSymbol(identifier: "memory.duotone")
+
+	/// `messenger-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `facebook`
+	///   - `social media`
+	static public let messenger_logo_duotone = PhosphorSymbol(identifier: "messenger-logo.duotone")
+
+	/// `meta-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `facebook`
+	///   - `logos`
+	///   - `social media`
+	///   - `logos`
+	static public let meta_logo_duotone = PhosphorSymbol(identifier: "meta-logo.duotone")
+
+	/// `meteor.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `astronomy`
+	///   - `asteroid`
+	///   - `fireball`
+	static public let meteor_duotone = PhosphorSymbol(identifier: "meteor.duotone")
+
+	/// `metronome.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `beat`
+	///   - `tempo`
+	///   - `bpm`
+	static public let metronome_duotone = PhosphorSymbol(identifier: "metronome.duotone")
+
+	/// `microphone.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `recording`
+	///   - `music`
+	///   - `sound`
+	///   - `podcast`
+	///   - `studio`
+	static public let microphone_duotone = PhosphorSymbol(identifier: "microphone.duotone")
+
+	/// `microphone-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `recording`
+	///   - `music`
+	///   - `sound`
+	///   - `podcast`
+	///   - `studio`
+	///   - `muted`
+	///   - `disabled`
+	static public let microphone_slash_duotone = PhosphorSymbol(identifier: "microphone-slash.duotone")
+
+	/// `microphone-stage.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `recording`
+	///   - `music`
+	///   - `sound`
+	///   - `performance`
+	///   - `concert`
+	static public let microphone_stage_duotone = PhosphorSymbol(identifier: "microphone-stage.duotone")
+
+	/// `microscope.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `development`
+	///   - `objects`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `science`
+	///   - `biology`
+	///   - `experiment`
+	///   - `magnify`
+	static public let microscope_duotone = PhosphorSymbol(identifier: "microscope.duotone")
+
+	/// `microsoft-excel-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `tables`
+	///   - `spreadsheets`
+	///   - `tabular`
+	static public let microsoft_excel_logo_duotone = PhosphorSymbol(identifier: "microsoft-excel-logo.duotone")
+
+	/// `microsoft-outlook-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `email`
+	///   - `logos`
+	static public let microsoft_outlook_logo_duotone = PhosphorSymbol(identifier: "microsoft-outlook-logo.duotone")
+
+	/// `microsoft-powerpoint-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `slides`
+	///   - `slideshow`
+	///   - `presentation`
+	static public let microsoft_powerpoint_logo_duotone = PhosphorSymbol(identifier: "microsoft-powerpoint-logo.duotone")
+
+	/// `microsoft-teams-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `chat`
+	///   - `video conference`
+	static public let microsoft_teams_logo_duotone = PhosphorSymbol(identifier: "microsoft-teams-logo.duotone")
+
+	/// `microsoft-word-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `documents`
+	///   - `word processor`
+	///   - `doc`
+	///   - `docx`
+	static public let microsoft_word_logo_duotone = PhosphorSymbol(identifier: "microsoft-word-logo.duotone")
+
+	/// `minus-circle.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `-`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `round`
+	static public let minus_circle_duotone = PhosphorSymbol(identifier: "minus-circle.duotone")
+
+	/// `minus.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `-`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `line`
+	///   - `horizontal`
+	///   - `divider`
+	static public let minus_duotone = PhosphorSymbol(identifier: "minus.duotone")
+
+	/// `minus-square.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `-`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let minus_square_duotone = PhosphorSymbol(identifier: "minus-square.duotone")
+
+	/// `money.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `cash`
+	///   - `dollars`
+	///   - `paper bills`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let money_duotone = PhosphorSymbol(identifier: "money.duotone")
+
+	/// `money-wavy.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `cash`
+	///   - `dollars`
+	///   - `paper bills`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let money_wavy_duotone = PhosphorSymbol(identifier: "money-wavy.duotone")
+
+	/// `monitor-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `screen`
+	///   - `screencast`
+	///   - `screenshare`
+	///   - `upload`
+	///   - `video`
+	///   - `movie`
+	static public let monitor_arrow_up_duotone = PhosphorSymbol(identifier: "monitor-arrow-up.duotone")
+
+	/// `monitor.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `screen`
+	///   - `television`
+	///   - `tv`
+	///   - `displays`
+	static public let monitor_duotone = PhosphorSymbol(identifier: "monitor.duotone")
+
+	/// `monitor-play.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `screen`
+	///   - `television`
+	///   - `tv`
+	///   - `displays`
+	///   - `screencast`
+	///   - `video`
+	///   - `movie`
+	static public let monitor_play_duotone = PhosphorSymbol(identifier: "monitor-play.duotone")
+
+	/// `moon.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `system`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `night`
+	///   - `evening`
+	///   - `clear`
+	///   - `sleep`
+	///   - `snooze`
+	///   - `night mode`
+	///   - `dark mode`
+	///   - `astronomy`
+	///   - `stargazing`
+	static public let moon_duotone = PhosphorSymbol(identifier: "moon.duotone")
+
+	/// `moon-stars.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `night`
+	///   - `evening`
+	///   - `clear`
+	///   - `sleep`
+	///   - `snooze`
+	///   - `night mode`
+	///   - `dark mode`
+	///   - `astronomy`
+	///   - `stargazing`
+	///   - `constellation`
+	static public let moon_stars_duotone = PhosphorSymbol(identifier: "moon-stars.duotone")
+
+	/// `moped.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `scooter`
+	///   - `vehicles`
+	///   - `vespa`
+	///   - `transportation`
+	///   - `travel`
+	static public let moped_duotone = PhosphorSymbol(identifier: "moped.duotone")
+
+	/// `moped-front.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `scooter`
+	///   - `vehicles`
+	///   - `vespa`
+	///   - `transportation`
+	///   - `travel`
+	static public let moped_front_duotone = PhosphorSymbol(identifier: "moped-front.duotone")
+
+	/// `mosque.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `islam`
+	///   - `muslim`
+	///   - `religion`
+	///   - `worship`
+	static public let mosque_duotone = PhosphorSymbol(identifier: "mosque.duotone")
+
+	/// `motorcycle.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `motorbike`
+	///   - `transportation`
+	///   - `travel`
+	static public let motorcycle_duotone = PhosphorSymbol(identifier: "motorcycle.duotone")
+
+	/// `mountains.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `hills`
+	///   - `outdoors`
+	///   - `terrain`
+	///   - `geology`
+	///   - `adventure`
+	static public let mountains_duotone = PhosphorSymbol(identifier: "mountains.duotone")
+
+	/// `mouse.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_duotone = PhosphorSymbol(identifier: "mouse.duotone")
+
+	/// `mouse-left-click.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_left_click_duotone = PhosphorSymbol(identifier: "mouse-left-click.duotone")
+
+	/// `mouse-middle-click.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_middle_click_duotone = PhosphorSymbol(identifier: "mouse-middle-click.duotone")
+
+	/// `mouse-right-click.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_right_click_duotone = PhosphorSymbol(identifier: "mouse-right-click.duotone")
+
+	/// `mouse-scroll.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_scroll_duotone = PhosphorSymbol(identifier: "mouse-scroll.duotone")
+
+	/// `mouse-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `clicks`
+	///   - `input`
+	static public let mouse_simple_duotone = PhosphorSymbol(identifier: "mouse-simple.duotone")
+
+	/// `music-note.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	static public let music_note_duotone = PhosphorSymbol(identifier: "music-note.duotone")
+
+	/// `music-note-simple.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	static public let music_note_simple_duotone = PhosphorSymbol(identifier: "music-note-simple.duotone")
+
+	/// `music-notes.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	static public let music_notes_duotone = PhosphorSymbol(identifier: "music-notes.duotone")
+
+	/// `music-notes-minus.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	///   - `remove`
+	///   - `subtract`
+	static public let music_notes_minus_duotone = PhosphorSymbol(identifier: "music-notes-minus.duotone")
+
+	/// `music-notes-plus.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	///   - `add`
+	static public let music_notes_plus_duotone = PhosphorSymbol(identifier: "music-notes-plus.duotone")
+
+	/// `music-notes-simple.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `songs`
+	///   - `audio`
+	///   - `playlist`
+	///   - `albums`
+	static public let music_notes_simple_duotone = PhosphorSymbol(identifier: "music-notes-simple.duotone")
+
+	/// `navigation-arrow.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `location`
+	///   - `directions`
+	///   - `compass`
+	///   - `gps`
+	static public let navigation_arrow_duotone = PhosphorSymbol(identifier: "navigation-arrow.duotone")
+
+	/// `needle.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `sewing`
+	///   - `thread`
+	///   - `awl`
+	///   - `tailor`
+	static public let needle_duotone = PhosphorSymbol(identifier: "needle.duotone")
+
+	/// `network.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `internet`
+	///   - `ethernet`
+	///   - `lan`
+	static public let network_duotone = PhosphorSymbol(identifier: "network.duotone")
+
+	/// `network-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `internet`
+	///   - `ethernet`
+	///   - `lan`
+	///   - `error`
+	static public let network_slash_duotone = PhosphorSymbol(identifier: "network-slash.duotone")
+
+	/// `network-x.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `internet`
+	///   - `ethernet`
+	///   - `lan`
+	///   - `disabled`
+	static public let network_x_duotone = PhosphorSymbol(identifier: "network-x.duotone")
+
+	/// `newspaper-clipping.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `journals`
+	///   - `periodicals`
+	static public let newspaper_clipping_duotone = PhosphorSymbol(identifier: "newspaper-clipping.duotone")
+
+	/// `newspaper.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `reading`
+	///   - `writing`
+	///   - `journals`
+	///   - `periodicals`
+	static public let newspaper_duotone = PhosphorSymbol(identifier: "newspaper.duotone")
+
+	/// `not-equals.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `≠`
+	///   - `equality`
+	///   - `equivalent`
+	///   - `equivalence`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let not_equals_duotone = PhosphorSymbol(identifier: "not-equals.duotone")
+
+	/// `not-member-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `∉`
+	///   - `is not element of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let not_member_of_duotone = PhosphorSymbol(identifier: "not-member-of.duotone")
+
+	/// `not-subset-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊄`
+	///   - `not subset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let not_subset_of_duotone = PhosphorSymbol(identifier: "not-subset-of.duotone")
+
+	/// `not-superset-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊉`
+	///   - `not superset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let not_superset_of_duotone = PhosphorSymbol(identifier: "not-superset-of.duotone")
+
+	/// `notches.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `textarea`
+	///   - `resize`
+	///   - `drag handle`
+	///   - `knurling`
+	static public let notches_duotone = PhosphorSymbol(identifier: "notches.duotone")
+
+	/// `note-blank.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `notes`
+	///   - `note-taking`
+	///   - `memorandum`
+	///   - `post-it`
+	///   - `reminders`
+	static public let note_blank_duotone = PhosphorSymbol(identifier: "note-blank.duotone")
+
+	/// `note.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `notes`
+	///   - `note-taking`
+	///   - `memorandum`
+	///   - `post-it`
+	///   - `reminders`
+	static public let note_duotone = PhosphorSymbol(identifier: "note.duotone")
+
+	/// `note-pencil.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `notes`
+	///   - `note-taking`
+	///   - `memorandum`
+	///   - `post-it`
+	///   - `reminders`
+	static public let note_pencil_duotone = PhosphorSymbol(identifier: "note-pencil.duotone")
+
+	/// `notebook.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `notes`
+	///   - `note-taking`
+	///   - `memorandum`
+	///   - `journal`
+	///   - `diary`
+	///   - `logs`
+	///   - `logbook`
+	static public let notebook_duotone = PhosphorSymbol(identifier: "notebook.duotone")
+
+	/// `notepad.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `logs`
+	///   - `logbook`
+	///   - `notes`
+	///   - `note-taking`
+	///   - `memorandum`
+	///   - `journal`
+	///   - `diary`
+	static public let notepad_duotone = PhosphorSymbol(identifier: "notepad.duotone")
+
+	/// `notification.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `pip`
+	static public let notification_duotone = PhosphorSymbol(identifier: "notification.duotone")
+
+	/// `notion-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `documentation`
+	///   - `productivity`
+	///   - `wiki`
+	///   - `logos`
+	static public let notion_logo_duotone = PhosphorSymbol(identifier: "notion-logo.duotone")
+
+	/// `nuclear-plant.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `renewable`
+	///   - `energy`
+	///   - `power`
+	///   - `electricity`
+	static public let nuclear_plant_duotone = PhosphorSymbol(identifier: "nuclear-plant.duotone")
+
+	/// `number-circle-eight.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `8`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_eight_duotone = PhosphorSymbol(identifier: "number-circle-eight.duotone")
+
+	/// `number-circle-five.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `5`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_five_duotone = PhosphorSymbol(identifier: "number-circle-five.duotone")
+
+	/// `number-circle-four.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_four_duotone = PhosphorSymbol(identifier: "number-circle-four.duotone")
+
+	/// `number-circle-nine.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `9`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_nine_duotone = PhosphorSymbol(identifier: "number-circle-nine.duotone")
+
+	/// `number-circle-one.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `1`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_one_duotone = PhosphorSymbol(identifier: "number-circle-one.duotone")
+
+	/// `number-circle-seven.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `7`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_seven_duotone = PhosphorSymbol(identifier: "number-circle-seven.duotone")
+
+	/// `number-circle-six.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `6`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_six_duotone = PhosphorSymbol(identifier: "number-circle-six.duotone")
+
+	/// `number-circle-three.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `3`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_three_duotone = PhosphorSymbol(identifier: "number-circle-three.duotone")
+
+	/// `number-circle-two.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_two_duotone = PhosphorSymbol(identifier: "number-circle-two.duotone")
+
+	/// `number-circle-zero.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `0`
+	///   - `round`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_circle_zero_duotone = PhosphorSymbol(identifier: "number-circle-zero.duotone")
+
+	/// `number-eight.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `8`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_eight_duotone = PhosphorSymbol(identifier: "number-eight.duotone")
+
+	/// `number-five.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `5`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_five_duotone = PhosphorSymbol(identifier: "number-five.duotone")
+
+	/// `number-four.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_four_duotone = PhosphorSymbol(identifier: "number-four.duotone")
+
+	/// `number-nine.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `9`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_nine_duotone = PhosphorSymbol(identifier: "number-nine.duotone")
+
+	/// `number-one.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `1`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_one_duotone = PhosphorSymbol(identifier: "number-one.duotone")
+
+	/// `number-seven.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `7`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_seven_duotone = PhosphorSymbol(identifier: "number-seven.duotone")
+
+	/// `number-six.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `6`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_six_duotone = PhosphorSymbol(identifier: "number-six.duotone")
+
+	/// `number-square-eight.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `8`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_eight_duotone = PhosphorSymbol(identifier: "number-square-eight.duotone")
+
+	/// `number-square-five.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `5`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_five_duotone = PhosphorSymbol(identifier: "number-square-five.duotone")
+
+	/// `number-square-four.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_four_duotone = PhosphorSymbol(identifier: "number-square-four.duotone")
+
+	/// `number-square-nine.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `9`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_nine_duotone = PhosphorSymbol(identifier: "number-square-nine.duotone")
+
+	/// `number-square-one.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `1`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_one_duotone = PhosphorSymbol(identifier: "number-square-one.duotone")
+
+	/// `number-square-seven.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `7`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_seven_duotone = PhosphorSymbol(identifier: "number-square-seven.duotone")
+
+	/// `number-square-six.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `6`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_six_duotone = PhosphorSymbol(identifier: "number-square-six.duotone")
+
+	/// `number-square-three.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `3`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_three_duotone = PhosphorSymbol(identifier: "number-square-three.duotone")
+
+	/// `number-square-two.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_two_duotone = PhosphorSymbol(identifier: "number-square-two.duotone")
+
+	/// `number-square-zero.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `0`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_square_zero_duotone = PhosphorSymbol(identifier: "number-square-zero.duotone")
+
+	/// `number-three.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `3`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_three_duotone = PhosphorSymbol(identifier: "number-three.duotone")
+
+	/// `number-two.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_two_duotone = PhosphorSymbol(identifier: "number-two.duotone")
+
+	/// `number-zero.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `0`
+	///   - `numbers`
+	///   - `numerals`
+	///   - `digits`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let number_zero_duotone = PhosphorSymbol(identifier: "number-zero.duotone")
+
+	/// `numpad.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `dialer`
+	///   - `dialpad`
+	///   - `call-center`
+	///   - `telephone`
+	///   - `landline`
+	///   - `password`
+	///   - `passcode`
+	static public let numpad_duotone = PhosphorSymbol(identifier: "numpad.duotone")
+
+	/// `nut.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `bolts`
+	///   - `screws`
+	///   - `machinery`
+	///   - `tools`
+	///   - `hexagon`
+	static public let nut_duotone = PhosphorSymbol(identifier: "nut.duotone")
+
+	/// `ny-times-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `nyt`
+	///   - `new york times`
+	///   - `logos`
+	///   - `reading`
+	///   - `writing`
+	///   - `news`
+	///   - `newspaper`
+	static public let ny_times_logo_duotone = PhosphorSymbol(identifier: "ny-times-logo.duotone")
+
+	/// `octagon.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `8`
+	///   - `shapes`
+	///   - `polygons`
+	static public let octagon_duotone = PhosphorSymbol(identifier: "octagon.duotone")
+
+	/// `office-chair.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `furniture`
+	///   - `seat`
+	static public let office_chair_duotone = PhosphorSymbol(identifier: "office-chair.duotone")
+
+	/// `onigiri.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `rice ball`
+	///   - `japanese`
+	///   - `food`
+	///   - `restaurant`
+	static public let onigiri_duotone = PhosphorSymbol(identifier: "onigiri.duotone")
+
+	/// `open-ai-logo.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `artificial intelligence`
+	///   - `ai`
+	///   - `chatgpt`
+	///   - `llm`
+	///   - `logos`
+	static public let open_ai_logo_duotone = PhosphorSymbol(identifier: "open-ai-logo.duotone")
+
+	/// `option.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `keyboard`
+	///   - `shortcut`
+	///   - `modifier`
+	static public let option_duotone = PhosphorSymbol(identifier: "option.duotone")
+
+	/// `orange.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `fruit`
+	///   - `juice`
+	///   - `citrus`
+	///   - `groceries`
+	///   - `market`
+	static public let orange_duotone = PhosphorSymbol(identifier: "orange.duotone")
+
+	/// `orange-slice.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `fruit`
+	///   - `juice`
+	///   - `citrus`
+	///   - `groceries`
+	///   - `market`
+	static public let orange_slice_duotone = PhosphorSymbol(identifier: "orange-slice.duotone")
+
+	/// `oven.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stove`
+	///   - `stovetop`
+	///   - `food`
+	///   - `cooking`
+	///   - `cuisine`
+	///   - `kitchen`
+	static public let oven_duotone = PhosphorSymbol(identifier: "oven.duotone")
+
+	/// `package.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `packages`
+	///   - `boxes`
+	///   - `delivery`
+	///   - `mail`
+	///   - `postal service`
+	///   - `bundles`
+	///   - `library`
+	///   - `libraries`
+	///   - `shipping`
+	static public let package_duotone = PhosphorSymbol(identifier: "package.duotone")
+
+	/// `paint-brush-broad.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `fill`
+	///   - `colors`
+	///   - `color picker`
+	///   - `arts`
+	static public let paint_brush_broad_duotone = PhosphorSymbol(identifier: "paint-brush-broad.duotone")
+
+	/// `paint-brush.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `arts`
+	static public let paint_brush_duotone = PhosphorSymbol(identifier: "paint-brush.duotone")
+
+	/// `paint-brush-household.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `arts`
+	static public let paint_brush_household_duotone = PhosphorSymbol(identifier: "paint-brush-household.duotone")
+
+	/// `paint-bucket.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `paintbucket`
+	///   - `colors`
+	///   - `color picker`
+	///   - `fill`
+	///   - `arts`
+	static public let paint_bucket_duotone = PhosphorSymbol(identifier: "paint-bucket.duotone")
+
+	/// `paint-roller.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `fill`
+	///   - `arts`
+	///   - `theme`
+	static public let paint_roller_duotone = PhosphorSymbol(identifier: "paint-roller.duotone")
+
+	/// `palette.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `paint`
+	///   - `colors`
+	///   - `color picker`
+	///   - `arts`
+	static public let palette_duotone = PhosphorSymbol(identifier: "palette.duotone")
+
+	/// `panorama.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `image`
+	///   - `picture`
+	///   - `photography`
+	///   - `landscape`
+	///   - `360`
+	static public let panorama_duotone = PhosphorSymbol(identifier: "panorama.duotone")
+
+	/// `pants.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothing`
+	///   - `clothes`
+	///   - `jeans`
+	static public let pants_duotone = PhosphorSymbol(identifier: "pants.duotone")
+
+	/// `paper-plane.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `toys`
+	///   - `games`
+	static public let paper_plane_duotone = PhosphorSymbol(identifier: "paper-plane.duotone")
+
+	/// `paper-plane-right.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `toys`
+	///   - `games`
+	static public let paper_plane_right_duotone = PhosphorSymbol(identifier: "paper-plane-right.duotone")
+
+	/// `paper-plane-tilt.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `mail`
+	///   - `email`
+	///   - `send`
+	///   - `sent`
+	///   - `messages`
+	///   - `messaging`
+	///   - `toys`
+	///   - `games`
+	static public let paper_plane_tilt_duotone = PhosphorSymbol(identifier: "paper-plane-tilt.duotone")
+
+	/// `paperclip.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `editor`
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `attachments`
+	///   - `mail`
+	///   - `email`
+	///   - `office`
+	static public let paperclip_duotone = PhosphorSymbol(identifier: "paperclip.duotone")
+
+	/// `paperclip-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `editor`
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `attachments`
+	///   - `mail`
+	///   - `email`
+	///   - `office`
+	static public let paperclip_horizontal_duotone = PhosphorSymbol(identifier: "paperclip-horizontal.duotone")
+
+	/// `parachute.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `skydiving`
+	///   - `safety`
+	static public let parachute_duotone = PhosphorSymbol(identifier: "parachute.duotone")
+
+	/// `paragraph.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `pilcrow`
+	static public let paragraph_duotone = PhosphorSymbol(identifier: "paragraph.duotone")
+
+	/// `parallelogram.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `bandcamp`
+	///   - `logos`
+	static public let parallelogram_duotone = PhosphorSymbol(identifier: "parallelogram.duotone")
+
+	/// `park.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `bench`
+	///   - `outdoors`
+	static public let park_duotone = PhosphorSymbol(identifier: "park.duotone")
+
+	/// `password.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `login`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let password_duotone = PhosphorSymbol(identifier: "password.duotone")
+
+	/// `path.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `transit`
+	///   - `travel`
+	///   - `trail`
+	///   - `gps`
+	///   - `navigation`
+	///   - `route`
+	///   - `destination`
+	///   - `vector`
+	static public let path_duotone = PhosphorSymbol(identifier: "path.duotone")
+
+	/// `patreon-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `crowdfunding`
+	///   - `logos`
+	static public let patreon_logo_duotone = PhosphorSymbol(identifier: "patreon-logo.duotone")
+
+	/// `pause-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `resume`
+	///   - `start`
+	///   - `stop`
+	///   - `round`
+	static public let pause_circle_duotone = PhosphorSymbol(identifier: "pause-circle.duotone")
+
+	/// `pause.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `resume`
+	///   - `start`
+	///   - `stop`
+	static public let pause_duotone = PhosphorSymbol(identifier: "pause.duotone")
+
+	/// `paw-print.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `commerce`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pets`
+	///   - `pet store`
+	///   - `pet shop`
+	///   - `animals`
+	///   - `cat`
+	///   - `dog`
+	///   - `veterinarian`
+	static public let paw_print_duotone = PhosphorSymbol(identifier: "paw-print.duotone")
+
+	/// `paypal-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `finance`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `payments`
+	///   - `paying`
+	///   - `purchase`
+	///   - `logos`
+	static public let paypal_logo_duotone = PhosphorSymbol(identifier: "paypal-logo.duotone")
+
+	/// `peace.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `love`
+	///   - `hippies`
+	///   - `peace sign`
+	///   - `symbols`
+	static public let peace_duotone = PhosphorSymbol(identifier: "peace.duotone")
+
+	/// `pen.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `ink`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pen_duotone = PhosphorSymbol(identifier: "pen.duotone")
+
+	/// `pen-nib.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `ink`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	///   - `fountain pen`
+	///   - `illustrator`
+	static public let pen_nib_duotone = PhosphorSymbol(identifier: "pen-nib.duotone")
+
+	/// `pen-nib-straight.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `ink`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	///   - `fountain pen`
+	///   - `illustrator`
+	static public let pen_nib_straight_duotone = PhosphorSymbol(identifier: "pen-nib-straight.duotone")
+
+	/// `pencil-circle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pencil_circle_duotone = PhosphorSymbol(identifier: "pencil-circle.duotone")
+
+	/// `pencil.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pencil_duotone = PhosphorSymbol(identifier: "pencil.duotone")
+
+	/// `pencil-line.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pencil_line_duotone = PhosphorSymbol(identifier: "pencil-line.duotone")
+
+	/// `pencil-ruler.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `drawing`
+	///   - `drafting`
+	///   - `construction`
+	///   - `tools`
+	static public let pencil_ruler_duotone = PhosphorSymbol(identifier: "pencil-ruler.duotone")
+
+	/// `pencil-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pencil_simple_duotone = PhosphorSymbol(identifier: "pencil-simple.duotone")
+
+	/// `pencil-simple-line.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	///   - `sign`
+	///   - `signature`
+	static public let pencil_simple_line_duotone = PhosphorSymbol(identifier: "pencil-simple-line.duotone")
+
+	/// `pencil-simple-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `read-only`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	static public let pencil_simple_slash_duotone = PhosphorSymbol(identifier: "pencil-simple-slash.duotone")
+
+	/// `pencil-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `read-only`
+	///   - `write`
+	///   - `writing`
+	///   - `editing`
+	static public let pencil_slash_duotone = PhosphorSymbol(identifier: "pencil-slash.duotone")
+
+	/// `pentagon.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `polygons`
+	///   - `5`
+	static public let pentagon_duotone = PhosphorSymbol(identifier: "pentagon.duotone")
+
+	/// `pentagram.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `star`
+	///   - `wicca`
+	///   - `satan`
+	///   - `satanism`
+	///   - `religion`
+	///   - `spirituality`
+	///   - `evil`
+	///   - `magic`
+	static public let pentagram_duotone = PhosphorSymbol(identifier: "pentagram.duotone")
+
+	/// `pepper.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `spicy`
+	///   - `chile`
+	///   - `vegetable`
+	static public let pepper_duotone = PhosphorSymbol(identifier: "pepper.duotone")
+
+	/// `percent.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `%`
+	///   - `percentage`
+	///   - `percentile`
+	///   - `ratio`
+	///   - `delta`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let percent_duotone = PhosphorSymbol(identifier: "percent.duotone")
+
+	/// `person-arms-spread.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `accessibility`
+	///   - `vitruvian`
+	///   - `stretch`
+	///   - `sports`
+	static public let person_arms_spread_duotone = PhosphorSymbol(identifier: "person-arms-spread.duotone")
+
+	/// `person.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `walking`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `transit`
+	///   - `transportation`
+	///   - `travel`
+	///   - `commuter`
+	///   - `user`
+	static public let person_duotone = PhosphorSymbol(identifier: "person.duotone")
+
+	/// `person-simple-bike.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `biking`
+	///   - `bicycle`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `sports`
+	///   - `exercise`
+	static public let person_simple_bike_duotone = PhosphorSymbol(identifier: "person-simple-bike.duotone")
+
+	/// `person-simple-circle.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `human`
+	///   - `accessibility`
+	///   - `a11y`
+	///   - `vitruvius`
+	///   - `vitruvian`
+	static public let person_simple_circle_duotone = PhosphorSymbol(identifier: "person-simple-circle.duotone")
+
+	/// `person-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `walking`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `transit`
+	///   - `transportation`
+	///   - `travel`
+	///   - `commuter`
+	///   - `user`
+	///   - `exercise`
+	static public let person_simple_duotone = PhosphorSymbol(identifier: "person-simple.duotone")
+
+	/// `person-simple-hike.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `health`
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `climbing`
+	///   - `mountaineering`
+	///   - `bouldering`
+	static public let person_simple_hike_duotone = PhosphorSymbol(identifier: "person-simple-hike.duotone")
+
+	/// `person-simple-run.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `running`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `transit`
+	///   - `transportation`
+	///   - `travel`
+	///   - `commuter`
+	///   - `user`
+	///   - `exercise`
+	static public let person_simple_run_duotone = PhosphorSymbol(identifier: "person-simple-run.duotone")
+
+	/// `person-simple-ski.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `skiing`
+	///   - `winter`
+	///   - `mountain`
+	static public let person_simple_ski_duotone = PhosphorSymbol(identifier: "person-simple-ski.duotone")
+
+	/// `person-simple-snowboard.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `snowboarding`
+	///   - `winter`
+	///   - `mountain`
+	static public let person_simple_snowboard_duotone = PhosphorSymbol(identifier: "person-simple-snowboard.duotone")
+
+	/// `person-simple-swim.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `swimming`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `sports`
+	///   - `exercise`
+	static public let person_simple_swim_duotone = PhosphorSymbol(identifier: "person-simple-swim.duotone")
+
+	/// `person-simple-tai-chi.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `mindfulness`
+	///   - `martial arts`
+	///   - `meditation`
+	///   - `sports`
+	///   - `exercise`
+	///   - `yoga`
+	static public let person_simple_tai_chi_duotone = PhosphorSymbol(identifier: "person-simple-tai-chi.duotone")
+
+	/// `person-simple-throw.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `tennis`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `sports`
+	///   - `exercise`
+	static public let person_simple_throw_duotone = PhosphorSymbol(identifier: "person-simple-throw.duotone")
+
+	/// `person-simple-walk.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `people`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `pedestrian`
+	///   - `walking`
+	///   - `human`
+	///   - `woman`
+	///   - `man`
+	///   - `body`
+	///   - `transit`
+	///   - `transportation`
+	///   - `travel`
+	///   - `commuter`
+	///   - `user`
+	///   - `exercise`
+	static public let person_simple_walk_duotone = PhosphorSymbol(identifier: "person-simple-walk.duotone")
+
+	/// `perspective.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `3d`
+	///   - `skew`
+	///   - `warp`
+	///   - `trapezoid`
+	static public let perspective_duotone = PhosphorSymbol(identifier: "perspective.duotone")
+
+	/// `phone-call.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `calling`
+	///   - `ringing`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_call_duotone = PhosphorSymbol(identifier: "phone-call.duotone")
+
+	/// `phone-disconnect.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `hang up`
+	///   - `disconnected`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_disconnect_duotone = PhosphorSymbol(identifier: "phone-disconnect.duotone")
+
+	/// `phone.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_duotone = PhosphorSymbol(identifier: "phone.duotone")
+
+	/// `phone-incoming.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `calling`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_incoming_duotone = PhosphorSymbol(identifier: "phone-incoming.duotone")
+
+	/// `phone-list.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `call-center`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_list_duotone = PhosphorSymbol(identifier: "phone-list.duotone")
+
+	/// `phone-outgoing.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `calling`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_outgoing_duotone = PhosphorSymbol(identifier: "phone-outgoing.duotone")
+
+	/// `phone-pause.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `hold`
+	///   - `call-center`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_pause_duotone = PhosphorSymbol(identifier: "phone-pause.duotone")
+
+	/// `phone-plus.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	///   - `conference`
+	///   - `add`
+	static public let phone_plus_duotone = PhosphorSymbol(identifier: "phone-plus.duotone")
+
+	/// `phone-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `disabled`
+	///   - `disconnected`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_slash_duotone = PhosphorSymbol(identifier: "phone-slash.duotone")
+
+	/// `phone-transfer.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `call-center`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_transfer_duotone = PhosphorSymbol(identifier: "phone-transfer.duotone")
+
+	/// `phone-x.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `calls`
+	///   - `missed`
+	///   - `errors`
+	///   - `telephone`
+	///   - `landline`
+	///   - `talk`
+	static public let phone_x_duotone = PhosphorSymbol(identifier: "phone-x.duotone")
+
+	/// `phosphor-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `logos`
+	static public let phosphor_logo_duotone = PhosphorSymbol(identifier: "phosphor-logo.duotone")
+
+	/// `pi.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `π`
+	///   - `symbol`
+	///   - `mathematics`
+	///   - `circle`
+	static public let pi_duotone = PhosphorSymbol(identifier: "pi.duotone")
+
+	/// `piano-keys.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `instrument`
+	///   - `keyboard`
+	static public let piano_keys_duotone = PhosphorSymbol(identifier: "piano-keys.duotone")
+
+	/// `picnic-table.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `bench`
+	///   - `park`
+	///   - `outdoors`
+	static public let picnic_table_duotone = PhosphorSymbol(identifier: "picnic-table.duotone")
+
+	/// `picture-in-picture.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pip`
+	///   - `pop-out`
+	///   - `minimize`
+	///   - `maximize`
+	static public let picture_in_picture_duotone = PhosphorSymbol(identifier: "picture-in-picture.duotone")
+
+	/// `piggy-bank.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `savings`
+	///   - `deposit`
+	///   - `money`
+	///   - `coins`
+	static public let piggy_bank_duotone = PhosphorSymbol(identifier: "piggy-bank.duotone")
+
+	/// `pill.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `capsule`
+	///   - `medicine`
+	///   - `rx`
+	///   - `pharmacy`
+	///   - `pharmacist`
+	///   - `pharmaceuticals`
+	///   - `prescription`
+	///   - `drugs`
+	static public let pill_duotone = PhosphorSymbol(identifier: "pill.duotone")
+
+	/// `ping-pong.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `paddle`
+	static public let ping_pong_duotone = PhosphorSymbol(identifier: "ping-pong.duotone")
+
+	/// `pint-glass.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `water`
+	///   - `beverage`
+	///   - `drinks`
+	///   - `beverages`
+	///   - `food`
+	///   - `dining`
+	static public let pint_glass_duotone = PhosphorSymbol(identifier: "pint-glass.duotone")
+
+	/// `pinterest-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `vision board`
+	///   - `mood board`
+	///   - `social media`
+	static public let pinterest_logo_duotone = PhosphorSymbol(identifier: "pinterest-logo.duotone")
+
+	/// `pinwheel.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `toys`
+	///   - `whirligig`
+	static public let pinwheel_duotone = PhosphorSymbol(identifier: "pinwheel.duotone")
+
+	/// `pipe.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tube`
+	///   - `plumber`
+	///   - `plumbing`
+	///   - `construction`
+	static public let pipe_duotone = PhosphorSymbol(identifier: "pipe.duotone")
+
+	/// `pipe-wrench.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `plumber`
+	///   - `plumbing`
+	///   - `tools`
+	///   - `construction`
+	static public let pipe_wrench_duotone = PhosphorSymbol(identifier: "pipe-wrench.duotone")
+
+	/// `pix-logo.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `payments`
+	///   - `paying`
+	///   - `purchase`
+	///   - `logos`
+	static public let pix_logo_duotone = PhosphorSymbol(identifier: "pix-logo.duotone")
+
+	/// `pizza.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `fast food`
+	///   - `party`
+	///   - `places`
+	///   - `locations`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let pizza_duotone = PhosphorSymbol(identifier: "pizza.duotone")
+
+	/// `placeholder.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `empty`
+	///   - `notdef`
+	///   - `tofu`
+	///   - `rectangle slash`
+	///   - `missing`
+	static public let placeholder_duotone = PhosphorSymbol(identifier: "placeholder.duotone")
+
+	/// `planet.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `saturn`
+	///   - `world`
+	///   - `globe`
+	///   - `astronomy`
+	///   - `space`
+	static public let planet_duotone = PhosphorSymbol(identifier: "planet.duotone")
+
+	/// `plant.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `sprout`
+	///   - `vegan`
+	///   - `farm`
+	///   - `farming`
+	///   - `garden`
+	///   - `gardening`
+	static public let plant_duotone = PhosphorSymbol(identifier: "plant.duotone")
+
+	/// `play-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `resume`
+	///   - `start`
+	///   - `round`
+	static public let play_circle_duotone = PhosphorSymbol(identifier: "play-circle.duotone")
+
+	/// `play.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `resume`
+	///   - `start`
+	static public let play_duotone = PhosphorSymbol(identifier: "play.duotone")
+
+	/// `play-pause.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `resume`
+	///   - `start`
+	///   - `stop`
+	static public let play_pause_duotone = PhosphorSymbol(identifier: "play-pause.duotone")
+
+	/// `playlist.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `queue`
+	static public let playlist_duotone = PhosphorSymbol(identifier: "playlist.duotone")
+
+	/// `plug-charging.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `outlet`
+	///   - `socket`
+	///   - `plugin`
+	///   - `integration`
+	///   - `charge`
+	///   - `charging`
+	static public let plug_charging_duotone = PhosphorSymbol(identifier: "plug-charging.duotone")
+
+	/// `plug.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `outlet`
+	///   - `socket`
+	///   - `plugin`
+	///   - `integration`
+	static public let plug_duotone = PhosphorSymbol(identifier: "plug.duotone")
+
+	/// `plugs-connected.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `outlet`
+	///   - `socket`
+	///   - `plugin`
+	///   - `integration`
+	static public let plugs_connected_duotone = PhosphorSymbol(identifier: "plugs-connected.duotone")
+
+	/// `plugs.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `outlet`
+	///   - `socket`
+	///   - `plugin`
+	///   - `integration`
+	///   - `disconnected`
+	static public let plugs_duotone = PhosphorSymbol(identifier: "plugs.duotone")
+
+	/// `plus-circle.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `addition`
+	///   - `sum`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `round`
+	///   - `+`
+	static public let plus_circle_duotone = PhosphorSymbol(identifier: "plus-circle.duotone")
+
+	/// `plus.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `addition`
+	///   - `sum`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `+`
+	static public let plus_duotone = PhosphorSymbol(identifier: "plus.duotone")
+
+	/// `plus-minus.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `plus or minus`
+	///   - `plus/minus`
+	///   - `add/subtract`
+	///   - `addition`
+	///   - `sum`
+	///   - `subtraction`
+	///   - `difference`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `+`
+	///   - `-`
+	///   - `±`
+	static public let plus_minus_duotone = PhosphorSymbol(identifier: "plus-minus.duotone")
+
+	/// `plus-square.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `addition`
+	///   - `sum`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	///   - `+`
+	static public let plus_square_duotone = PhosphorSymbol(identifier: "plus-square.duotone")
+
+	/// `poker-chip.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `chips`
+	///   - `tokens`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	static public let poker_chip_duotone = PhosphorSymbol(identifier: "poker-chip.duotone")
+
+	/// `police-car.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `cars`
+	///   - `automobiles`
+	///   - `law enforcement`
+	static public let police_car_duotone = PhosphorSymbol(identifier: "police-car.duotone")
+
+	/// `polygon.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `drawing`
+	static public let polygon_duotone = PhosphorSymbol(identifier: "polygon.duotone")
+
+	/// `popcorn.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `movies`
+	///   - `theater`
+	static public let popcorn_duotone = PhosphorSymbol(identifier: "popcorn.duotone")
+
+	/// `popsicle.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `ice cream`
+	///   - `dessert`
+	///   - `summer`
+	///   - `food`
+	static public let popsicle_duotone = PhosphorSymbol(identifier: "popsicle.duotone")
+
+	/// `potted-plant.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `sprout`
+	///   - `vegan`
+	///   - `garden`
+	///   - `gardening`
+	static public let potted_plant_duotone = PhosphorSymbol(identifier: "potted-plant.duotone")
+
+	/// `power.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `charged`
+	///   - `charger`
+	///   - `charging`
+	///   - `on`
+	///   - `off`
+	///   - `on/off`
+	///   - `switch`
+	///   - `power switch`
+	static public let power_duotone = PhosphorSymbol(identifier: "power.duotone")
+
+	/// `prescription.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `rx`
+	///   - `medicine`
+	///   - `drugs`
+	///   - `pharmacy`
+	///   - `pharmacist`
+	///   - `pharmaceuticals`
+	///   - `doctor`
+	static public let prescription_duotone = PhosphorSymbol(identifier: "prescription.duotone")
+
+	/// `presentation-chart.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `whiteboard`
+	///   - `flipchart`
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `meeting`
+	static public let presentation_chart_duotone = PhosphorSymbol(identifier: "presentation-chart.duotone")
+
+	/// `presentation.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `whiteboard`
+	///   - `flipchart`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `meeting`
+	static public let presentation_duotone = PhosphorSymbol(identifier: "presentation.duotone")
+
+	/// `printer.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `printing`
+	static public let printer_duotone = PhosphorSymbol(identifier: "printer.duotone")
+
+	/// `prohibit.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `forbidden`
+	///   - `prohibited`
+	///   - `cancelled`
+	///   - `prevent`
+	///   - `stop`
+	///   - `do not enter`
+	static public let prohibit_duotone = PhosphorSymbol(identifier: "prohibit.duotone")
+
+	/// `prohibit-inset.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `forbidden`
+	///   - `prohibited`
+	///   - `cancelled`
+	///   - `prevent`
+	///   - `stop`
+	///   - `do not enter`
+	static public let prohibit_inset_duotone = PhosphorSymbol(identifier: "prohibit-inset.duotone")
+
+	/// `projector-screen-chart.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `projection`
+	///   - `presentation`
+	///   - `slideshow`
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	static public let projector_screen_chart_duotone = PhosphorSymbol(identifier: "projector-screen-chart.duotone")
+
+	/// `projector-screen.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `media`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `projection`
+	///   - `presentation`
+	///   - `slideshow`
+	///   - `movies`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	static public let projector_screen_duotone = PhosphorSymbol(identifier: "projector-screen.duotone")
+
+	/// `pulse.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `activity`
+	///   - `heartbeat`
+	///   - `medical`
+	///   - `ecg`
+	///   - `ekg`
+	///   - `vitals`
+	///   - `monitor`
+	///   - `medicine`
+	static public let pulse_duotone = PhosphorSymbol(identifier: "pulse.duotone")
+
+	/// `push-pin.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `favorited`
+	///   - `pushpin`
+	static public let push_pin_duotone = PhosphorSymbol(identifier: "push-pin.duotone")
+
+	/// `push-pin-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `favorited`
+	///   - `pushpin`
+	static public let push_pin_simple_duotone = PhosphorSymbol(identifier: "push-pin-simple.duotone")
+
+	/// `push-pin-simple-slash.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `favorited`
+	///   - `pushpin`
+	///   - `disabled`
+	static public let push_pin_simple_slash_duotone = PhosphorSymbol(identifier: "push-pin-simple-slash.duotone")
+
+	/// `push-pin-slash.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `favorites`
+	///   - `favorited`
+	///   - `pushpin`
+	///   - `disabled`
+	static public let push_pin_slash_duotone = PhosphorSymbol(identifier: "push-pin-slash.duotone")
+
+	/// `puzzle-piece.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `board game`
+	///   - `element`
+	///   - `component`
+	///   - `extension`
+	///   - `plugin`
+	static public let puzzle_piece_duotone = PhosphorSymbol(identifier: "puzzle-piece.duotone")
+
+	/// `qr-code.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `upc`
+	///   - `barcode`
+	///   - `products`
+	///   - `shopping`
+	///   - `scanner`
+	static public let qr_code_duotone = PhosphorSymbol(identifier: "qr-code.duotone")
+
+	/// `question.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `information`
+	///   - `help`
+	///   - `support`
+	///   - `questions`
+	static public let question_duotone = PhosphorSymbol(identifier: "question.duotone")
+
+	/// `question-mark.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `?`
+	///   - `information`
+	///   - `help`
+	///   - `support`
+	///   - `questions`
+	///   - `punctuation`
+	///   - `symbol`
+	static public let question_mark_duotone = PhosphorSymbol(identifier: "question-mark.duotone")
+
+	/// `queue.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `playlist`
+	static public let queue_duotone = PhosphorSymbol(identifier: "queue.duotone")
+
+	/// `quotes.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `editor`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `quoations`
+	///   - `quotation marks`
+	///   - `double-quotes`
+	///   - `writing`
+	///   - `books`
+	static public let quotes_duotone = PhosphorSymbol(identifier: "quotes.duotone")
+
+	/// `rabbit.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `hare`
+	///   - `fast`
+	///   - `animal`
+	static public let rabbit_duotone = PhosphorSymbol(identifier: "rabbit.duotone")
+
+	/// `racquet.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `tennis`
+	///   - `squash`
+	///   - `pickleball`
+	static public let racquet_duotone = PhosphorSymbol(identifier: "racquet.duotone")
+
+	/// `radical.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `√`
+	///   - `radix`
+	///   - `radicand`
+	///   - `square root`
+	///   - `squareroot`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let radical_duotone = PhosphorSymbol(identifier: "radical.duotone")
+
+	/// `radio-button.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `input`
+	///   - `checkbox`
+	///   - `checked`
+	static public let radio_button_duotone = PhosphorSymbol(identifier: "radio-button.duotone")
+
+	/// `radio.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `broadcast`
+	///   - `fm`
+	///   - `am`
+	///   - `xm`
+	///   - `transmitter`
+	///   - `receiver`
+	static public let radio_duotone = PhosphorSymbol(identifier: "radio.duotone")
+
+	/// `radioactive.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `radiation`
+	///   - `danger`
+	///   - `warning`
+	///   - `nuclear`
+	///   - `atomic`
+	static public let radioactive_duotone = PhosphorSymbol(identifier: "radioactive.duotone")
+
+	/// `rainbow-cloud.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `rainstorm`
+	///   - `cloudy`
+	///   - `partly cloudy`
+	///   - `partly sunny`
+	///   - `pride`
+	///   - `lgbtq+`
+	///   - `leprechaun`
+	static public let rainbow_cloud_duotone = PhosphorSymbol(identifier: "rainbow-cloud.duotone")
+
+	/// `rainbow.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `rainstorm`
+	///   - `arc`
+	///   - `pride`
+	///   - `lgbtq+`
+	///   - `leprechaun`
+	static public let rainbow_duotone = PhosphorSymbol(identifier: "rainbow.duotone")
+
+	/// `ranking.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `medal`
+	///   - `rank`
+	///   - `leaderboard`
+	///   - `winner`
+	///   - `sports`
+	static public let ranking_duotone = PhosphorSymbol(identifier: "ranking.duotone")
+
+	/// `read-cv-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `resume`
+	///   - `jobs`
+	///   - `logos`
+	static public let read_cv_logo_duotone = PhosphorSymbol(identifier: "read-cv-logo.duotone")
+
+	/// `receipt.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `purchase`
+	///   - `money`
+	///   - `clipping`
+	///   - `expense`
+	static public let receipt_duotone = PhosphorSymbol(identifier: "receipt.duotone")
+
+	/// `receipt-x.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `purchase`
+	///   - `money`
+	///   - `clipping`
+	///   - `expense`
+	///   - `cancel`
+	static public let receipt_x_duotone = PhosphorSymbol(identifier: "receipt-x.duotone")
+
+	/// `record.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `recording`
+	///   - `recorder`
+	///   - `voice memo`
+	static public let record_duotone = PhosphorSymbol(identifier: "record.duotone")
+
+	/// `rectangle-dashed.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `missing`
+	static public let rectangle_dashed_duotone = PhosphorSymbol(identifier: "rectangle-dashed.duotone")
+
+	/// `rectangle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	static public let rectangle_duotone = PhosphorSymbol(identifier: "rectangle.duotone")
+
+	/// `recycle.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `recycling`
+	///   - `trash`
+	///   - `environmental`
+	///   - `green`
+	static public let recycle_duotone = PhosphorSymbol(identifier: "recycle.duotone")
+
+	/// `reddit-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `subreddit`
+	///   - `snoo`
+	///   - `social media`
+	static public let reddit_logo_duotone = PhosphorSymbol(identifier: "reddit-logo.duotone")
+
+	/// `repeat.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `recycle`
+	static public let repeat_duotone = PhosphorSymbol(identifier: "repeat.duotone")
+
+	/// `repeat-once.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `recycle`
+	static public let repeat_once_duotone = PhosphorSymbol(identifier: "repeat-once.duotone")
+
+	/// `replit-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `ide`
+	///   - `editor`
+	///   - `coding`
+	static public let replit_logo_duotone = PhosphorSymbol(identifier: "replit-logo.duotone")
+
+	/// `resize.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `maximize`
+	///   - `expand`
+	///   - `grow`
+	static public let resize_duotone = PhosphorSymbol(identifier: "resize.duotone")
+
+	/// `rewind-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `skip`
+	///   - `back`
+	///   - `backwards`
+	///   - `reverse`
+	static public let rewind_circle_duotone = PhosphorSymbol(identifier: "rewind-circle.duotone")
+
+	/// `rewind.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `skip`
+	///   - `back`
+	///   - `backwards`
+	///   - `reverse`
+	static public let rewind_duotone = PhosphorSymbol(identifier: "rewind.duotone")
+
+	/// `road-horizon.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `trip`
+	///   - `drive`
+	///   - `road`
+	///   - `travel`
+	///   - `transportation`
+	///   - `highway`
+	static public let road_horizon_duotone = PhosphorSymbol(identifier: "road-horizon.duotone")
+
+	/// `robot.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `automaton`
+	///   - `artificial intelligence`
+	///   - `ai`
+	static public let robot_duotone = PhosphorSymbol(identifier: "robot.duotone")
+
+	/// `rocket.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `spaceship`
+	///   - `launch`
+	///   - `deployment`
+	///   - `rocketship`
+	static public let rocket_duotone = PhosphorSymbol(identifier: "rocket.duotone")
+
+	/// `rocket-launch.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `spaceship`
+	///   - `flying`
+	///   - `blastoff`
+	///   - `deployment`
+	///   - `rocketship`
+	static public let rocket_launch_duotone = PhosphorSymbol(identifier: "rocket-launch.duotone")
+
+	/// `rows.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	static public let rows_duotone = PhosphorSymbol(identifier: "rows.duotone")
+
+	/// `rows-plus-bottom.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	///   - `prepend`
+	///   - `insert`
+	static public let rows_plus_bottom_duotone = PhosphorSymbol(identifier: "rows-plus-bottom.duotone")
+
+	/// `rows-plus-top.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `stack`
+	///   - `list`
+	///   - `table`
+	///   - `cards`
+	///   - `prepend`
+	///   - `insert`
+	static public let rows_plus_top_duotone = PhosphorSymbol(identifier: "rows-plus-top.duotone")
+
+	/// `rss.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `radio`
+	///   - `broadcast`
+	///   - `web feed`
+	///   - `news`
+	///   - `aggregator`
+	static public let rss_duotone = PhosphorSymbol(identifier: "rss.duotone")
+
+	/// `rss-simple.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `radio`
+	///   - `broadcast`
+	///   - `web feed`
+	///   - `news`
+	///   - `aggregator`
+	static public let rss_simple_duotone = PhosphorSymbol(identifier: "rss-simple.duotone")
+
+	/// `rug.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tapestry`
+	///   - `carpet`
+	static public let rug_duotone = PhosphorSymbol(identifier: "rug.duotone")
+
+	/// `ruler.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `measure`
+	///   - `scale`
+	///   - `distance`
+	static public let ruler_duotone = PhosphorSymbol(identifier: "ruler.duotone")
+
+	/// `sailboat.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sailing`
+	///   - `ship`
+	///   - `vehicles`
+	///   - `transportation`
+	///   - `sports`
+	///   - `places`
+	///   - `locations`
+	static public let sailboat_duotone = PhosphorSymbol(identifier: "sailboat.duotone")
+
+	/// `scales.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `measure`
+	///   - `balance`
+	///   - `law`
+	///   - `justice`
+	///   - `government`
+	static public let scales_duotone = PhosphorSymbol(identifier: "scales.duotone")
+
+	/// `scan.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `upc`
+	///   - `barcode`
+	///   - `products`
+	///   - `shopping`
+	///   - `scanner`
+	static public let scan_duotone = PhosphorSymbol(identifier: "scan.duotone")
+
+	/// `scan-smiley.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `facial recognition`
+	///   - `face unlock`
+	///   - `scanner`
+	static public let scan_smiley_duotone = PhosphorSymbol(identifier: "scan-smiley.duotone")
+
+	/// `scissors.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `cut`
+	///   - `snip`
+	///   - `clipboard`
+	static public let scissors_duotone = PhosphorSymbol(identifier: "scissors.duotone")
+
+	/// `scooter.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `transportation`
+	///   - `travel`
+	///   - `transit`
+	static public let scooter_duotone = PhosphorSymbol(identifier: "scooter.duotone")
+
+	/// `screencast.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `apple`
+	///   - `airplay`
+	///   - `screencasting`
+	///   - `screen share`
+	///   - `television`
+	///   - `tv`
+	static public let screencast_duotone = PhosphorSymbol(identifier: "screencast.duotone")
+
+	/// `screwdriver.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `construction`
+	///   - `flathead`
+	///   - `drill`
+	static public let screwdriver_duotone = PhosphorSymbol(identifier: "screwdriver.duotone")
+
+	/// `scribble.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `doodles`
+	///   - `squiggle`
+	///   - `drawing`
+	///   - `sign`
+	///   - `signature`
+	static public let scribble_duotone = PhosphorSymbol(identifier: "scribble.duotone")
+
+	/// `scribble-loop.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `doodles`
+	///   - `drawing`
+	///   - `sign`
+	///   - `signature`
+	static public let scribble_loop_duotone = PhosphorSymbol(identifier: "scribble-loop.duotone")
+
+	/// `scroll.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `parchment`
+	///   - `paper`
+	///   - `script`
+	///   - `spell`
+	///   - `fantasy`
+	static public let scroll_duotone = PhosphorSymbol(identifier: "scroll.duotone")
+
+	/// `seal-check.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `verified`
+	///   - `verification`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `circle-wavy`
+	static public let seal_check_duotone = PhosphorSymbol(identifier: "seal-check.duotone")
+
+	/// `seal.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `verified`
+	///   - `verification`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `circle-wavy`
+	static public let seal_duotone = PhosphorSymbol(identifier: "seal.duotone")
+
+	/// `seal-percent.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `discount`
+	///   - `sale`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `circle-wavy`
+	static public let seal_percent_duotone = PhosphorSymbol(identifier: "seal-percent.duotone")
+
+	/// `seal-question.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `unverified`
+	///   - `verification`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `circle-wavy`
+	static public let seal_question_duotone = PhosphorSymbol(identifier: "seal-question.duotone")
+
+	/// `seal-warning.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `unverified`
+	///   - `verification`
+	///   - `errors`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `circle-wavy`
+	static public let seal_warning_duotone = PhosphorSymbol(identifier: "seal-warning.duotone")
+
+	/// `seat.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `chair`
+	///   - `car seat`
+	///   - `airplane seat`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let seat_duotone = PhosphorSymbol(identifier: "seat.duotone")
+
+	/// `seatbelt.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `safety`
+	static public let seatbelt_duotone = PhosphorSymbol(identifier: "seatbelt.duotone")
+
+	/// `security-camera.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `cctv`
+	///   - `surveillance`
+	///   - `video`
+	///   - `monitor`
+	///   - `motion detector`
+	///   - `safety`
+	static public let security_camera_duotone = PhosphorSymbol(identifier: "security-camera.duotone")
+
+	/// `selection-all.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	///   - `select all`
+	static public let selection_all_duotone = PhosphorSymbol(identifier: "selection-all.duotone")
+
+	/// `selection-background.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	static public let selection_background_duotone = PhosphorSymbol(identifier: "selection-background.duotone")
+
+	/// `selection.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	///   - `select`
+	///   - `square dashed`
+	static public let selection_duotone = PhosphorSymbol(identifier: "selection.duotone")
+
+	/// `selection-foreground.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	static public let selection_foreground_duotone = PhosphorSymbol(identifier: "selection-foreground.duotone")
+
+	/// `selection-inverse.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	///   - `invert`
+	static public let selection_inverse_duotone = PhosphorSymbol(identifier: "selection-inverse.duotone")
+
+	/// `selection-plus.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	///   - `add`
+	static public let selection_plus_duotone = PhosphorSymbol(identifier: "selection-plus.duotone")
+
+	/// `selection-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `marquis`
+	///   - `unselect`
+	static public let selection_slash_duotone = PhosphorSymbol(identifier: "selection-slash.duotone")
+
+	/// `shapes.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `geometry`
+	///   - `square`
+	///   - `circle`
+	///   - `triangle`
+	static public let shapes_duotone = PhosphorSymbol(identifier: "shapes.duotone")
+
+	/// `share.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `send to`
+	///   - `export`
+	///   - `arrows`
+	static public let share_duotone = PhosphorSymbol(identifier: "share.duotone")
+
+	/// `share-fat.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `system`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `export`
+	///   - `send to`
+	static public let share_fat_duotone = PhosphorSymbol(identifier: "share-fat.duotone")
+
+	/// `share-network.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `send to`
+	///   - `export`
+	static public let share_network_duotone = PhosphorSymbol(identifier: "share-network.duotone")
+
+	/// `shield-check.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `defense`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_check_duotone = PhosphorSymbol(identifier: "shield-check.duotone")
+
+	/// `shield-checkered.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `defense`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_checkered_duotone = PhosphorSymbol(identifier: "shield-checkered.duotone")
+
+	/// `shield-chevron.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `defense`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_chevron_duotone = PhosphorSymbol(identifier: "shield-chevron.duotone")
+
+	/// `shield.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `secured`
+	///   - `defense`
+	///   - `defended`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_duotone = PhosphorSymbol(identifier: "shield.duotone")
+
+	/// `shield-plus.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `defense`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_plus_duotone = PhosphorSymbol(identifier: "shield-plus.duotone")
+
+	/// `shield-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `unsecured`
+	///   - `defense`
+	///   - `undefended`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `unguarded`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `disabled`
+	static public let shield_slash_duotone = PhosphorSymbol(identifier: "shield-slash.duotone")
+
+	/// `shield-star.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `defense`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `guarded`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let shield_star_duotone = PhosphorSymbol(identifier: "shield-star.duotone")
+
+	/// `shield-warning.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `badge`
+	///   - `security`
+	///   - `unsecured`
+	///   - `defense`
+	///   - `undefended`
+	///   - `authentication`
+	///   - `unauthenticated`
+	///   - `unguarded`
+	///   - `unlocked`
+	///   - `unencrypted`
+	///   - `encryption`
+	///   - `errors`
+	static public let shield_warning_duotone = PhosphorSymbol(identifier: "shield-warning.duotone")
+
+	/// `shipping-container.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `shipping`
+	///   - `transportation`
+	///   - `places`
+	///   - `locations`
+	static public let shipping_container_duotone = PhosphorSymbol(identifier: "shipping-container.duotone")
+
+	/// `shirt-folded.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	static public let shirt_folded_duotone = PhosphorSymbol(identifier: "shirt-folded.duotone")
+
+	/// `shooting-star.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `wish`
+	///   - `comet`
+	///   - `meteor`
+	static public let shooting_star_duotone = PhosphorSymbol(identifier: "shooting-star.duotone")
+
+	/// `shopping-bag.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `market`
+	///   - `basket`
+	///   - `cart`
+	///   - `buying`
+	///   - `checkout`
+	///   - `places`
+	///   - `locations`
+	static public let shopping_bag_duotone = PhosphorSymbol(identifier: "shopping-bag.duotone")
+
+	/// `shopping-bag-open.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `market`
+	///   - `basket`
+	///   - `cart`
+	///   - `buying`
+	///   - `checkout`
+	///   - `places`
+	///   - `locations`
+	static public let shopping_bag_open_duotone = PhosphorSymbol(identifier: "shopping-bag-open.duotone")
+
+	/// `shopping-cart.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `market`
+	///   - `basket`
+	///   - `buying`
+	///   - `groceries`
+	///   - `checkout`
+	///   - `places`
+	///   - `locations`
+	static public let shopping_cart_duotone = PhosphorSymbol(identifier: "shopping-cart.duotone")
+
+	/// `shopping-cart-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ecommerce`
+	///   - `market`
+	///   - `basket`
+	///   - `buying`
+	///   - `groceries`
+	///   - `checkout`
+	///   - `places`
+	///   - `locations`
+	static public let shopping_cart_simple_duotone = PhosphorSymbol(identifier: "shopping-cart-simple.duotone")
+
+	/// `shovel.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `digging`
+	///   - `construction`
+	static public let shovel_duotone = PhosphorSymbol(identifier: "shovel.duotone")
+
+	/// `shower.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bath`
+	///   - `bathtub`
+	///   - `bathroom`
+	///   - `faucet`
+	static public let shower_duotone = PhosphorSymbol(identifier: "shower.duotone")
+
+	/// `shrimp.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `food`
+	///   - `seafood`
+	///   - `prawn`
+	static public let shrimp_duotone = PhosphorSymbol(identifier: "shrimp.duotone")
+
+	/// `shuffle-angular.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `arrows`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `randomize`
+	///   - `crossed`
+	static public let shuffle_angular_duotone = PhosphorSymbol(identifier: "shuffle-angular.duotone")
+
+	/// `shuffle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `arrows`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `randomize`
+	///   - `crossed`
+	static public let shuffle_duotone = PhosphorSymbol(identifier: "shuffle.duotone")
+
+	/// `shuffle-simple.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `arrows`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `randomize`
+	///   - `crossed`
+	static public let shuffle_simple_duotone = PhosphorSymbol(identifier: "shuffle-simple.duotone")
+
+	/// `sidebar.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `left rail`
+	///   - `wireframe`
+	///   - `ui`
+	///   - `interface`
+	static public let sidebar_duotone = PhosphorSymbol(identifier: "sidebar.duotone")
+
+	/// `sidebar-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `left rail`
+	///   - `wireframe`
+	///   - `ui`
+	///   - `interface`
+	static public let sidebar_simple_duotone = PhosphorSymbol(identifier: "sidebar-simple.duotone")
+
+	/// `sigma.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `σ`
+	///   - `symbol`
+	///   - `mathematics`
+	///   - `sum`
+	static public let sigma_duotone = PhosphorSymbol(identifier: "sigma.duotone")
+
+	/// `sign-in.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `signin`
+	///   - `login`
+	///   - `log in`
+	///   - `enter`
+	static public let sign_in_duotone = PhosphorSymbol(identifier: "sign-in.duotone")
+
+	/// `sign-out.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `signout`
+	///   - `logout`
+	///   - `log out`
+	///   - `exit`
+	static public let sign_out_duotone = PhosphorSymbol(identifier: "sign-out.duotone")
+
+	/// `signature.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `sign`
+	///   - `autograph`
+	///   - `verify`
+	static public let signature_duotone = PhosphorSymbol(identifier: "signature.duotone")
+
+	/// `signpost.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `direction`
+	///   - `traffic`
+	///   - `road sign`
+	///   - `transit`
+	///   - `transportation`
+	static public let signpost_duotone = PhosphorSymbol(identifier: "signpost.duotone")
+
+	/// `sim-card.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `cellular`
+	///   - `cellphone`
+	///   - `mobile`
+	static public let sim_card_duotone = PhosphorSymbol(identifier: "sim-card.duotone")
+
+	/// `siren.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `alarm`
+	///   - `police`
+	///   - `lights`
+	///   - `warning`
+	static public let siren_duotone = PhosphorSymbol(identifier: "siren.duotone")
+
+	/// `sketch-logo.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `drawing`
+	///   - `art`
+	///   - `illustration`
+	///   - `ui`
+	///   - `interface`
+	///   - `prototype`
+	///   - `prototyping`
+	///   - `gemstone`
+	///   - `diamond`
+	static public let sketch_logo_duotone = PhosphorSymbol(identifier: "sketch-logo.duotone")
+
+	/// `skip-back-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `back`
+	///   - `backwards`
+	///   - `reverse`
+	///   - `previous`
+	static public let skip_back_circle_duotone = PhosphorSymbol(identifier: "skip-back-circle.duotone")
+
+	/// `skip-back.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `back`
+	///   - `backwards`
+	///   - `reverse`
+	///   - `previous`
+	static public let skip_back_duotone = PhosphorSymbol(identifier: "skip-back.duotone")
+
+	/// `skip-forward-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `ahead`
+	///   - `next`
+	static public let skip_forward_circle_duotone = PhosphorSymbol(identifier: "skip-forward-circle.duotone")
+
+	/// `skip-forward.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `seek`
+	///   - `scrub`
+	///   - `scan`
+	///   - `ahead`
+	///   - `next`
+	static public let skip_forward_duotone = PhosphorSymbol(identifier: "skip-forward.duotone")
+
+	/// `skull.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `death`
+	///   - `dead`
+	///   - `kill`
+	static public let skull_duotone = PhosphorSymbol(identifier: "skull.duotone")
+
+	/// `skype-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `chat`
+	///   - `video conference`
+	static public let skype_logo_duotone = PhosphorSymbol(identifier: "skype-logo.duotone")
+
+	/// `slack-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `messaging`
+	static public let slack_logo_duotone = PhosphorSymbol(identifier: "slack-logo.duotone")
+
+	/// `sliders.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `faders`
+	///   - `filters`
+	///   - `equalizer`
+	///   - `volume`
+	///   - `settings`
+	///   - `preferences`
+	static public let sliders_duotone = PhosphorSymbol(identifier: "sliders.duotone")
+
+	/// `sliders-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `faders`
+	///   - `filters`
+	///   - `equalizer`
+	///   - `volume`
+	///   - `settings`
+	///   - `preferences`
+	static public let sliders_horizontal_duotone = PhosphorSymbol(identifier: "sliders-horizontal.duotone")
+
+	/// `slideshow.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `pictures`
+	///   - `images`
+	///   - `photography`
+	///   - `gallery`
+	///   - `carousel`
+	static public let slideshow_duotone = PhosphorSymbol(identifier: "slideshow.duotone")
+
+	/// `smiley-angry.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `mad`
+	///   - `frown`
+	static public let smiley_angry_duotone = PhosphorSymbol(identifier: "smiley-angry.duotone")
+
+	/// `smiley-blank.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `unimpressed`
+	///   - `no face`
+	static public let smiley_blank_duotone = PhosphorSymbol(identifier: "smiley-blank.duotone")
+
+	/// `smiley.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `happy`
+	///   - `grinning`
+	///   - `smiling`
+	static public let smiley_duotone = PhosphorSymbol(identifier: "smiley.duotone")
+
+	/// `smiley-meh.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `unimpressed`
+	///   - `neutral`
+	static public let smiley_meh_duotone = PhosphorSymbol(identifier: "smiley-meh.duotone")
+
+	/// `smiley-melting.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `embarrassment`
+	///   - `sarcasm`
+	///   - `shame`
+	///   - `hot`
+	///   - `heat`
+	static public let smiley_melting_duotone = PhosphorSymbol(identifier: "smiley-melting.duotone")
+
+	/// `smiley-nervous.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `anxious`
+	///   - `uncomfortable`
+	///   - `uneasy`
+	///   - `queasy`
+	///   - `sick`
+	///   - `ill`
+	static public let smiley_nervous_duotone = PhosphorSymbol(identifier: "smiley-nervous.duotone")
+
+	/// `smiley-sad.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `unhappy`
+	///   - `frowning`
+	static public let smiley_sad_duotone = PhosphorSymbol(identifier: "smiley-sad.duotone")
+
+	/// `smiley-sticker.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `happy`
+	///   - `grinning`
+	///   - `smiling`
+	static public let smiley_sticker_duotone = PhosphorSymbol(identifier: "smiley-sticker.duotone")
+
+	/// `smiley-wink.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `winking`
+	///   - `flirting`
+	///   - `cute`
+	static public let smiley_wink_duotone = PhosphorSymbol(identifier: "smiley-wink.duotone")
+
+	/// `smiley-x-eyes.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `face`
+	///   - `emoji`
+	///   - `dead`
+	///   - `killed`
+	///   - `unconscious`
+	static public let smiley_x_eyes_duotone = PhosphorSymbol(identifier: "smiley-x-eyes.duotone")
+
+	/// `snapchat-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `messaging`
+	///   - `social media`
+	static public let snapchat_logo_duotone = PhosphorSymbol(identifier: "snapchat-logo.duotone")
+
+	/// `sneaker.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `shoes`
+	///   - `trainers`
+	///   - `sports`
+	static public let sneaker_duotone = PhosphorSymbol(identifier: "sneaker.duotone")
+
+	/// `sneaker-move.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	///   - `shoes`
+	///   - `trainers`
+	///   - `sports`
+	static public let sneaker_move_duotone = PhosphorSymbol(identifier: "sneaker-move.duotone")
+
+	/// `snowflake.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `snowy`
+	///   - `snowing`
+	///   - `snowstorm`
+	static public let snowflake_duotone = PhosphorSymbol(identifier: "snowflake.duotone")
+
+	/// `soccer-ball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `football`
+	///   - `mls`
+	static public let soccer_ball_duotone = PhosphorSymbol(identifier: "soccer-ball.duotone")
+
+	/// `sock.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	static public let sock_duotone = PhosphorSymbol(identifier: "sock.duotone")
+
+	/// `solar-panel.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `renewable`
+	///   - `energy`
+	///   - `power`
+	///   - `electricity`
+	static public let solar_panel_duotone = PhosphorSymbol(identifier: "solar-panel.duotone")
+
+	/// `solar-roof.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `renewable`
+	///   - `energy`
+	///   - `power`
+	///   - `electricity`
+	static public let solar_roof_duotone = PhosphorSymbol(identifier: "solar-roof.duotone")
+
+	/// `sort-ascending.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `sorted`
+	///   - `sorting`
+	///   - `increasing`
+	///   - `a to z`
+	///   - `arrows`
+	///   - `list`
+	static public let sort_ascending_duotone = PhosphorSymbol(identifier: "sort-ascending.duotone")
+
+	/// `sort-descending.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `sorted`
+	///   - `sorting`
+	///   - `decreasing`
+	///   - `z to a`
+	///   - `arrows`
+	///   - `list`
+	static public let sort_descending_duotone = PhosphorSymbol(identifier: "sort-descending.duotone")
+
+	/// `soundcloud-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `social media`
+	///   - `logos`
+	static public let soundcloud_logo_duotone = PhosphorSymbol(identifier: "soundcloud-logo.duotone")
+
+	/// `spade.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `spades`
+	///   - `suits`
+	///   - `cards`
+	///   - `gambling`
+	///   - `casino`
+	///   - `gaming`
+	static public let spade_duotone = PhosphorSymbol(identifier: "spade.duotone")
+
+	/// `sparkle.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `star`
+	///   - `rate`
+	///   - `ratings`
+	///   - `favorites`
+	///   - `favorited`
+	static public let sparkle_duotone = PhosphorSymbol(identifier: "sparkle.duotone")
+
+	/// `speaker-hifi.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `sound`
+	///   - `stereo`
+	static public let speaker_hifi_duotone = PhosphorSymbol(identifier: "speaker-hifi.duotone")
+
+	/// `speaker-high.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_high_duotone = PhosphorSymbol(identifier: "speaker-high.duotone")
+
+	/// `speaker-low.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_low_duotone = PhosphorSymbol(identifier: "speaker-low.duotone")
+
+	/// `speaker-none.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_none_duotone = PhosphorSymbol(identifier: "speaker-none.duotone")
+
+	/// `speaker-simple-high.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_simple_high_duotone = PhosphorSymbol(identifier: "speaker-simple-high.duotone")
+
+	/// `speaker-simple-low.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_simple_low_duotone = PhosphorSymbol(identifier: "speaker-simple-low.duotone")
+
+	/// `speaker-simple-none.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	static public let speaker_simple_none_duotone = PhosphorSymbol(identifier: "speaker-simple-none.duotone")
+
+	/// `speaker-simple-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	///   - `disabled`
+	static public let speaker_simple_slash_duotone = PhosphorSymbol(identifier: "speaker-simple-slash.duotone")
+
+	/// `speaker-simple-x.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	///   - `disabled`
+	///   - `errors`
+	static public let speaker_simple_x_duotone = PhosphorSymbol(identifier: "speaker-simple-x.duotone")
+
+	/// `speaker-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	///   - `disabled`
+	static public let speaker_slash_duotone = PhosphorSymbol(identifier: "speaker-slash.duotone")
+
+	/// `speaker-x.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `muted`
+	///   - `volume`
+	///   - `sound`
+	///   - `disabled`
+	///   - `errors`
+	static public let speaker_x_duotone = PhosphorSymbol(identifier: "speaker-x.duotone")
+
+	/// `speedometer.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `gauge`
+	///   - `dashboard`
+	///   - `meter`
+	///   - `speed`
+	///   - `odometer`
+	///   - `performance`
+	static public let speedometer_duotone = PhosphorSymbol(identifier: "speedometer.duotone")
+
+	/// `sphere.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `circle`
+	///   - `ball`
+	///   - `3d`
+	///   - `mesh`
+	///   - `cad`
+	///   - `model`
+	static public let sphere_duotone = PhosphorSymbol(identifier: "sphere.duotone")
+
+	/// `spinner-ball.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `loading`
+	///   - `loader`
+	///   - `waiting`
+	///   - `progress`
+	static public let spinner_ball_duotone = PhosphorSymbol(identifier: "spinner-ball.duotone")
+
+	/// `spinner.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `loading`
+	///   - `loader`
+	///   - `waiting`
+	///   - `progress`
+	static public let spinner_duotone = PhosphorSymbol(identifier: "spinner.duotone")
+
+	/// `spinner-gap.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `loading`
+	///   - `loader`
+	///   - `waiting`
+	///   - `progress`
+	static public let spinner_gap_duotone = PhosphorSymbol(identifier: "spinner-gap.duotone")
+
+	/// `spiral.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `spin`
+	///   - `rotate`
+	///   - `dizzy`
+	static public let spiral_duotone = PhosphorSymbol(identifier: "spiral.duotone")
+
+	/// `split-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `resize`
+	///   - `columns`
+	static public let split_horizontal_duotone = PhosphorSymbol(identifier: "split-horizontal.duotone")
+
+	/// `split-vertical.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `resize`
+	///   - `rows`
+	static public let split_vertical_duotone = PhosphorSymbol(identifier: "split-vertical.duotone")
+
+	/// `spotify-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `player`
+	///   - `streaming`
+	static public let spotify_logo_duotone = PhosphorSymbol(identifier: "spotify-logo.duotone")
+
+	/// `spray-bottle.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `cleaner`
+	///   - `cleaning`
+	static public let spray_bottle_duotone = PhosphorSymbol(identifier: "spray-bottle.duotone")
+
+	/// `square.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	static public let square_duotone = PhosphorSymbol(identifier: "square.duotone")
+
+	/// `square-half-bottom.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `columns`
+	///   - `sidebar`
+	///   - `split vertical`
+	static public let square_half_bottom_duotone = PhosphorSymbol(identifier: "square-half-bottom.duotone")
+
+	/// `square-half.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `box`
+	///   - `columns`
+	///   - `sidebar`
+	///   - `split vertical`
+	static public let square_half_duotone = PhosphorSymbol(identifier: "square-half.duotone")
+
+	/// `square-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `squareup`
+	///   - `payment`
+	static public let square_logo_duotone = PhosphorSymbol(identifier: "square-logo.duotone")
+
+	/// `square-split-horizontal.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `polygons`
+	///   - `columns`
+	static public let square_split_horizontal_duotone = PhosphorSymbol(identifier: "square-split-horizontal.duotone")
+
+	/// `square-split-vertical.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `shapes`
+	///   - `polygons`
+	///   - `rows`
+	static public let square_split_vertical_duotone = PhosphorSymbol(identifier: "square-split-vertical.duotone")
+
+	/// `squares-four.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `4`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `apps`
+	///   - `applications`
+	///   - `grid`
+	///   - `table`
+	///   - `microsoft`
+	///   - `logos`
+	static public let squares_four_duotone = PhosphorSymbol(identifier: "squares-four.duotone")
+
+	/// `stack.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `cards`
+	///   - `layers`
+	static public let stack_duotone = PhosphorSymbol(identifier: "stack.duotone")
+
+	/// `stack-minus.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `cards`
+	///   - `layers`
+	///   - `remove`
+	///   - `delete`
+	static public let stack_minus_duotone = PhosphorSymbol(identifier: "stack-minus.duotone")
+
+	/// `stack-overflow-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `code`
+	static public let stack_overflow_logo_duotone = PhosphorSymbol(identifier: "stack-overflow-logo.duotone")
+
+	/// `stack-plus.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `cards`
+	///   - `layers`
+	///   - `add`
+	static public let stack_plus_duotone = PhosphorSymbol(identifier: "stack-plus.duotone")
+
+	/// `stack-simple.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `cards`
+	///   - `layers`
+	static public let stack_simple_duotone = PhosphorSymbol(identifier: "stack-simple.duotone")
+
+	/// `stairs.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `staircase`
+	///   - `steps`
+	///   - `escalator`
+	///   - `exit`
+	///   - `signs`
+	static public let stairs_duotone = PhosphorSymbol(identifier: "stairs.duotone")
+
+	/// `stamp.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clone`
+	///   - `seal`
+	///   - `official`
+	static public let stamp_duotone = PhosphorSymbol(identifier: "stamp.duotone")
+
+	/// `standard-definition.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `sd`
+	///   - `resolution`
+	///   - `video`
+	static public let standard_definition_duotone = PhosphorSymbol(identifier: "standard-definition.duotone")
+
+	/// `star-and-crescent.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `islam`
+	///   - `muslim`
+	///   - `moon`
+	///   - `religion`
+	///   - `worship`
+	///   - `symbol`
+	static public let star_and_crescent_duotone = PhosphorSymbol(identifier: "star-and-crescent.duotone")
+
+	/// `star.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `map`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `rate`
+	///   - `ratings`
+	///   - `favorites`
+	///   - `favorited`
+	static public let star_duotone = PhosphorSymbol(identifier: "star.duotone")
+
+	/// `star-four.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `rate`
+	///   - `ratings`
+	///   - `favorites`
+	///   - `favorited`
+	static public let star_four_duotone = PhosphorSymbol(identifier: "star-four.duotone")
+
+	/// `star-half.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `rate`
+	///   - `ratings`
+	static public let star_half_duotone = PhosphorSymbol(identifier: "star-half.duotone")
+
+	/// `star-of-david.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `judaism`
+	///   - `jewish`
+	///   - `hexagram`
+	///   - `religion`
+	///   - `worship`
+	///   - `symbol`
+	static public let star_of_david_duotone = PhosphorSymbol(identifier: "star-of-david.duotone")
+
+	/// `steam-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `gaming`
+	///   - `games`
+	static public let steam_logo_duotone = PhosphorSymbol(identifier: "steam-logo.duotone")
+
+	/// `steering-wheel.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobiles`
+	///   - `driving`
+	static public let steering_wheel_duotone = PhosphorSymbol(identifier: "steering-wheel.duotone")
+
+	/// `steps.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `stairs`
+	///   - `staircase`
+	///   - `exit`
+	///   - `signs`
+	static public let steps_duotone = PhosphorSymbol(identifier: "steps.duotone")
+
+	/// `stethoscope.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `hospital`
+	///   - `medical`
+	///   - `medicine`
+	///   - `injury`
+	///   - `safety`
+	///   - `emergency`
+	///   - `doctor`
+	///   - `heart`
+	static public let stethoscope_duotone = PhosphorSymbol(identifier: "stethoscope.duotone")
+
+	/// `sticker.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `stickers`
+	///   - `sticker pack`
+	///   - `labels`
+	static public let sticker_duotone = PhosphorSymbol(identifier: "sticker.duotone")
+
+	/// `stool.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `chair`
+	///   - `seat`
+	///   - `furniture`
+	static public let stool_duotone = PhosphorSymbol(identifier: "stool.duotone")
+
+	/// `stop-circle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	///   - `round`
+	static public let stop_circle_duotone = PhosphorSymbol(identifier: "stop-circle.duotone")
+
+	/// `stop.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `audio`
+	static public let stop_duotone = PhosphorSymbol(identifier: "stop.duotone")
+
+	/// `storefront.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `shops`
+	///   - `shopping`
+	///   - `markets`
+	///   - `stores`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let storefront_duotone = PhosphorSymbol(identifier: "storefront.duotone")
+
+	/// `strategy.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `strategem`
+	///   - `plan`
+	///   - `tic-tac-toe`
+	static public let strategy_duotone = PhosphorSymbol(identifier: "strategy.duotone")
+
+	/// `stripe-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `commerce`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `payment`
+	static public let stripe_logo_duotone = PhosphorSymbol(identifier: "stripe-logo.duotone")
+
+	/// `student.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `pupil`
+	///   - `graduate`
+	///   - `classroom`
+	///   - `teacher`
+	///   - `education`
+	///   - `school`
+	///   - `college`
+	///   - `university`
+	static public let student_duotone = PhosphorSymbol(identifier: "student.duotone")
+
+	/// `subset-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊆`
+	///   - `subset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let subset_of_duotone = PhosphorSymbol(identifier: "subset-of.duotone")
+
+	/// `subset-proper-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊂`
+	///   - `proper subset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let subset_proper_of_duotone = PhosphorSymbol(identifier: "subset-proper-of.duotone")
+
+	/// `subtitles.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `subtitles`
+	///   - `television`
+	///   - `tv`
+	///   - `transcribed`
+	///   - `transcription`
+	///   - `accessibility`
+	///   - `a11y`
+	static public let subtitles_duotone = PhosphorSymbol(identifier: "subtitles.duotone")
+
+	/// `subtitles-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `subtitles`
+	///   - `television`
+	///   - `tv`
+	///   - `transcribed`
+	///   - `transcription`
+	///   - `accessibility`
+	///   - `a11y`
+	///   - `disabled`
+	static public let subtitles_slash_duotone = PhosphorSymbol(identifier: "subtitles-slash.duotone")
+
+	/// `subtract.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `boolean`
+	///   - `intersection`
+	///   - `combine`
+	///   - `split`
+	///   - `merge`
+	///   - `union`
+	static public let subtract_duotone = PhosphorSymbol(identifier: "subtract.duotone")
+
+	/// `subtract-square.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `boolean`
+	///   - `intersection`
+	///   - `combine`
+	///   - `split`
+	///   - `merge`
+	///   - `union`
+	static public let subtract_square_duotone = PhosphorSymbol(identifier: "subtract-square.duotone")
+
+	/// `subway.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `underground`
+	///   - `train`
+	///   - `tunnel`
+	///   - `metro`
+	///   - `light rail`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let subway_duotone = PhosphorSymbol(identifier: "subway.duotone")
+
+	/// `suitcase.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `briefcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let suitcase_duotone = PhosphorSymbol(identifier: "suitcase.duotone")
+
+	/// `suitcase-rolling.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcase`
+	///   - `luggage`
+	///   - `travel`
+	///   - `transportation`
+	static public let suitcase_rolling_duotone = PhosphorSymbol(identifier: "suitcase-rolling.duotone")
+
+	/// `suitcase-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `briefcase`
+	///   - `valise`
+	///   - `baggage`
+	///   - `folders`
+	///   - `portfolio`
+	static public let suitcase_simple_duotone = PhosphorSymbol(identifier: "suitcase-simple.duotone")
+
+	/// `sun-dim.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `system`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `day`
+	///   - `daytime`
+	///   - `daylight`
+	///   - `clear`
+	///   - `sunny`
+	///   - `sunshine`
+	///   - `light mode`
+	///   - `brightness`
+	///   - `darken`
+	static public let sun_dim_duotone = PhosphorSymbol(identifier: "sun-dim.duotone")
+
+	/// `sun.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `system`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `day`
+	///   - `daytime`
+	///   - `daylight`
+	///   - `clear`
+	///   - `sunny`
+	///   - `sunshine`
+	///   - `light mode`
+	///   - `brightness`
+	///   - `lighten`
+	///   - `brighten`
+	static public let sun_duotone = PhosphorSymbol(identifier: "sun.duotone")
+
+	/// `sun-horizon.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `day`
+	///   - `daytime`
+	///   - `daylight`
+	///   - `clear`
+	///   - `sunny`
+	///   - `sunshine`
+	///   - `sunrise`
+	///   - `sunset`
+	static public let sun_horizon_duotone = PhosphorSymbol(identifier: "sun-horizon.duotone")
+
+	/// `sunglasses.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vision`
+	///   - `sun`
+	///   - `spectacles`
+	static public let sunglasses_duotone = PhosphorSymbol(identifier: "sunglasses.duotone")
+
+	/// `superset-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊇`
+	///   - `superset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let superset_of_duotone = PhosphorSymbol(identifier: "superset-of.duotone")
+
+	/// `superset-proper-of.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `⊃`
+	///   - `proper superset of`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let superset_proper_of_duotone = PhosphorSymbol(identifier: "superset-proper-of.duotone")
+
+	/// `swap.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `layers`
+	///   - `replace`
+	///   - `exchange`
+	///   - `reverse`
+	static public let swap_duotone = PhosphorSymbol(identifier: "swap.duotone")
+
+	/// `swatches.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `colors`
+	///   - `color picker`
+	///   - `samples`
+	///   - `pantone`
+	static public let swatches_duotone = PhosphorSymbol(identifier: "swatches.duotone")
+
+	/// `swimming-pool.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `swim`
+	///   - `sports`
+	///   - `exercise`
+	///   - `olympics`
+	///   - `aquatics`
+	static public let swimming_pool_duotone = PhosphorSymbol(identifier: "swimming-pool.duotone")
+
+	/// `sword.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `weapon`
+	///   - `knife`
+	///   - `dagger`
+	///   - `gladius`
+	///   - `video games`
+	///   - `rpg`
+	///   - `gaming`
+	///   - `war`
+	static public let sword_duotone = PhosphorSymbol(identifier: "sword.duotone")
+
+	/// `synagogue.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `jewish`
+	///   - `judaism`
+	///   - `temple`
+	///   - `religion`
+	///   - `worship`
+	static public let synagogue_duotone = PhosphorSymbol(identifier: "synagogue.duotone")
+
+	/// `syringe.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `needle`
+	///   - `hypodermic`
+	///   - `vaccine`
+	///   - `medicine`
+	///   - `doctor`
+	///   - `shot`
+	///   - `hospital`
+	static public let syringe_duotone = PhosphorSymbol(identifier: "syringe.duotone")
+
+	/// `t-shirt.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `clothes`
+	///   - `clothing`
+	static public let t_shirt_duotone = PhosphorSymbol(identifier: "t-shirt.duotone")
+
+	/// `table.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `tables`
+	///   - `tabular`
+	///   - `spreadsheets`
+	///   - `excel`
+	///   - `grid`
+	///   - `form`
+	static public let table_duotone = PhosphorSymbol(identifier: "table.duotone")
+
+	/// `tabs.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `browser`
+	///   - `window`
+	///   - `folders`
+	///   - `files`
+	static public let tabs_duotone = PhosphorSymbol(identifier: "tabs.duotone")
+
+	/// `tag-chevron.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tags`
+	///   - `hashtag`
+	///   - `labels`
+	///   - `sale`
+	static public let tag_chevron_duotone = PhosphorSymbol(identifier: "tag-chevron.duotone")
+
+	/// `tag.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tags`
+	///   - `hashtag`
+	///   - `labels`
+	///   - `sale`
+	///   - `sell`
+	///   - `price`
+	///   - `discount`
+	static public let tag_duotone = PhosphorSymbol(identifier: "tag.duotone")
+
+	/// `tag-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `development`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `tags`
+	///   - `hashtag`
+	///   - `labels`
+	///   - `sale`
+	///   - `sell`
+	///   - `price`
+	///   - `discount`
+	static public let tag_simple_duotone = PhosphorSymbol(identifier: "tag-simple.duotone")
+
+	/// `target.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bullseye`
+	///   - `radar`
+	///   - `archery`
+	///   - `accuracy`
+	///   - `precision`
+	static public let target_duotone = PhosphorSymbol(identifier: "target.duotone")
+
+	/// `taxi.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `cars`
+	///   - `automobiles`
+	///   - `livery`
+	///   - `limousine`
+	///   - `uber`
+	static public let taxi_duotone = PhosphorSymbol(identifier: "taxi.duotone")
+
+	/// `tea-bag.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drinks`
+	///   - `beverages`
+	///   - `sachet`
+	///   - `caffeine`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let tea_bag_duotone = PhosphorSymbol(identifier: "tea-bag.duotone")
+
+	/// `telegram-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `messages`
+	///   - `messaging`
+	static public let telegram_logo_duotone = PhosphorSymbol(identifier: "telegram-logo.duotone")
+
+	/// `television.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `screen`
+	///   - `tv`
+	///   - `displays`
+	static public let television_duotone = PhosphorSymbol(identifier: "television.duotone")
+
+	/// `television-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `screen`
+	///   - `tv`
+	///   - `displays`
+	static public let television_simple_duotone = PhosphorSymbol(identifier: "television-simple.duotone")
+
+	/// `tennis-ball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	///   - `mlb`
+	static public let tennis_ball_duotone = PhosphorSymbol(identifier: "tennis-ball.duotone")
+
+	/// `tent.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///   - `nature`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `camping`
+	///   - `outdoors`
+	///   - `tarp`
+	static public let tent_duotone = PhosphorSymbol(identifier: "tent.duotone")
+
+	/// `terminal.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `command line`
+	///   - `cli`
+	///   - `bash`
+	///   - `shell`
+	///   - `caret`
+	///   - `console`
+	static public let terminal_duotone = PhosphorSymbol(identifier: "terminal.duotone")
+
+	/// `terminal-window.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `command line`
+	///   - `cli`
+	///   - `bash`
+	///   - `shell`
+	///   - `caret`
+	///   - `console`
+	static public let terminal_window_duotone = PhosphorSymbol(identifier: "terminal-window.duotone")
+
+	/// `test-tube.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `nature`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `science`
+	///   - `chemistry`
+	///   - `experiment`
+	///   - `vial`
+	static public let test_tube_duotone = PhosphorSymbol(identifier: "test-tube.duotone")
+
+	/// `text-a-underline.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `underscore`
+	///   - `emphasis`
+	static public let text_a_underline_duotone = PhosphorSymbol(identifier: "text-a-underline.duotone")
+
+	/// `text-aa.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	static public let text_aa_duotone = PhosphorSymbol(identifier: "text-aa.duotone")
+
+	/// `text-align-center.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `print`
+	///   - `font`
+	///   - `alignment`
+	///   - `centered`
+	static public let text_align_center_duotone = PhosphorSymbol(identifier: "text-align-center.duotone")
+
+	/// `text-align-justify.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `print`
+	///   - `font`
+	///   - `alignment`
+	///   - `justified`
+	static public let text_align_justify_duotone = PhosphorSymbol(identifier: "text-align-justify.duotone")
+
+	/// `text-align-left.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `print`
+	///   - `font`
+	///   - `alignment`
+	///   - `flush left`
+	static public let text_align_left_duotone = PhosphorSymbol(identifier: "text-align-left.duotone")
+
+	/// `text-align-right.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `print`
+	///   - `font`
+	///   - `alignment`
+	///   - `flush right`
+	static public let text_align_right_duotone = PhosphorSymbol(identifier: "text-align-right.duotone")
+
+	/// `text-b.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `bold`
+	///   - `boldface`
+	///   - `emphasis`
+	static public let text_b_duotone = PhosphorSymbol(identifier: "text-b.duotone")
+
+	/// `text-columns.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `print`
+	///   - `font`
+	///   - `alignment`
+	///   - `article`
+	static public let text_columns_duotone = PhosphorSymbol(identifier: "text-columns.duotone")
+
+	/// `text-h.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_duotone = PhosphorSymbol(identifier: "text-h.duotone")
+
+	/// `text-h-five.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h5`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_five_duotone = PhosphorSymbol(identifier: "text-h-five.duotone")
+
+	/// `text-h-four.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h4`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_four_duotone = PhosphorSymbol(identifier: "text-h-four.duotone")
+
+	/// `text-h-one.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h1`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_one_duotone = PhosphorSymbol(identifier: "text-h-one.duotone")
+
+	/// `text-h-six.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h6`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_six_duotone = PhosphorSymbol(identifier: "text-h-six.duotone")
+
+	/// `text-h-three.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h3`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_three_duotone = PhosphorSymbol(identifier: "text-h-three.duotone")
+
+	/// `text-h-two.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `heading`
+	///   - `h2`
+	///   - `typography`
+	///   - `print`
+	static public let text_h_two_duotone = PhosphorSymbol(identifier: "text-h-two.duotone")
+
+	/// `text-indent.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `tab`
+	///   - `menu`
+	static public let text_indent_duotone = PhosphorSymbol(identifier: "text-indent.duotone")
+
+	/// `text-italic.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `slant`
+	///   - `oblique`
+	///   - `stress`
+	///   - `emphasis`
+	///   - `calligraphy`
+	static public let text_italic_duotone = PhosphorSymbol(identifier: "text-italic.duotone")
+
+	/// `text-outdent.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `alignment`
+	///   - `tab`
+	///   - `unindent`
+	///   - `dedent`
+	///   - `menu`
+	static public let text_outdent_duotone = PhosphorSymbol(identifier: "text-outdent.duotone")
+
+	/// `text-strikethrough.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `struck`
+	///   - `remove`
+	///   - `delete`
+	///   - `change`
+	static public let text_strikethrough_duotone = PhosphorSymbol(identifier: "text-strikethrough.duotone")
+
+	/// `text-subscript.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `font`
+	///   - `formatting`
+	///   - `mathematics`
+	///   - `power`
+	///   - `exponent`
+	///   - `calculator`
+	static public let text_subscript_duotone = PhosphorSymbol(identifier: "text-subscript.duotone")
+
+	/// `text-superscript.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `font`
+	///   - `formatting`
+	///   - `mathematics`
+	///   - `calculator`
+	static public let text_superscript_duotone = PhosphorSymbol(identifier: "text-superscript.duotone")
+
+	/// `text-t.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	static public let text_t_duotone = PhosphorSymbol(identifier: "text-t.duotone")
+
+	/// `text-t-slash.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `formatting`
+	///   - `clear`
+	static public let text_t_slash_duotone = PhosphorSymbol(identifier: "text-t-slash.duotone")
+
+	/// `text-underline.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `typography`
+	///   - `typeface`
+	///   - `print`
+	///   - `font`
+	///   - `underscore`
+	///   - `emphasis`
+	static public let text_underline_duotone = PhosphorSymbol(identifier: "text-underline.duotone")
+
+	/// `textbox.duotone`
+	///
+	/// - categories:
+	///   - `editor`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `input`
+	///   - `cursor`
+	///   - `field`
+	static public let textbox_duotone = PhosphorSymbol(identifier: "textbox.duotone")
+
+	/// `thermometer-cold.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `temperature`
+	///   - `degrees`
+	///   - `°`
+	///   - `celcius`
+	///   - `centigrade`
+	///   - `kelvin`
+	///   - `fahrenheit`
+	static public let thermometer_cold_duotone = PhosphorSymbol(identifier: "thermometer-cold.duotone")
+
+	/// `thermometer.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `temperature`
+	///   - `degrees`
+	///   - `°`
+	///   - `celcius`
+	///   - `centigrade`
+	///   - `kelvin`
+	///   - `fahrenheit`
+	///   - `hot`
+	///   - `warm`
+	///   - `cold`
+	static public let thermometer_duotone = PhosphorSymbol(identifier: "thermometer.duotone")
+
+	/// `thermometer-hot.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `temperature`
+	///   - `degrees`
+	///   - `°`
+	///   - `celcius`
+	///   - `centigrade`
+	///   - `kelvin`
+	///   - `fahrenheit`
+	///   - `warm`
+	static public let thermometer_hot_duotone = PhosphorSymbol(identifier: "thermometer-hot.duotone")
+
+	/// `thermometer-simple.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `temperature`
+	///   - `degrees`
+	///   - `°`
+	///   - `celcius`
+	///   - `centigrade`
+	///   - `kelvin`
+	///   - `fahrenheit`
+	///   - `hot`
+	///   - `warm`
+	///   - `cold`
+	static public let thermometer_simple_duotone = PhosphorSymbol(identifier: "thermometer-simple.duotone")
+
+	/// `threads-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `meta`
+	///   - `instagram`
+	///   - `social media`
+	static public let threads_logo_duotone = PhosphorSymbol(identifier: "threads-logo.duotone")
+
+	/// `three-d.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `3d`
+	///   - `cad`
+	///   - `model`
+	static public let three_d_duotone = PhosphorSymbol(identifier: "three-d.duotone")
+
+	/// `thumbs-down.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `dislike`
+	///   - `hate`
+	///   - `emoji`
+	///   - `no`
+	static public let thumbs_down_duotone = PhosphorSymbol(identifier: "thumbs-down.duotone")
+
+	/// `thumbs-up.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `like`
+	///   - `love`
+	///   - `favorited`
+	///   - `favorites`
+	///   - `emoji`
+	///   - `yes`
+	static public let thumbs_up_duotone = PhosphorSymbol(identifier: "thumbs-up.duotone")
+
+	/// `ticket.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ticketstub`
+	///   - `movie ticket`
+	///   - `entry`
+	///   - `admissions`
+	///   - `events`
+	static public let ticket_duotone = PhosphorSymbol(identifier: "ticket.duotone")
+
+	/// `tidal-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `music`
+	///   - `logos`
+	static public let tidal_logo_duotone = PhosphorSymbol(identifier: "tidal-logo.duotone")
+
+	/// `tiktok-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `social media`
+	static public let tiktok_logo_duotone = PhosphorSymbol(identifier: "tiktok-logo.duotone")
+
+	/// `tilde.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `~`
+	///   - `∼`
+	///   - `proportional`
+	///   - `comparison`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let tilde_duotone = PhosphorSymbol(identifier: "tilde.duotone")
+
+	/// `timer.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clock`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `stopwatch`
+	///   - `sports`
+	static public let timer_duotone = PhosphorSymbol(identifier: "timer.duotone")
+
+	/// `tip-jar.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `give`
+	///   - `deposit`
+	///   - `donation`
+	///   - `savings`
+	///   - `money`
+	static public let tip_jar_duotone = PhosphorSymbol(identifier: "tip-jar.duotone")
+
+	/// `tipi.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `objects`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `teepee`
+	///   - `lodge`
+	///   - `tent`
+	///   - `outdoors`
+	///   - `camping`
+	///   - `tarp`
+	static public let tipi_duotone = PhosphorSymbol(identifier: "tipi.duotone")
+
+	/// `tire.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `wheel`
+	///   - `vehicles`
+	///   - `transportation`
+	static public let tire_duotone = PhosphorSymbol(identifier: "tire.duotone")
+
+	/// `toggle-left.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `switch`
+	///   - `controls`
+	///   - `settings`
+	///   - `preferences`
+	static public let toggle_left_duotone = PhosphorSymbol(identifier: "toggle-left.duotone")
+
+	/// `toggle-right.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `switch`
+	///   - `controls`
+	///   - `settings`
+	///   - `preferences`
+	static public let toggle_right_duotone = PhosphorSymbol(identifier: "toggle-right.duotone")
+
+	/// `toilet.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bathroom`
+	///   - `restroom`
+	///   - `lavatory`
+	///   - `water closet`
+	static public let toilet_duotone = PhosphorSymbol(identifier: "toilet.duotone")
+
+	/// `toilet-paper.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `bathroom`
+	///   - `restroom`
+	///   - `lavatory`
+	///   - `water closet`
+	static public let toilet_paper_duotone = PhosphorSymbol(identifier: "toilet-paper.duotone")
+
+	/// `toolbox.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `tools`
+	///   - `carpentry`
+	///   - `construction`
+	static public let toolbox_duotone = PhosphorSymbol(identifier: "toolbox.duotone")
+
+	/// `tooth.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `teeth`
+	///   - `dentistry`
+	///   - `medical`
+	///   - `medicine`
+	///   - `doctor`
+	///   - `cavity`
+	static public let tooth_duotone = PhosphorSymbol(identifier: "tooth.duotone")
+
+	/// `tornado.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `twister`
+	///   - `storm`
+	///   - `wind`
+	///   - `disaster`
+	static public let tornado_duotone = PhosphorSymbol(identifier: "tornado.duotone")
+
+	/// `tote.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcases`
+	///   - `valises`
+	///   - `baggage`
+	///   - `tote-bag`
+	///   - `portfolios`
+	static public let tote_duotone = PhosphorSymbol(identifier: "tote.duotone")
+
+	/// `tote-simple.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `suitcases`
+	///   - `valises`
+	///   - `baggage`
+	///   - `tote-bag`
+	///   - `portfolios`
+	static public let tote_simple_duotone = PhosphorSymbol(identifier: "tote-simple.duotone")
+
+	/// `towel.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothing`
+	///   - `linen`
+	///   - `hotel`
+	///   - `beach`
+	///   - `pool`
+	///   - `swimming`
+	///   - `shower`
+	///   - `bath`
+	static public let towel_duotone = PhosphorSymbol(identifier: "towel.duotone")
+
+	/// `tractor.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `farmer`
+	///   - `field`
+	///   - `farming`
+	///   - `agriculture`
+	static public let tractor_duotone = PhosphorSymbol(identifier: "tractor.duotone")
+
+	/// `trademark.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `tm`
+	///   - `®`
+	///   - `™`
+	///   - `intellectual property`
+	static public let trademark_duotone = PhosphorSymbol(identifier: "trademark.duotone")
+
+	/// `trademark-registered.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `®`
+	///   - `™`
+	///   - `intellectual property`
+	static public let trademark_registered_duotone = PhosphorSymbol(identifier: "trademark-registered.duotone")
+
+	/// `traffic-cone.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `pylon`
+	///   - `safety`
+	///   - `transit`
+	///   - `transportation`
+	static public let traffic_cone_duotone = PhosphorSymbol(identifier: "traffic-cone.duotone")
+
+	/// `traffic-sign.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `road signs`
+	///   - `transit`
+	///   - `transportation`
+	static public let traffic_sign_duotone = PhosphorSymbol(identifier: "traffic-sign.duotone")
+
+	/// `traffic-signal.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `stop light`
+	///   - `safety`
+	///   - `transit`
+	///   - `transportation`
+	static public let traffic_signal_duotone = PhosphorSymbol(identifier: "traffic-signal.duotone")
+
+	/// `train.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `subway`
+	///   - `light rail`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let train_duotone = PhosphorSymbol(identifier: "train.duotone")
+
+	/// `train-regional.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `subway`
+	///   - `railroad`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `freight`
+	///   - `shipping`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let train_regional_duotone = PhosphorSymbol(identifier: "train-regional.duotone")
+
+	/// `train-simple.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `subway`
+	///   - `light rail`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let train_simple_duotone = PhosphorSymbol(identifier: "train-simple.duotone")
+
+	/// `tram.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `subway`
+	///   - `railroad`
+	///   - `public transit`
+	///   - `transportation`
+	///   - `commuter`
+	///   - `light rail`
+	///   - `shipping`
+	///   - `traveling`
+	///   - `places`
+	///   - `locations`
+	static public let tram_duotone = PhosphorSymbol(identifier: "tram.duotone")
+
+	/// `translate.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `translation`
+	///   - `languages`
+	///   - `internationalization`
+	///   - `i18n`
+	///   - `speech`
+	static public let translate_duotone = PhosphorSymbol(identifier: "translate.duotone")
+
+	/// `trash.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `garbage`
+	///   - `remove`
+	///   - `delete`
+	///   - `destroy`
+	///   - `recycle`
+	///   - `recycling`
+	static public let trash_duotone = PhosphorSymbol(identifier: "trash.duotone")
+
+	/// `trash-simple.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `garbage`
+	///   - `remove`
+	///   - `delete`
+	///   - `destroy`
+	///   - `recycle`
+	///   - `recycling`
+	static public let trash_simple_duotone = PhosphorSymbol(identifier: "trash-simple.duotone")
+
+	/// `tray-arrow-down.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `inbox`
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `downloaded`
+	///   - `downloading`
+	static public let tray_arrow_down_duotone = PhosphorSymbol(identifier: "tray-arrow-down.duotone")
+
+	/// `tray-arrow-up.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `outbox`
+	///   - `archival`
+	///   - `unarchive`
+	///   - `uploaded`
+	///   - `uploading`
+	static public let tray_arrow_up_duotone = PhosphorSymbol(identifier: "tray-arrow-up.duotone")
+
+	/// `tray.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `communication`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `inbox`
+	///   - `mailbox`
+	///   - `bin`
+	static public let tray_duotone = PhosphorSymbol(identifier: "tray.duotone")
+
+	/// `treasure-chest.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `loot`
+	///   - `lootbox`
+	///   - `inventory`
+	///   - `rewards`
+	///   - `gaming`
+	///   - `pirate`
+	static public let treasure_chest_duotone = PhosphorSymbol(identifier: "treasure-chest.duotone")
+
+	/// `tree.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `branches`
+	///   - `leaves`
+	///   - `green`
+	///   - `environmental`
+	static public let tree_duotone = PhosphorSymbol(identifier: "tree.duotone")
+
+	/// `tree-evergreen.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `plants`
+	///   - `branches`
+	///   - `leaves`
+	///   - `pine`
+	///   - `conifer`
+	///   - `green`
+	///   - `environmental`
+	static public let tree_evergreen_duotone = PhosphorSymbol(identifier: "tree-evergreen.duotone")
+
+	/// `tree-palm.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///
+	/// - search keywords:
+	///   - `tropical`
+	///   - `beach`
+	///   - `plants`
+	///   - `branches`
+	///   - `leaves`
+	///   - `green`
+	///   - `environmental`
+	static public let tree_palm_duotone = PhosphorSymbol(identifier: "tree-palm.duotone")
+
+	/// `tree-structure.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `data structures`
+	///   - `family tree`
+	///   - `genealogy`
+	///   - `hierarchy`
+	///   - `taxonomy`
+	///   - `charts`
+	///   - `flowchart`
+	static public let tree_structure_duotone = PhosphorSymbol(identifier: "tree-structure.duotone")
+
+	/// `tree-view.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `hierarchy`
+	static public let tree_view_duotone = PhosphorSymbol(identifier: "tree-view.duotone")
+
+	/// `trend-down.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `decrease`
+	///   - `arrows`
+	static public let trend_down_duotone = PhosphorSymbol(identifier: "trend-down.duotone")
+
+	/// `trend-up.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `graphs`
+	///   - `graphing`
+	///   - `charts`
+	///   - `statistics`
+	///   - `analyze`
+	///   - `analysis`
+	///   - `increase`
+	///   - `arrows`
+	static public let trend_up_duotone = PhosphorSymbol(identifier: "trend-up.duotone")
+
+	/// `triangle-dashed.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `3`
+	///   - `shapes`
+	///   - `polygons`
+	///   - `missing`
+	static public let triangle_dashed_duotone = PhosphorSymbol(identifier: "triangle-dashed.duotone")
+
+	/// `triangle.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `3`
+	///   - `shapes`
+	///   - `polygons`
+	static public let triangle_duotone = PhosphorSymbol(identifier: "triangle.duotone")
+
+	/// `trolley.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `airport`
+	///   - `briefcase`
+	///   - `valise`
+	///   - `baggage`
+	static public let trolley_duotone = PhosphorSymbol(identifier: "trolley.duotone")
+
+	/// `trolley-suitcase.duotone`
+	///
+	/// - categories:
+	///   - `office`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `airport`
+	///   - `briefcase`
+	///   - `valise`
+	///   - `baggage`
+	static public let trolley_suitcase_duotone = PhosphorSymbol(identifier: "trolley-suitcase.duotone")
+
+	/// `trophy.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `ribbons`
+	///   - `medals`
+	///   - `winning`
+	///   - `victory`
+	///   - `awards`
+	///   - `prize`
+	static public let trophy_duotone = PhosphorSymbol(identifier: "trophy.duotone")
+
+	/// `truck.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `trucks`
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `shipping`
+	///   - `delivery`
+	static public let truck_duotone = PhosphorSymbol(identifier: "truck.duotone")
+
+	/// `truck-trailer.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `shipping`
+	///   - `tractor`
+	///   - `semi`
+	static public let truck_trailer_duotone = PhosphorSymbol(identifier: "truck-trailer.duotone")
+
+	/// `tumblr-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `social media`
+	///   - `logos`
+	static public let tumblr_logo_duotone = PhosphorSymbol(identifier: "tumblr-logo.duotone")
+
+	/// `twitch-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///   - `games`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `streaming`
+	///   - `livestream`
+	///   - `gaming`
+	///   - `video games`
+	///   - `social media`
+	static public let twitch_logo_duotone = PhosphorSymbol(identifier: "twitch-logo.duotone")
+
+	/// `twitter-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `social media`
+	///   - `tweets`
+	///   - `birds`
+	static public let twitter_logo_duotone = PhosphorSymbol(identifier: "twitter-logo.duotone")
+
+	/// `umbrella.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `raining`
+	///   - `rainy`
+	///   - `insurance`
+	static public let umbrella_duotone = PhosphorSymbol(identifier: "umbrella.duotone")
+
+	/// `umbrella-simple.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `raining`
+	///   - `rainy`
+	///   - `insurance`
+	static public let umbrella_simple_duotone = PhosphorSymbol(identifier: "umbrella-simple.duotone")
+
+	/// `union.duotone`
+	///
+	/// - categories:
+	///   - `finance`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `∪`
+	///   - `union`
+	///   - `set`
+	///   - `member`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let union_duotone = PhosphorSymbol(identifier: "union.duotone")
+
+	/// `unite.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `round`
+	///   - `join`
+	///   - `union`
+	///   - `merge`
+	///   - `combine`
+	///   - `intersecting`
+	///   - `intersection`
+	static public let unite_duotone = PhosphorSymbol(identifier: "unite.duotone")
+
+	/// `unite-square.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///   - `editor`
+	///
+	/// - search keywords:
+	///   - `join`
+	///   - `union`
+	///   - `merge`
+	///   - `combine`
+	///   - `intersecting`
+	///   - `intersection`
+	static public let unite_square_duotone = PhosphorSymbol(identifier: "unite-square.duotone")
+
+	/// `upload.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `uploaded`
+	///   - `uploading`
+	///   - `hard drive`
+	///   - `disk`
+	static public let upload_duotone = PhosphorSymbol(identifier: "upload.duotone")
+
+	/// `upload-simple.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `saved`
+	///   - `saving`
+	///   - `archived`
+	///   - `archiving`
+	///   - `archival`
+	///   - `uploaded`
+	///   - `uploading`
+	///   - `hard drive`
+	///   - `disk`
+	static public let upload_simple_duotone = PhosphorSymbol(identifier: "upload-simple.duotone")
+
+	/// `usb.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `serial`
+	///   - `port`
+	///   - `plug`
+	///   - `peripheral`
+	///   - `device`
+	static public let usb_duotone = PhosphorSymbol(identifier: "usb.duotone")
+
+	/// `user-check.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	///   - `verified`
+	static public let user_check_duotone = PhosphorSymbol(identifier: "user-check.duotone")
+
+	/// `user-circle-check.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	///   - `verified`
+	static public let user_circle_check_duotone = PhosphorSymbol(identifier: "user-circle-check.duotone")
+
+	/// `user-circle-dashed.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	///   - `pending`
+	///   - `missing`
+	///   - `removed`
+	static public let user_circle_dashed_duotone = PhosphorSymbol(identifier: "user-circle-dashed.duotone")
+
+	/// `user-circle.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	static public let user_circle_duotone = PhosphorSymbol(identifier: "user-circle.duotone")
+
+	/// `user-circle-gear.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `settings`
+	///   - `preferences`
+	static public let user_circle_gear_duotone = PhosphorSymbol(identifier: "user-circle-gear.duotone")
+
+	/// `user-circle-minus.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `delete`
+	///   - `remove`
+	///   - `-`
+	static public let user_circle_minus_duotone = PhosphorSymbol(identifier: "user-circle-minus.duotone")
+
+	/// `user-circle-plus.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `add`
+	///   - `create`
+	///   - `+`
+	static public let user_circle_plus_duotone = PhosphorSymbol(identifier: "user-circle-plus.duotone")
+
+	/// `user.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	static public let user_duotone = PhosphorSymbol(identifier: "user.duotone")
+
+	/// `user-focus.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `identification`
+	///   - `biometrics`
+	///   - `facial recognition`
+	///   - `profile`
+	///   - `person`
+	///   - `account`
+	///   - `autofocus`
+	static public let user_focus_duotone = PhosphorSymbol(identifier: "user-focus.duotone")
+
+	/// `user-gear.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `settings`
+	///   - `preferences`
+	static public let user_gear_duotone = PhosphorSymbol(identifier: "user-gear.duotone")
+
+	/// `user-list.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profiles`
+	///   - `accounts`
+	///   - `members`
+	///   - `address book`
+	static public let user_list_duotone = PhosphorSymbol(identifier: "user-list.duotone")
+
+	/// `user-minus.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `delete`
+	///   - `remove`
+	///   - `-`
+	static public let user_minus_duotone = PhosphorSymbol(identifier: "user-minus.duotone")
+
+	/// `user-plus.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `add`
+	///   - `create`
+	///   - `+`
+	static public let user_plus_duotone = PhosphorSymbol(identifier: "user-plus.duotone")
+
+	/// `user-rectangle.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	static public let user_rectangle_duotone = PhosphorSymbol(identifier: "user-rectangle.duotone")
+
+	/// `user-sound.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `speech`
+	///   - `speaking`
+	///   - `voice`
+	static public let user_sound_duotone = PhosphorSymbol(identifier: "user-sound.duotone")
+
+	/// `user-square.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `contact`
+	///   - `login`
+	static public let user_square_duotone = PhosphorSymbol(identifier: "user-square.duotone")
+
+	/// `user-switch.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `person`
+	///   - `users`
+	///   - `profile`
+	///   - `account`
+	///   - `login`
+	///   - `logout`
+	///   - `signin`
+	///   - `signout`
+	///   - `settings`
+	///   - `preferences`
+	static public let user_switch_duotone = PhosphorSymbol(identifier: "user-switch.duotone")
+
+	/// `users.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `user`
+	///   - `group`
+	///   - `team`
+	///   - `people`
+	///   - `profiles`
+	///   - `accounts`
+	///   - `contacts`
+	static public let users_duotone = PhosphorSymbol(identifier: "users.duotone")
+
+	/// `users-four.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `user`
+	///   - `group`
+	///   - `team`
+	///   - `department`
+	///   - `community`
+	///   - `people`
+	///   - `profiles`
+	///   - `accounts`
+	///   - `contacts`
+	static public let users_four_duotone = PhosphorSymbol(identifier: "users-four.duotone")
+
+	/// `users-three.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `user`
+	///   - `group`
+	///   - `team`
+	///   - `community`
+	///   - `people`
+	///   - `profiles`
+	///   - `accounts`
+	///   - `contacts`
+	static public let users_three_duotone = PhosphorSymbol(identifier: "users-three.duotone")
+
+	/// `van.duotone`
+	///
+	/// - categories:
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `westfalia`
+	///   - `microbus`
+	///   - `vanagon`
+	///   - `cars`
+	///   - `vehicles`
+	///   - `automobile`
+	///   - `transit`
+	///   - `transportation`
+	///   - `traveling`
+	static public let van_duotone = PhosphorSymbol(identifier: "van.duotone")
+
+	/// `vault.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///   - `finance`
+	///
+	/// - search keywords:
+	///   - `safe`
+	///   - `bank`
+	///   - `security`
+	///   - `secured`
+	///   - `authentication`
+	///   - `authenticated`
+	///   - `locked`
+	///   - `encrypted`
+	///   - `encryption`
+	static public let vault_duotone = PhosphorSymbol(identifier: "vault.duotone")
+
+	/// `vector-three.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `development`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `3d`
+	///   - `xyz`
+	///   - `cartesian`
+	///   - `coordinates`
+	///   - `plane`
+	///   - `volume`
+	///   - `dimensions`
+	///   - `mathematics`
+	static public let vector_three_duotone = PhosphorSymbol(identifier: "vector-three.duotone")
+
+	/// `vector-two.duotone`
+	///
+	/// - categories:
+	///   - `arrows`
+	///   - `development`
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `2d`
+	///   - `xy`
+	///   - `cartesian`
+	///   - `coordinates`
+	///   - `plane`
+	///   - `dimensions`
+	///   - `mathematics`
+	static public let vector_two_duotone = PhosphorSymbol(identifier: "vector-two.duotone")
+
+	/// `vibrate.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `volume`
+	///   - `viration`
+	///   - `ringer`
+	///   - `calls`
+	///   - `silent`
+	///   - `silenced`
+	static public let vibrate_duotone = PhosphorSymbol(identifier: "vibrate.duotone")
+
+	/// `video-camera.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `videography`
+	///   - `films`
+	///   - `movies`
+	///   - `recording`
+	static public let video_camera_duotone = PhosphorSymbol(identifier: "video-camera.duotone")
+
+	/// `video-camera-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `videography`
+	///   - `films`
+	///   - `movies`
+	///   - `recording`
+	///   - `disabled`
+	static public let video_camera_slash_duotone = PhosphorSymbol(identifier: "video-camera-slash.duotone")
+
+	/// `video-conference.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `system`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `video call`
+	///   - `zoom`
+	///   - `skype`
+	///   - `discord`
+	///   - `facetime`
+	///   - `meeting`
+	static public let video_conference_duotone = PhosphorSymbol(identifier: "video-conference.duotone")
+
+	/// `video.duotone`
+	///
+	/// - categories:
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `training`
+	///   - `course`
+	///   - `education`
+	///   - `tutorial`
+	static public let video_duotone = PhosphorSymbol(identifier: "video.duotone")
+
+	/// `vignette.duotone`
+	///
+	/// - categories:
+	///   - `design`
+	///
+	/// - search keywords:
+	///   - `photography`
+	///   - `darkroom`
+	///   - `movie`
+	///   - `analog`
+	static public let vignette_duotone = PhosphorSymbol(identifier: "vignette.duotone")
+
+	/// `vinyl-record.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///   - `office`
+	///
+	/// - search keywords:
+	///   - `recording`
+	///   - `audio`
+	///   - `album`
+	///   - `music`
+	///   - `ep`
+	///   - `lp`
+	static public let vinyl_record_duotone = PhosphorSymbol(identifier: "vinyl-record.duotone")
+
+	/// `virtual-reality.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `virtual reality`
+	///   - `vr`
+	///   - `headset`
+	///   - `metaverse`
+	static public let virtual_reality_duotone = PhosphorSymbol(identifier: "virtual-reality.duotone")
+
+	/// `virus.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///
+	/// - search keywords:
+	///   - `germs`
+	///   - `disease`
+	///   - `illness`
+	static public let virus_duotone = PhosphorSymbol(identifier: "virus.duotone")
+
+	/// `visor.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `media`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `goggles`
+	///   - `vision`
+	static public let visor_duotone = PhosphorSymbol(identifier: "visor.duotone")
+
+	/// `voicemail.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `phonecalls`
+	///   - `missed`
+	///   - `recording`
+	///   - `telephone`
+	///   - `landline`
+	static public let voicemail_duotone = PhosphorSymbol(identifier: "voicemail.duotone")
+
+	/// `volleyball.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `health`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `sports`
+	static public let volleyball_duotone = PhosphorSymbol(identifier: "volleyball.duotone")
+
+	/// `wall.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `firewall`
+	///   - `security`
+	///   - `secured`
+	///   - `blocks`
+	///   - `bricks`
+	static public let wall_duotone = PhosphorSymbol(identifier: "wall.duotone")
+
+	/// `wallet.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `finance`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `money`
+	///   - `payment`
+	///   - `paying`
+	///   - `purchase`
+	static public let wallet_duotone = PhosphorSymbol(identifier: "wallet.duotone")
+
+	/// `warehouse.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///
+	/// - search keywords:
+	///   - `storage`
+	///   - `industry`
+	///   - `manufacture`
+	///   - `buildings`
+	///   - `places`
+	///   - `locations`
+	static public let warehouse_duotone = PhosphorSymbol(identifier: "warehouse.duotone")
+
+	/// `warning-circle.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alert`
+	///   - `danger`
+	///   - `dangerous`
+	///   - `caution`
+	///   - `errors`
+	///   - `round`
+	static public let warning_circle_duotone = PhosphorSymbol(identifier: "warning-circle.duotone")
+
+	/// `warning-diamond.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alert`
+	///   - `danger`
+	///   - `dangerous`
+	///   - `caution`
+	///   - `errors`
+	static public let warning_diamond_duotone = PhosphorSymbol(identifier: "warning-diamond.duotone")
+
+	/// `warning.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alert`
+	///   - `danger`
+	///   - `dangerous`
+	///   - `caution`
+	///   - `errors`
+	static public let warning_duotone = PhosphorSymbol(identifier: "warning.duotone")
+
+	/// `warning-octagon.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `alert`
+	///   - `danger`
+	///   - `dangerous`
+	///   - `caution`
+	///   - `errors`
+	///   - `8`
+	///   - `eight`
+	static public let warning_octagon_duotone = PhosphorSymbol(identifier: "warning-octagon.duotone")
+
+	/// `washing-machine.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `clothing`
+	///   - `laundry`
+	///   - `cleaning`
+	static public let washing_machine_duotone = PhosphorSymbol(identifier: "washing-machine.duotone")
+
+	/// `watch.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `times`
+	///   - `timer`
+	///   - `alarm`
+	///   - `schedule`
+	///   - `events`
+	///   - `clock`
+	///   - `wristwatch`
+	///   - `wearable`
+	static public let watch_duotone = PhosphorSymbol(identifier: "watch.duotone")
+
+	/// `wave-sawtooth.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `synth`
+	///   - `synthesizer`
+	///   - `sound`
+	///   - `audio`
+	///   - `music`
+	///   - `waveform`
+	static public let wave_sawtooth_duotone = PhosphorSymbol(identifier: "wave-sawtooth.duotone")
+
+	/// `wave-sine.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `synth`
+	///   - `synthesizer`
+	///   - `sound`
+	///   - `audio`
+	///   - `music`
+	///   - `waveform`
+	static public let wave_sine_duotone = PhosphorSymbol(identifier: "wave-sine.duotone")
+
+	/// `wave-square.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `synth`
+	///   - `synthesizer`
+	///   - `sound`
+	///   - `audio`
+	///   - `music`
+	///   - `waveform`
+	static public let wave_square_duotone = PhosphorSymbol(identifier: "wave-square.duotone")
+
+	/// `wave-triangle.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `synth`
+	///   - `synthesizer`
+	///   - `sound`
+	///   - `audio`
+	///   - `music`
+	///   - `waveform`
+	static public let wave_triangle_duotone = PhosphorSymbol(identifier: "wave-triangle.duotone")
+
+	/// `waveform.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `sound`
+	///   - `spectrum`
+	///   - `spectrograph`
+	///   - `music`
+	static public let waveform_duotone = PhosphorSymbol(identifier: "waveform.duotone")
+
+	/// `waveform-slash.duotone`
+	///
+	/// - categories:
+	///   - `media`
+	///
+	/// - search keywords:
+	///   - `audio`
+	///   - `sound`
+	///   - `spectrum`
+	///   - `spectrograph`
+	///   - `music`
+	static public let waveform_slash_duotone = PhosphorSymbol(identifier: "waveform-slash.duotone")
+
+	/// `waves.duotone`
+	///
+	/// - categories:
+	///   - `nature`
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `ocean`
+	///   - `tides`
+	///   - `surf`
+	static public let waves_duotone = PhosphorSymbol(identifier: "waves.duotone")
+
+	/// `webcam.duotone`
+	///
+	/// - categories:
+	///   - `objects`
+	///   - `system`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `camera`
+	///   - `video conference`
+	static public let webcam_duotone = PhosphorSymbol(identifier: "webcam.duotone")
+
+	/// `webcam-slash.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///   - `objects`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `camera`
+	///   - `video conference`
+	static public let webcam_slash_duotone = PhosphorSymbol(identifier: "webcam-slash.duotone")
+
+	/// `webhooks-logo.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `api`
+	static public let webhooks_logo_duotone = PhosphorSymbol(identifier: "webhooks-logo.duotone")
+
+	/// `wechat-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///
+	/// - search keywords:
+	///   - `weixin`
+	///   - `logos`
+	static public let wechat_logo_duotone = PhosphorSymbol(identifier: "wechat-logo.duotone")
+
+	/// `whatsapp-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `logos`
+	///   - `messages`
+	///   - `messaging`
+	static public let whatsapp_logo_duotone = PhosphorSymbol(identifier: "whatsapp-logo.duotone")
+
+	/// `wheelchair.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `handicapped`
+	///   - `medical`
+	///   - `disabled`
+	///   - `differently abled`
+	///   - `accessible`
+	///   - `accessibility`
+	///   - `a11y`
+	static public let wheelchair_duotone = PhosphorSymbol(identifier: "wheelchair.duotone")
+
+	/// `wheelchair-motion.duotone`
+	///
+	/// - categories:
+	///   - `health`
+	///   - `map`
+	///   - `people`
+	///
+	/// - search keywords:
+	///   - `handicapped`
+	///   - `medical`
+	///   - `disabled`
+	///   - `differently abled`
+	///   - `accessible`
+	///   - `accessibility`
+	///   - `a11y`
+	static public let wheelchair_motion_duotone = PhosphorSymbol(identifier: "wheelchair-motion.duotone")
+
+	/// `wifi-high.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	static public let wifi_high_duotone = PhosphorSymbol(identifier: "wifi-high.duotone")
+
+	/// `wifi-low.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	static public let wifi_low_duotone = PhosphorSymbol(identifier: "wifi-low.duotone")
+
+	/// `wifi-medium.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	static public let wifi_medium_duotone = PhosphorSymbol(identifier: "wifi-medium.duotone")
+
+	/// `wifi-none.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	static public let wifi_none_duotone = PhosphorSymbol(identifier: "wifi-none.duotone")
+
+	/// `wifi-slash.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `disabled`
+	///   - `disconnected`
+	static public let wifi_slash_duotone = PhosphorSymbol(identifier: "wifi-slash.duotone")
+
+	/// `wifi-x.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `wireless`
+	///   - `internet`
+	///   - `network`
+	///   - `connection`
+	///   - `connectivity`
+	///   - `disconnected`
+	///   - `errors`
+	static public let wifi_x_duotone = PhosphorSymbol(identifier: "wifi-x.duotone")
+
+	/// `wind.duotone`
+	///
+	/// - categories:
+	///   - `weather`
+	///
+	/// - search keywords:
+	///   - `meteorology`
+	///   - `windy`
+	///   - `stormy`
+	///   - `blustery`
+	///   - `gusty`
+	///   - `air`
+	static public let wind_duotone = PhosphorSymbol(identifier: "wind.duotone")
+
+	/// `windmill.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `turbine`
+	///   - `energy`
+	///   - `renewable`
+	///   - `sustainability`
+	///   - `countryside`
+	///   - `landscape`
+	///   - `green`
+	///   - `power`
+	///   - `buildings`
+	static public let windmill_duotone = PhosphorSymbol(identifier: "windmill.duotone")
+
+	/// `windows-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `development`
+	///
+	/// - search keywords:
+	///   - `microsoft`
+	///   - `computers`
+	static public let windows_logo_duotone = PhosphorSymbol(identifier: "windows-logo.duotone")
+
+	/// `wine.duotone`
+	///
+	/// - categories:
+	///   - `commerce`
+	///   - `map`
+	///   - `objects`
+	///
+	/// - search keywords:
+	///   - `drinks`
+	///   - `beverages`
+	///   - `vineyard`
+	///   - `places`
+	///   - `locations`
+	///   - `bars`
+	///   - `restaurants`
+	///   - `food`
+	///   - `dining`
+	static public let wine_duotone = PhosphorSymbol(identifier: "wine.duotone")
+
+	/// `wrench.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///   - `objects`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `settings`
+	///   - `setup`
+	///   - `preferences`
+	///   - `tools`
+	///   - `machinery`
+	///   - `mechanical`
+	///   - `repairs`
+	static public let wrench_duotone = PhosphorSymbol(identifier: "wrench.duotone")
+
+	/// `x-circle.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `closed`
+	///   - `cancelled`
+	///   - `dismissed`
+	///   - `round`
+	static public let x_circle_duotone = PhosphorSymbol(identifier: "x-circle.duotone")
+
+	/// `x.duotone`
+	///
+	/// - categories:
+	///   - `development`
+	///   - `finance`
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `×`
+	///   - `closed`
+	///   - `cancelled`
+	///   - `dismissed`
+	///   - `times`
+	///   - `multiply`
+	///   - `mulitplication`
+	///   - `product`
+	///   - `mathematics`
+	///   - `arithmetic`
+	///   - `calculator`
+	static public let x_duotone = PhosphorSymbol(identifier: "x.duotone")
+
+	/// `x-logo.duotone`
+	///
+	/// - categories:
+	///   - `brand`
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `twitter`
+	///   - `logos`
+	///   - `social media`
+	///   - `tweets`
+	static public let x_logo_duotone = PhosphorSymbol(identifier: "x-logo.duotone")
+
+	/// `x-square.duotone`
+	///
+	/// - categories:
+	///   - `system`
+	///
+	/// - search keywords:
+	///   - `closed`
+	///   - `cancelled`
+	///   - `dismissed`
+	static public let x_square_duotone = PhosphorSymbol(identifier: "x-square.duotone")
+
+	/// `yarn.duotone`
+	///
+	/// - categories:
+	///   - `games`
+	///   - `commerce`
+	///
+	/// - search keywords:
+	///   - `knitting`
+	///   - `sewing`
+	static public let yarn_duotone = PhosphorSymbol(identifier: "yarn.duotone")
+
+	/// `yin-yang.duotone`
+	///
+	/// - categories:
+	///   - `communication`
+	///
+	/// - search keywords:
+	///   - `symbol`
+	///   - `good`
+	///   - `evil`
+	///   - `black`
+	///   - `white`
+	static public let yin_yang_duotone = PhosphorSymbol(identifier: "yin-yang.duotone")
+
+	/// `youtube-logo.duotone`
+	static public let youtube_logo_duotone = PhosphorSymbol(identifier: "youtube-logo.duotone")
 }

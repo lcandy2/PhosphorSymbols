@@ -19,27 +19,27 @@
     </g>
     <g id="Guides" stroke="rgb(39, 170, 225)" stroke-width="0.5">
         <path id="Capline-S" d="M18,76 l800,0" />
-        <path id="H-reference" d="M85,145.755 L87.685,145.755 L113.369,79.287 L114.052,79.287 L114.052,76 L112.148,76 L85,145.755 Z M95.693,121.536 L130.996,121.536 L130.263,119.313 L96.474,119.313 L95.693,121.536 Z M139.15,145.755 L141.787,145.755 L114.638,76 L113.466,76 L113.466,79.287 L139.15,145.755 Z" stroke="none" transform="translate(0,0)" />
+        <path id="H-reference" d="M85,145.755 L87.685,145.755 L113.369,79.287 L114.052,79.287 L114.052,76 L112.148,76 L85,145.755 Z M95.693,121.536 L130.996,121.536 L130.263,119.313 L96.474,119.313 L95.693,121.536 Z M139.15,145.755 L141.787,145.755 L114.638,76 L113.466,76 L113.466,79.287 L139.15,145.755 Z" stroke="none" transform="translate(0,200)" />
         <path id="Baseline-S" d="M18,146 l800,0" />
-        <path id="left-margin-Ultralight-S" d="M221,56 l0,110" />
-        <path id="right-margin-Ultralight-S" d="M309,56 l0,110" />
-        <path id="left-margin-Regular-S" d="M421,56 l0,110" />
-        <path id="right-margin-Regular-S" d="M509,56 l0,110" />
-        <path id="left-margin-Black-S" d="M621,56 l0,110" />
-        <path id="right-margin-Black-S" d="M709,56 l0,110" />
+        <path id="left-margin-Ultralight-M" d="M221,256 l0,110" />
+        <path id="right-margin-Ultralight-M" d="M309,256 l0,110" />
+        <path id="left-margin-Regular-M" d="M421,256 l0,110" />
+        <path id="right-margin-Regular-M" d="M509,256 l0,110" />
+        <path id="left-margin-Black-M" d="M621,256 l0,110" />
+        <path id="right-margin-Black-M" d="M709,256 l0,110" />
         <path id="Capline-M" d="M18,276 l800,0" />
         <path id="Baseline-M" d="M18,346 l800,0" />
         <path id="Capline-L" d="M18,476 l800,0" />
         <path id="Baseline-L" d="M18,546 l800,0" />
     </g>
     <g id="Symbols">
-        <g id="Ultralight-S" transform="translate(0,0)">
+        <g id="Ultralight-M" transform="translate(0,200)">
             <path d="M284.556,101.222 L284.556,120.778 C284.556,131.578 275.8,140.333 265,140.333 C254.2,140.333 245.444,131.578 245.444,120.778 L245.444,101.222 C245.444,90.422 254.2,81.667 265,81.667 C275.8,81.667 284.556,90.422 284.556,101.222 Z" />
         </g>
-        <g id="Regular-S" transform="translate(0,0)">
+        <g id="Regular-M" transform="translate(0,200)">
             <path d="M484.556,101.222 L484.556,120.778 C484.556,131.578 475.8,140.333 465,140.333 C454.2,140.333 445.444,131.578 445.444,120.778 L445.444,101.222 C445.444,90.422 454.2,81.667 465,81.667 C475.8,81.667 484.556,90.422 484.556,101.222 Z" />
         </g>
-        <g id="Black-S" transform="translate(0,0)">
+        <g id="Black-M" transform="translate(0,200)">
             <path d="M684.556,101.222 L684.556,120.778 C684.556,131.578 675.8,140.333 665,140.333 C654.2,140.333 645.444,131.578 645.444,120.778 L645.444,101.222 C645.444,90.422 654.2,81.667 665,81.667 C675.8,81.667 684.556,90.422 684.556,101.222 Z" />
         </g>
     </g>
