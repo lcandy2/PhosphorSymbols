@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg height="600" width="800" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Notes" font-family="LucidaGrande, 'Lucida Grande', sans-serif" font-size="13">
+        <rect fill="white" height="600.0" width="800.0" x="0.0" y="0.0" />
+        <g font-size="13">
+            <text x="18.0" y="176.0">Small</text>
+            <text x="18.0" y="376.0">Medium</text>
+            <text x="18.0" y="576.0">Large</text>
+        </g>
+        <g font-size="9">
+            <text x="250.0" y="30.0">Ultralight</text>
+            <text x="450.0" y="30.0">Regular</text>
+            <text x="650.0" y="30.0">Black</text>
+            <text id="template-version" fill="#505050" text-anchor="end" x="785.0" y="575.0">Template v.3.0</text>
+            <a href="https://github.com/swhitty/SwiftDraw">
+                <text fill="#505050" text-anchor="end" x="785.0" y="590.0">https://github.com/swhitty/SwiftDraw</text>
+            </a>
+        </g>
+    </g>
+    <g id="Guides" stroke="rgb(39, 170, 225)" stroke-width="0.5">
+        <path id="Capline-S" d="M18,76 l800,0" />
+        <path id="H-reference" d="M85,145.755 L87.685,145.755 L113.369,79.287 L114.052,79.287 L114.052,76 L112.148,76 L85,145.755 Z M95.693,121.536 L130.996,121.536 L130.263,119.313 L96.474,119.313 L95.693,121.536 Z M139.15,145.755 L141.787,145.755 L114.638,76 L113.466,76 L113.466,79.287 L139.15,145.755 Z" stroke="none" transform="translate(0,0)" />
+        <path id="Baseline-S" d="M18,146 l800,0" />
+        <path id="left-margin-Ultralight-S" d="M241.932,56 l0,110" />
+        <path id="right-margin-Ultralight-S" d="M288.068,56 l0,110" />
+        <path id="left-margin-Regular-S" d="M441.932,56 l0,110" />
+        <path id="right-margin-Regular-S" d="M488.068,56 l0,110" />
+        <path id="left-margin-Black-S" d="M641.932,56 l0,110" />
+        <path id="right-margin-Black-S" d="M688.068,56 l0,110" />
+        <path id="Capline-M" d="M18,276 l800,0" />
+        <path id="Baseline-M" d="M18,346 l800,0" />
+        <path id="Capline-L" d="M18,476 l800,0" />
+        <path id="Baseline-L" d="M18,546 l800,0" />
+    </g>
+    <g id="Symbols">
+        <g id="Ultralight-S" transform="translate(0,0)">
+            <path d="M284.091,79.184 L284.091,142.816 C284.092,144.103 283.317,145.265 282.127,145.758 C280.937,146.25 279.568,145.978 278.658,145.067 L246.842,113.251 C246.245,112.654 245.909,111.844 245.909,111 C245.909,110.156 246.245,109.346 246.842,108.749 L278.658,76.933 C279.568,76.022 280.938,75.75 282.127,76.242 C283.317,76.735 284.092,77.897 284.091,79.184 Z" />
+        </g>
+        <g id="Regular-S" transform="translate(0,0)">
+            <path d="M484.091,79.184 L484.091,142.816 C484.092,144.103 483.317,145.265 482.127,145.758 C480.937,146.25 479.568,145.978 478.658,145.067 L446.842,113.251 C446.245,112.654 445.909,111.844 445.909,111 C445.909,110.156 446.245,109.346 446.842,108.749 L478.658,76.933 C479.568,76.022 480.938,75.75 482.127,76.242 C483.317,76.735 484.092,77.897 484.091,79.184 Z" />
+        </g>
+        <g id="Black-S" transform="translate(0,0)">
+            <path d="M684.091,79.184 L684.091,142.816 C684.092,144.103 683.317,145.265 682.127,145.758 C680.937,146.25 679.568,145.978 678.658,145.067 L646.842,113.251 C646.245,112.654 645.909,111.844 645.909,111 C645.909,110.156 646.245,109.346 646.842,108.749 L678.658,76.933 C679.568,76.022 680.938,75.75 682.127,76.242 C683.317,76.735 684.092,77.897 684.091,79.184 Z" />
+        </g>
+    </g>
+</svg>
