@@ -1,6 +1,10 @@
 name: Convert Phosphor Icons to SF Symbols
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   workflow_dispatch:
     inputs:
       major_version:
@@ -14,7 +18,16 @@ permissions:
   contents: write
 
 jobs:
+  test:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: swift build
+      - run: swift test
+
   convert:
+    needs: test
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     runs-on: macos-latest
     steps:
       - name: Checkout repository
@@ -60,7 +73,7 @@ jobs:
           ENCODED_MINOR=$(( P_MAJOR * 10000 + P_MINOR * 100 + P_PATCH ))
           echo "encoded_minor=$ENCODED_MINOR" >> "$GITHUB_OUTPUT"
 
-          # Parse latest existing tag: v{major}.{encoded_minor}.{patch}
+          # Parse latest existing tag: {major}.{encoded_minor}.{patch}
           LATEST_TAG=$(git tag --list '[0-9]*' --sort=-v:refname | head -n1)
 
           if [ -n "$LATEST_TAG" ]; then
@@ -102,6 +115,12 @@ jobs:
 
           echo "tag=$TAG" >> "$GITHUB_OUTPUT"
           echo "Release tag: $TAG (Phosphor v$PHOSPHOR_VERSION)"
+
+      - name: Build and test after conversion
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          swift build
+          swift test
 
       - name: Commit and push
         if: steps.changes.outputs.changed == 'true'
