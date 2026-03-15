@@ -1,4 +1,4 @@
-# Phosphor SF Symbols
+# PhosphorSymbols
 
 [Phosphor Icons](https://phosphoricons.com) automatically converted to custom SF Symbol format, distributed as a Swift Package.
 
@@ -11,7 +11,7 @@ Converted from [phosphor-icons/core](https://github.com/phosphor-icons/core) usi
 Add this repository URL in Xcode → File → Add Package Dependencies:
 
 ```
-https://github.com/piecelet/phosphor-sf-symbols.git
+https://github.com/piecelet/PhosphorSymbols.git
 ```
 
 ### Manual
@@ -59,7 +59,7 @@ Hyphens and dots in Phosphor icon names are replaced with underscores:
 ```bash
 brew install swiftdraw
 git clone https://github.com/phosphor-icons/core.git phosphor-core
-./Scripts/convert.sh phosphor-core Symbols
+node Scripts/convert.mjs --phosphor-core phosphor-core
 ```
 
 ## Automation

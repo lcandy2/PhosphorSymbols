@@ -73,9 +73,9 @@ jobs:
 
           # Create zip archives
           cd Symbols
-          zip -r ../phosphor-sf-symbols-outline.zip outline/
-          zip -r ../phosphor-sf-symbols-fill.zip fill/
-          zip -r ../phosphor-sf-symbols-all.zip outline/ fill/
+          zip -r ../PhosphorSymbols-outline.zip outline/
+          zip -r ../PhosphorSymbols-fill.zip fill/
+          zip -r ../PhosphorSymbols-all.zip outline/ fill/
           cd ..
 
           gh release create "$RELEASE_TAG" \
@@ -86,7 +86,7 @@ Auto-converted from [phosphor-icons/core](https://github.com/phosphor-icons/core
 ## Install via SPM
 
 ```
-https://github.com/piecelet/phosphor-sf-symbols.git
+https://github.com/piecelet/PhosphorSymbols.git
 ```
 
 ## Contents
@@ -107,6 +107,6 @@ let image = UIImage(phosphor: .heart)
 Or download the zip and drag `.svg` files into your Xcode Asset Catalog manually.
 NOTES
 )" \
-            phosphor-sf-symbols-outline.zip \
-            phosphor-sf-symbols-fill.zip \
-            phosphor-sf-symbols-all.zip
+            PhosphorSymbols-outline.zip \
+            PhosphorSymbols-fill.zip \
+            PhosphorSymbols-all.zip
