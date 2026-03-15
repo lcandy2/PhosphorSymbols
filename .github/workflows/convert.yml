@@ -30,25 +30,47 @@ jobs:
       - name: Clone Phosphor Icons core
         run: git clone --depth 1 https://github.com/phosphor-icons/core.git phosphor-core
 
-      - name: Determine versions
-        id: versions
+      - name: Install SwiftDraw
+        run: brew install swiftdraw
+
+      - name: Run conversion
+        run: node Scripts/convert.mjs --phosphor-core phosphor-core
+
+      - name: Check for changes
+        id: changes
         run: |
-          # Read Phosphor core version from package.json
+          git add Symbols/ Sources/
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No changes detected, skipping release."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Determine version
+        if: steps.changes.outputs.changed == 'true'
+        id: version
+        run: |
           PHOSPHOR_VERSION=$(node -p "require('./phosphor-core/package.json').version")
           echo "phosphor=$PHOSPHOR_VERSION" >> "$GITHUB_OUTPUT"
 
-          # Determine major version
           LATEST_TAG=$(git tag --list 'v*' --sort=-v:refname | head -n1)
+
           if [ -n "$LATEST_TAG" ]; then
             CURRENT_MAJOR=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f1)
+            CURRENT_PHOSPHOR=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f2-4)
+            CURRENT_PATCH=$(echo "$LATEST_TAG" | sed 's/^v//' | cut -d. -f5)
           else
             CURRENT_MAJOR=0
+            CURRENT_PHOSPHOR=""
+            CURRENT_PATCH=""
           fi
 
           INPUT_MAJOR="${{ github.event.inputs.major_version }}"
+
           if [ -n "$INPUT_MAJOR" ]; then
             if [ "$INPUT_MAJOR" -lt "$CURRENT_MAJOR" ] 2>/dev/null; then
-              echo "Error: major_version ($INPUT_MAJOR) must be >= current ($CURRENT_MAJOR)"
+              echo "::error::major_version ($INPUT_MAJOR) must be >= current ($CURRENT_MAJOR)"
               exit 1
             fi
             MAJOR="$INPUT_MAJOR"
@@ -58,47 +80,33 @@ jobs:
             MAJOR="$CURRENT_MAJOR"
           fi
 
-          RELEASE_TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
-          echo "major=$MAJOR" >> "$GITHUB_OUTPUT"
-          echo "tag=$RELEASE_TAG" >> "$GITHUB_OUTPUT"
-          echo "Release tag: $RELEASE_TAG"
-
-      - name: Check if release already exists
-        id: check-existing
-        run: |
-          if git tag --list | grep -q "^${{ steps.versions.outputs.tag }}$"; then
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-            echo "Release ${{ steps.versions.outputs.tag }} already exists, skipping."
+          if [ -n "$INPUT_MAJOR" ] && [ "$INPUT_MAJOR" -gt "$CURRENT_MAJOR" ]; then
+            TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
+          elif [ "$PHOSPHOR_VERSION" != "$CURRENT_PHOSPHOR" ]; then
+            TAG="v${MAJOR}.${PHOSPHOR_VERSION}"
           else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
+            NEXT_PATCH=$(( ${CURRENT_PATCH:-0} + 1 ))
+            TAG="v${MAJOR}.${PHOSPHOR_VERSION}.${NEXT_PATCH}"
           fi
 
-      - name: Install SwiftDraw
-        if: steps.check-existing.outputs.skip == 'false'
-        run: brew install swiftdraw
-
-      - name: Run conversion
-        if: steps.check-existing.outputs.skip == 'false'
-        run: node Scripts/convert.mjs --phosphor-core phosphor-core
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          echo "Release tag: $TAG"
 
       - name: Commit and push
-        if: steps.check-existing.outputs.skip == 'false'
+        if: steps.changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add Symbols/ Sources/ .phosphor-version
-          echo "${{ steps.versions.outputs.phosphor }}" > .phosphor-version
-          git add .phosphor-version
-          git commit -m "Update symbols from Phosphor Icons v${{ steps.versions.outputs.phosphor }}"
+          git commit -m "Update symbols — ${{ steps.version.outputs.tag }}"
           git push
 
       - name: Create release
-        if: steps.check-existing.outputs.skip == 'false'
+        if: steps.changes.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          RELEASE_TAG="${{ steps.versions.outputs.tag }}"
-          PHOSPHOR_VERSION="${{ steps.versions.outputs.phosphor }}"
+          RELEASE_TAG="${{ steps.version.outputs.tag }}"
+          PHOSPHOR_VERSION="${{ steps.version.outputs.phosphor }}"
 
           cd Symbols
           zip -r ../PhosphorSymbols-outline.zip outline/
